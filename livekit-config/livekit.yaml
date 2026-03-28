@@ -1,0 +1,18 @@
+port: 7880
+
+rtc:
+  port_range_start: 50000
+  port_range_end: 50050
+  # IP Público da VM Oracle
+  use_external_ip: true
+
+keys:
+  vexor: B2GNSfTwHMogEITi3sKebiH2VwOPkzM3OC7CEf4f1L8A
+
+logging:
+  level: info
+
+room:
+  auto_create: true
+  max_participants: 100
+  empty_timeout: 300

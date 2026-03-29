@@ -1,15 +1,13 @@
 import { useState, type FormEvent } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { apiPost, type AuthResponse } from '../lib/api'
-import { setAuth, toStoredAuth } from '../lib/auth'
+import { registerAppwrite } from '../lib/appwrite'
+import { setAuth } from '../lib/auth'
 
 export default function RegisterPage() {
   const nav = useNavigate()
 
   const [email, setEmail] = useState('')
-  const [nickname, setNickname] = useState('')
-  const [telegram, setTelegram] = useState('')
-  const [country, setCountry] = useState('')
+  const [name, setName] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
@@ -18,27 +16,30 @@ export default function RegisterPage() {
     e.preventDefault()
     setError(null)
     
-    // Auto-corrigir telegram (adicionar +55 se não tiver +)
-    let formattedTelegram = telegram.trim()
-    if (!formattedTelegram.startsWith('+')) {
-      // Se não tem +, assume Brasil (+55)
-      formattedTelegram = '+55' + formattedTelegram.replace(/\D/g, '')
-    }
-    
-    // Validar campos obrigatórios
-    if (!email || !nickname || !telegram || !country || !password) {
+    if (!email || !name || !password) {
       setError('Todos os campos são obrigatórios')
+      return
+    }
+
+    if (password.length < 8) {
+      setError('A senha deve ter pelo menos 8 caracteres')
       return
     }
     
     setLoading(true)
     try {
-      const r = await apiPost<AuthResponse>('/api/v1/auth/register', { email, name: nickname, telegram: formattedTelegram, country, password })
-      setAuth(toStoredAuth(email, r))
+      const { user } = await registerAppwrite(email, password, name)
+      const auth = {
+        userId: user.$id,
+        accountId: user.$id,
+        accessToken: user.$id,
+        email: user.email
+      }
+      setAuth(auth)
       nav('/app', { replace: true })
     } catch (err: any) {
       const msg = err?.message || 'Erro ao cadastrar'
-      if (String(msg).toLowerCase().includes('já cadastrado') || String(msg).toLowerCase().includes('cadastrado')) {
+      if (msg.toLowerCase().includes('already exists') || msg.toLowerCase().includes('já existe')) {
         nav(`/login?email=${encodeURIComponent(email)}&reason=exists`, { replace: true })
         return
       }
@@ -84,7 +85,7 @@ export default function RegisterPage() {
             </div>
 
             <div className="vexor-auth__field">
-              <label className="vexor-auth__label">CODINOME</label>
+              <label className="vexor-auth__label">NOME</label>
               <div className="vexor-auth__input-wrapper">
                 <svg className="vexor-auth__input-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="12" cy="8" r="4" stroke="currentColor" strokeWidth="1.5"/>
@@ -92,73 +93,17 @@ export default function RegisterPage() {
                 </svg>
                 <input
                   type="text"
-                  value={nickname}
-                  onChange={(e) => setNickname(e.target.value)}
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   required
-                  placeholder="Seu alias na rede"
+                  placeholder="Seu nome"
                   className="vexor-auth__input"
                 />
               </div>
             </div>
 
             <div className="vexor-auth__field">
-              <label className="vexor-auth__label">TELEGRAM (NÚMERO)</label>
-              <div className="vexor-auth__input-wrapper">
-                <svg className="vexor-auth__input-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" stroke="currentColor" strokeWidth="1.5"/>
-                  <rect x="2" y="9" width="4" height="12" rx="1" stroke="currentColor" strokeWidth="1.5"/>
-                  <circle cx="4" cy="4" r="2" stroke="currentColor" strokeWidth="1.5"/>
-                </svg>
-                <input
-                  type="tel"
-                  value={telegram}
-                  onChange={(e) => setTelegram(e.target.value)}
-                  placeholder="+55 11 99999-9999"
-                  className="vexor-auth__input"
-                />
-              </div>
-              <span style={{ fontSize: '9px', color: 'rgba(255,255,255,0.4)', marginTop: '4px', display: 'block' }}>
-                Formato: +DDI DDD NÚMERO (Ex: +55 11 99999-9999)
-              </span>
-            </div>
-
-            <div className="vexor-auth__field">
-              <label className="vexor-auth__label">PAÍS</label>
-              <div className="vexor-auth__input-wrapper">
-                <svg className="vexor-auth__input-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.5"/>
-                  <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" stroke="currentColor" strokeWidth="1.5"/>
-                </svg>
-                <select
-                  value={country}
-                  onChange={(e) => setCountry(e.target.value)}
-                  required
-                  className="vexor-auth__input vexor-auth__select"
-                  style={{ cursor: 'pointer' }}
-                >
-                  <option value="">Selecione seu país</option>
-                  <option value="DE">Alemanha</option>
-                  <option value="AR">Argentina</option>
-                  <option value="BR">Brasil</option>
-                  <option value="CL">Chile</option>
-                  <option value="CN">China</option>
-                  <option value="CO">Colômbia</option>
-                  <option value="ES">Espanha</option>
-                  <option value="US">Estados Unidos</option>
-                  <option value="FR">França</option>
-                  <option value="IT">Itália</option>
-                  <option value="JP">Japão</option>
-                  <option value="MX">México</option>
-                  <option value="OTHER">Outro</option>
-                  <option value="PE">Peru</option>
-                  <option value="PT">Portugal</option>
-                  <option value="UK">Reino Unido</option>
-                </select>
-              </div>
-            </div>
-
-            <div className="vexor-auth__field">
-              <label className="vexor-auth__label">CHAVE DE ACESSO (MÍN. 6 CARACTERES)</label>
+              <label className="vexor-auth__label">CHAVE DE ACESSO (MÍN. 8 CARACTERES)</label>
               <div className="vexor-auth__input-wrapper">
                 <svg className="vexor-auth__input-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect x="5" y="11" width="14" height="10" rx="2" stroke="currentColor" strokeWidth="1.5"/>
@@ -168,7 +113,7 @@ export default function RegisterPage() {
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  minLength={6}
+                  minLength={8}
                   required
                   placeholder="••••••••••••"
                   className="vexor-auth__input"
@@ -314,23 +259,6 @@ export default function RegisterPage() {
           outline: none;
           border-color: rgba(0, 255, 255, 0.4);
           box-shadow: 0 0 0 1px rgba(0, 255, 255, 0.1), inset 0 0 20px rgba(0, 255, 255, 0.03);
-        }
-
-        .vexor-auth__select {
-          appearance: auto;
-          background-color: rgba(0, 0, 0, 0.95) !important;
-        }
-
-        .vexor-auth__select option {
-          background: #000;
-          color: rgba(255, 255, 255, 0.9);
-          padding: 10px;
-        }
-
-        .vexor-auth__select option:hover,
-        .vexor-auth__select option:checked {
-          background: rgba(0, 255, 255, 0.2);
-          color: #00FFFF;
         }
 
         .vexor-auth__error {

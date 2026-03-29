@@ -1,7 +1,7 @@
 import { useEffect, useState, type FormEvent } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { apiPost, type AuthResponse } from '../lib/api'
-import { setAuth, toStoredAuth } from '../lib/auth'
+import { loginAppwrite } from '../lib/appwrite'
+import { setAuth } from '../lib/auth'
 
 export default function LoginPage() {
   const nav = useNavigate()
@@ -24,33 +24,24 @@ export default function LoginPage() {
     } else {
       setInfo(null)
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [loc.search])
+  }, [loc.search, email])
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault()
     setError(null)
     setLoading(true)
     try {
-      // Bypass para desenvolvimento local
-      if (window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost') {
-        const mockAuth = {
-          success: true,
-          user: { id: 'dev-user-' + Math.random().toString(36).substring(7), email, name: 'Dev User', role: 'admin' },
-          token: 'dev-token-' + Date.now()
-        };
-        const auth = toStoredAuth(email, mockAuth);
-        setAuth(auth);
-        nav(from, { replace: true });
-        return;
+      const { user } = await loginAppwrite(email, password)
+      const auth = {
+        userId: user.$id,
+        accountId: user.$id,
+        accessToken: user.$id,
+        email: user.email
       }
-      
-      const r = await apiPost<AuthResponse>('/api/v1/auth/login', { email, password })
-      const auth = toStoredAuth(email, r)
       setAuth(auth)
       nav(from, { replace: true })
     } catch (err: any) {
-      setError('Credenciais inválidas')
+      setError(err?.message || 'Credenciais inválidas')
     } finally {
       setLoading(false)
     }

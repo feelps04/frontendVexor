@@ -1,4 +1,5 @@
 import { getApiOrigin } from './browserApiOrigin'
+import { supabase } from './appwrite'
 
 export type AuthResponse = {
   success: boolean
@@ -20,19 +21,40 @@ function normalizePath(path: string): string {
   return path.startsWith('/') ? path : `/${path}`
 }
 
-function getAccessToken(): string | null {
+function isJwtExpired(token: string): boolean {
+  try {
+    const payload = JSON.parse(atob(token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/')))
+    return typeof payload.exp === 'number' && payload.exp * 1000 < Date.now()
+  } catch {
+    return false
+  }
+}
+
+async function getAccessToken(): Promise<string | null> {
   try {
     const raw = localStorage.getItem('auth')
     if (!raw) return null
     const parsed = JSON.parse(raw) as { accessToken?: string }
-    return parsed?.accessToken || null
+    const stored = parsed?.accessToken || null
+
+    // If token is expired, ask Supabase for a fresh one
+    if (stored && isJwtExpired(stored)) {
+      const { data } = await supabase.auth.getSession()
+      if (data.session?.access_token) {
+        parsed.accessToken = data.session.access_token
+        localStorage.setItem('auth', JSON.stringify(parsed))
+        return data.session.access_token
+      }
+    }
+
+    return stored
   } catch {
     return null
   }
 }
 
-function withAuthHeaders(headers?: HeadersInit): HeadersInit {
-  const token = getAccessToken()
+async function withAuthHeaders(headers?: HeadersInit): Promise<HeadersInit> {
+  const token = await getAccessToken()
   if (!token) return headers ?? {}
   return {
     ...(headers ?? {}),
@@ -56,7 +78,7 @@ export async function apiGet<T>(path: string, init?: RequestInit): Promise<T> {
   const wt = withTimeout(init)
   const res = await fetch(getApiOrigin() + normalizePath(path), {
     method: 'GET',
-    headers: withAuthHeaders(init?.headers),
+    headers: await withAuthHeaders(init?.headers),
     credentials: 'include',
     ...wt.init,
   })
@@ -87,7 +109,7 @@ export async function apiPost<T>(path: string, body: unknown, init?: RequestInit
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      ...withAuthHeaders(init?.headers),
+      ...await withAuthHeaders(init?.headers),
       ...(init?.headers ?? {}),
     },
     body: JSON.stringify(body),

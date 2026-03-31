@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:\\\\Users\\\\Genial\\\\VexorNode\\\\packages\\\\api\\\\api\\\\index.ts\")",
+      "Bash(cmd /c \"mkdir C:\\\\Users\\\\Genial\\\\VexorNode\\\\packages\\\\api\\\\api && type nul > C:\\\\Users\\\\Genial\\\\VexorNode\\\\packages\\\\api\\\\api\\\\index.ts\")",
+      "Bash(cmd /c \"where vercel && vercel --version\")",
+      "Bash(vercel:*)",
+      "Skill(update-config)",
+      "Bash(Get-Location)",
+      "Bash(where vercel:*)",
+      "Bash(npx vercel:*)",
+      "Bash(powershell -Command \"cd 'C:\\\\Users\\\\Genial\\\\VexorNode\\\\packages\\\\api'; vercel --prod --yes\")",
+      "Bash(sort -t',' -k1,1n)",
+      "Bash(powershell -Command \"Get-Content 'C:\\\\Users\\\\Genial\\\\VexorNode\\\\packages\\\\web\\\\public\\\\sectors_symbols.csv' | Select-Object -First 5\")"
+    ]
+  }
+}

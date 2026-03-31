@@ -31,12 +31,12 @@ export default function LoginPage() {
     setError(null)
     setLoading(true)
     try {
-      const { user } = await loginAppwrite(email, password)
+      const { user, session } = await loginAppwrite(email, password)
       const auth = {
-        userId: user.$id,
-        accountId: user.$id,
-        accessToken: user.$id,
-        email: user.email
+        userId: user!.id,
+        accountId: user!.id,
+        accessToken: session!.access_token,
+        email: user!.email ?? email
       }
       setAuth(auth)
       nav(from, { replace: true })

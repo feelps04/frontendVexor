@@ -15,7 +15,7 @@ export default function RegisterPage() {
   async function onSubmit(e: FormEvent) {
     e.preventDefault()
     setError(null)
-    
+
     if (!email || !name || !password) {
       setError('Todos os campos são obrigatórios')
       return
@@ -25,22 +25,31 @@ export default function RegisterPage() {
       setError('A senha deve ter pelo menos 8 caracteres')
       return
     }
-    
+
     setLoading(true)
     try {
-      const { user } = await registerAppwrite(email, password, name)
+      const { user, session } = await registerAppwrite(email, password, name)
       const auth = {
-        userId: user.$id,
-        accountId: user.$id,
-        accessToken: user.$id,
-        email: user.email
+        userId: user!.id,
+        accountId: user!.id,
+        accessToken: session!.access_token,
+        email: user!.email ?? email
       }
       setAuth(auth)
       nav('/app', { replace: true })
     } catch (err: any) {
       const msg = err?.message || 'Erro ao cadastrar'
-      if (msg.toLowerCase().includes('already exists') || msg.toLowerCase().includes('já existe')) {
+      const msgLower = msg.toLowerCase()
+      if (msgLower.includes('already exists') || msgLower.includes('already registered') || msgLower.includes('já existe')) {
         nav(`/login?email=${encodeURIComponent(email)}&reason=exists`, { replace: true })
+        return
+      }
+      if (msgLower.includes('email_provider_disabled') || msgLower.includes('email logins are disabled')) {
+        setError('Cadastro por email desabilitado. Contate o suporte.')
+        return
+      }
+      if (msgLower.includes('rate limit') || msgLower.includes('rate_limit')) {
+        setError('Muitas tentativas. Aguarde alguns minutos e tente novamente.')
         return
       }
       setError(msg)
@@ -55,11 +64,11 @@ export default function RegisterPage() {
         <div className="vexor-auth__card">
           <div className="vexor-auth__icon">
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="3" y="3" width="18" height="18" rx="4" stroke="currentColor" strokeWidth="1.5"/>
-              <path d="M12 8v8M8 12h8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+              <rect x="3" y="3" width="18" height="18" rx="4" stroke="currentColor" strokeWidth="1.5" />
+              <path d="M12 8v8M8 12h8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
             </svg>
           </div>
-          
+
           <div className="vexor-auth__header">
             <h1 className="vexor-auth__title">NOVO REGISTRO</h1>
             <p className="vexor-auth__subtitle">PROTOCOLO DE ADESÃO VEXOR</p>
@@ -70,8 +79,8 @@ export default function RegisterPage() {
               <label className="vexor-auth__label">IDENTIFICAÇÃO (EMAIL)</label>
               <div className="vexor-auth__input-wrapper">
                 <svg className="vexor-auth__input-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M15 7a2 2 0 012 2v4a2 2 0 01-2 2H9a2 2 0 01-2-2V9a2 2 0 012-2h6z" stroke="currentColor" strokeWidth="1.5"/>
-                  <circle cx="9" cy="10" r="1" fill="currentColor"/>
+                  <path d="M15 7a2 2 0 012 2v4a2 2 0 01-2 2H9a2 2 0 01-2-2V9a2 2 0 012-2h6z" stroke="currentColor" strokeWidth="1.5" />
+                  <circle cx="9" cy="10" r="1" fill="currentColor" />
                 </svg>
                 <input
                   type="email"
@@ -88,8 +97,8 @@ export default function RegisterPage() {
               <label className="vexor-auth__label">NOME</label>
               <div className="vexor-auth__input-wrapper">
                 <svg className="vexor-auth__input-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="12" cy="8" r="4" stroke="currentColor" strokeWidth="1.5"/>
-                  <path d="M4 20c0-4 4-6 8-6s8 2 8 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                  <circle cx="12" cy="8" r="4" stroke="currentColor" strokeWidth="1.5" />
+                  <path d="M4 20c0-4 4-6 8-6s8 2 8 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                 </svg>
                 <input
                   type="text"
@@ -106,8 +115,8 @@ export default function RegisterPage() {
               <label className="vexor-auth__label">CHAVE DE ACESSO (MÍN. 8 CARACTERES)</label>
               <div className="vexor-auth__input-wrapper">
                 <svg className="vexor-auth__input-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="5" y="11" width="14" height="10" rx="2" stroke="currentColor" strokeWidth="1.5"/>
-                  <path d="M7 11V7a5 5 0 0110 0v4" stroke="currentColor" strokeWidth="1.5"/>
+                  <rect x="5" y="11" width="14" height="10" rx="2" stroke="currentColor" strokeWidth="1.5" />
+                  <path d="M7 11V7a5 5 0 0110 0v4" stroke="currentColor" strokeWidth="1.5" />
                 </svg>
                 <input
                   type="password"

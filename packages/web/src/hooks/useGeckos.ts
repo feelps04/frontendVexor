@@ -124,15 +124,9 @@ function useGeckosProduction({
 
     mountedRef.current = true;
 
-    // Importar Supabase dinamicamente
-    import('@supabase/supabase-js').then(({ createClient }) => {
+    import('../lib/appwrite').then(({ supabase }) => {
       if (!mountedRef.current) return;
 
-      const supabaseUrl = 'https://tonwuegoyftfgfpkbvop.supabase.co';
-      const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRvbnd1ZWdveWZ0ZmdmcGtidm9wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI0ODA4ODEsImV4cCI6MjA4ODA1Njg4MX0.tsholJQFV_pKFajDsGHLUYnOD959TJSvXxYvNxs7pc8';
-      
-      const supabase = createClient(supabaseUrl, supabaseKey);
-      
       // Criar canal para ticks
       const channel = supabase.channel('trading-room');
       channelRef.current = channel;

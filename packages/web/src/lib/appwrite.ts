@@ -1,37 +1,55 @@
-import { Client, Account } from 'appwrite'
+import { createClient } from '@supabase/supabase-js'
 
-export const PROJECT_ID = 'standard_cc70a22dbdab1f144654b3f7d8c5ff99b22609ef70c3962af0807bd8be8a41136565ec2edcd37f4f093eca63c05bb735a3d36e67a38cae4cd938f75e5387cf9669208c1262b80597398693d52ad3c225e8c55f1a4f1e615ef037766b7d6489abc831b483b33a9833c592f6cdec4f0453281ee57aebf36f1dc1d1c9142bc6cf44'
-export const ENDPOINT = 'https://nyc.cloud.appwrite.io/v1'
+const SUPABASE_URL = 'https://pbecklboewiowuoclmln.supabase.co'
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBiZWNrbGJvZXdpb3d1b2NsbWxuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ3NDYxMjQsImV4cCI6MjA5MDMyMjEyNH0.hh-8rXRiwgrFb2b3oDJnCxC8hxJ5gjmeHa8WAPdgc-k'
 
-const client = new Client()
-  .setEndpoint(ENDPOINT)
-  .setProject(PROJECT_ID)
+export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
 
-export const account = new Account(client)
+// Keep localStorage auth token in sync with Supabase's automatic session refresh.
+// Without this, access_tokens expire after 1 hour and all API calls return 401.
+supabase.auth.onAuthStateChange((event, session) => {
+  if (!session) return
+  try {
+    const raw = localStorage.getItem('auth')
+    if (!raw) return
+    const stored = JSON.parse(raw)
+    stored.accessToken = session.access_token
+    localStorage.setItem('auth', JSON.stringify(stored))
+  } catch {
+    // ignore
+  }
+})
 
 export async function loginAppwrite(email: string, password: string) {
-  const session = await account.createEmailSession(email, password)
-  const user = await account.get()
-  return { session, user }
+  const { data, error } = await supabase.auth.signInWithPassword({ email, password })
+  if (error) throw error
+  return { session: data.session, user: data.user }
 }
 
 export async function registerAppwrite(email: string, password: string, name: string) {
-  await account.create('unique()', email, password, name)
-  const session = await account.createEmailSession(email, password)
-  const user = await account.get()
-  return { session, user }
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: { data: { name } },
+  })
+  if (error) {
+    if (error.message?.toLowerCase().includes('already registered')) {
+      return await loginAppwrite(email, password)
+    }
+    throw error
+  }
+  // If email confirmation is required, session may be null — fallback to login
+  if (!data.session) {
+    return await loginAppwrite(email, password)
+  }
+  return { session: data.session, user: data.user }
 }
 
 export async function logoutAppwrite() {
-  try {
-    await account.deleteSession('current')
-  } catch (e) {}
+  await supabase.auth.signOut()
 }
 
 export async function getCurrentUser() {
-  try {
-    return await account.get()
-  } catch {
-    return null
-  }
+  const { data } = await supabase.auth.getUser()
+  return data.user ?? null
 }

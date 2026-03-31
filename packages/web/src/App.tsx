@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
-import { getCurrentUser } from './lib/appwrite'
+import { getCurrentUser, supabase } from './lib/appwrite'
 import { setAuth } from './lib/auth'
 import HomePage from './pages/Home'
 import LoginPage from './pages/Login'
@@ -30,15 +30,14 @@ function AuthCheck({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     async function checkAuth() {
       try {
-        const user = await getCurrentUser()
-        if (user) {
-          const auth = {
-            userId: user.$id,
-            accountId: user.$id,
-            accessToken: user.$id,
-            email: user.email
-          }
-          setAuth(auth)
+        const { data: { session } } = await supabase.auth.getSession()
+        if (session) {
+          setAuth({
+            userId: session.user.id,
+            accountId: session.user.id,
+            accessToken: session.access_token,
+            email: session.user.email ?? ''
+          })
         }
       } catch (e) {
         setAuth(null)

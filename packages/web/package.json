@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@geckos.io/client": "^3.0.2",
+    "@rolldown/binding-win32-x64-msvc": "^1.0.0-rc.12",
+    "@supabase/supabase-js": "^2.100.1",
     "appwrite": "^17.0.0",
     "framer-motion": "^12.34.4",
     "lightweight-charts": "^4.2.3",

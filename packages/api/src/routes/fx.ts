@@ -1,5 +1,5 @@
 import type { FastifyInstance } from 'fastify';
-import { type YahooFxInterval } from '@transaction-auth-engine/shared';
+import { type Mt5Interval } from '@transaction-auth-engine/shared';
 import { Kafka, logLevel } from 'kafkajs';
 import dns from 'node:dns';
 import type Redis from 'ioredis';
@@ -59,7 +59,7 @@ async function httpGetJson(url: string): Promise<{ status: number; json: unknown
   return { status: res.status, json, text };
 }
 
-function isYahooInterval(v: string): v is YahooFxInterval {
+function isMt5Interval(v: string): v is Mt5Interval {
   return ['1m', '2m', '5m', '15m', '30m', '60m', '1h', '1d'].includes(v);
 }
 
@@ -224,7 +224,7 @@ export async function fxRoutes(app: FastifyInstance, opts?: { redis?: Redis }): 
     const currency = isCurrency(currencyRaw) ? currencyRaw : 'USD';
     const range = (q.range ?? '7d') as Range;
     const intervalParam = String(q.interval ?? '1d');
-    const interval = isYahooInterval(intervalParam) ? intervalParam : '1d';
+    const interval = isMt5Interval(intervalParam) ? intervalParam : '1d';
 
     return reply.status(503).send({
       message: 'fx history unavailable: no local FX candles. Provide fx.ticker feed (FIX/producer) or enable MARKET_DATA_URL bridge',

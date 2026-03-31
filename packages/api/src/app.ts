@@ -11,10 +11,12 @@ import { config } from 'dotenv';
 import { fileURLToPath } from 'url';
 import { dirname, resolve } from 'path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
+const __filename = fileURLToPath(import.meta.url);
 config({ path: resolve(__dirname, '../../.env') }); // Load .env from project root
 config({ path: resolve(process.cwd(), '.env') }); // Also try from cwd
 config(); // Also try default
 const PORT = Number(process.env.PORT) || 3001;
+import { httpRequestsTotal, httpRequestDuration, registerMetrics, KAFKA_BROKERS, ensureKafkaReady, REDIS_URL, DATABASE_URL, ensurePgReady, runMigrations } from './utils/metrics.js';
 import pkg from '@transaction-auth-engine/shared';
 const { createLogger, MercadoBitcoinClient, BrapiClient, RedisCacheService, OperationLockService } = pkg;
 import { ApiKafkaProducer } from './infrastructure/kafka-producer.js';
@@ -26,6 +28,29 @@ import { integrityRoutes } from './routes/integrity.js';
 import { balanceAtRoutes } from './routes/balance-at.js';
 import { balanceOpsRoutes } from './routes/balance-ops.js';
 import { authRoutes } from './routes/auth.js';
+import { marketGroupsRoutes } from './routes/market-groups.js';
+import { marketCandlesRoutes } from './routes/market-candles.js';
+import { sectorRoutes } from './routes/sectors.js';
+import socialRoutes from './routes/social.js';
+import { stocksWsRoutes } from './routes/stocks-ws.js';
+import { teamsRoutes } from './routes/teams.js';
+import { btcWsRoutes } from './routes/btc-ws.js';
+import { realtimeRoutes } from './routes/realtime.js';
+import { aiSignalsRoutes } from './routes/ai-signals.js';
+import { tradeRoutes } from './routes/trade-routes.js';
+import { doctrineRoutes } from './routes/doctrine-routes.js';
+import { psychRoutes } from './routes/psych-routes.js';
+import { ragRoutes } from './routes/rag-routes.js';
+import { signalTrackerRoutes } from './routes/signal-routes.js';
+import { telegramWebhookRoutes } from './routes/telegram-webhook.js';
+import { tradingviewWebhookRoutes } from './routes/tradingview-webhook.js';
+import { livekitRoutes } from './routes/livekit.js';
+import { chatRoutes } from './routes/chat.js';
+import { newsRoutes } from './routes/news.js';
+import { fxRoutes } from './routes/fx.js';
+import { stockRoutes } from './routes/stocks.js';
+import { mt5WebhookRoutes } from './routes/mt5-webhook.js';
+import { mmfCache, globalRAMReader, b3RAMReader } from './infrastructure/ram-reader.js';
 
 async function ensurePostgresReady(pg: Pool, logger: ReturnType<typeof createLogger>): Promise<boolean> {
   const maxAttempts = Number(process.env.PG_STARTUP_ATTEMPTS ?? 10);
@@ -372,6 +397,9 @@ export async function buildApp(): Promise<FastifyInstance> {
 
   // Register TradingView Webhook routes (fonte primária de ticks)
   await app.register(tradingviewWebhookRoutes);
+
+  // Register MT5 WebRequest routes (Genial MetaTrader → produção)
+  await app.register(mt5WebhookRoutes);
   
   // Register LiveKit routes for realtime data
   livekitRoutes(app);
@@ -429,4 +457,7 @@ async function main(): Promise<void> {
   }
 }
 
-main();
+const isDirectRun = process.argv[1] && resolve(process.argv[1]) === __filename;
+if (isDirectRun) {
+  main();
+}

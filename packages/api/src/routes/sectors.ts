@@ -388,14 +388,7 @@ export async function sectorRoutes(app: FastifyInstance, opts?: { redis?: Redis 
       reply.code(429).send({ message: 'rate_limited' });
       return;
     }
-
-    const jwtVerify = (app as any)?.jwt?.verify;
-    if (typeof jwtVerify !== 'function') {
-      return;
-    }
-
-    const user = await requireAuth(app, req, reply);
-    if (!user) return;
+    // Market data endpoints are public — auth not required.
   };
 
   const inMemoryQuoteCache = new Map<string, { expiresAtMs: number; price: number; updatedAtMs: number; source: string }>();

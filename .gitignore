@@ -61,3 +61,5 @@ nul
 node.exe (large file: 79MB)
 node_modules
 
+
+.vercel

@@ -17,7 +17,7 @@ export async function requireAuth(app: FastifyInstance, request: FastifyRequest,
 
   try {
     // Try Supabase JWT verification first (ES256)
-    const supabasePayload = verifySupabaseJWT(token);
+    const supabasePayload = await verifySupabaseJWT(token);
     if (supabasePayload) {
       const userId = String(supabasePayload.sub ?? '');
       if (!userId) {

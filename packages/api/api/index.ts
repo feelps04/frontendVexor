@@ -157,8 +157,12 @@ function parseCsv(text: string): Record<string, string>[] {
 let sectorCache: SectorData | null = null;
 const SECTOR_CACHE_TTL_MS = 10 * 60 * 1000; // 10 minutes
 
-const SECTORS_CSV_URL =
-  (process.env.SECTORS_CSV_URL ?? '').trim() || 'https://vexorflow.com/sectors_symbols.csv';
+// Try multiple URLs: env override, then www, then non-www
+const CSV_URLS = [
+  (process.env.SECTORS_CSV_URL ?? '').trim(),
+  'https://www.vexorflow.com/sectors_symbols.csv',
+  'https://vexorflow.com/sectors_symbols.csv',
+].filter(Boolean);
 
 async function loadSectorData(): Promise<SectorData> {
   if (sectorCache && Date.now() - sectorCache.loadedAt < SECTOR_CACHE_TTL_MS) {
@@ -166,16 +170,23 @@ async function loadSectorData(): Promise<SectorData> {
   }
 
   let rows: Record<string, string>[] = [];
-  try {
-    const res = await fetch(SECTORS_CSV_URL, { signal: AbortSignal.timeout(12_000) });
-    if (res.ok) {
-      const text = await res.text();
-      rows = parseCsv(text);
+  for (const url of CSV_URLS) {
+    try {
+      const res = await fetch(url, { signal: AbortSignal.timeout(12_000) });
+      if (res.ok) {
+        const text = await res.text();
+        // Sanity check: must look like a CSV with sector data
+        if (text.includes('sector_id') && text.includes('symbol')) {
+          rows = parseCsv(text);
+          break;
+        }
+      }
+    } catch {
+      // try next URL
     }
-  } catch {
-    // If fetch fails and we have stale cache, keep using it
-    if (sectorCache) return sectorCache;
   }
+
+  if (rows.length === 0 && sectorCache) return sectorCache; // keep stale cache
 
   const symbolsBySector = new Map<string, SectorSymbolRow[]>();
   const sectorMeta = new Map<string, { name: string; exchanges: Set<string> }>();
@@ -216,44 +227,6 @@ async function loadSectorData(): Promise<SectorData> {
   return sectorCache;
 }
 
-// ---------------------------------------------------------------------------
-// BRAPI quotes
-// ---------------------------------------------------------------------------
-
-const BRAPI_TOKEN = (process.env.BRAPI_TOKEN ?? '').trim();
-const BRAPI_BASE = 'https://brapi.dev/api';
-
-function chunkArray<T>(arr: T[], size: number): T[][] {
-  const out: T[][] = [];
-  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
-  return out;
-}
-
-async function fetchBrapiQuotes(symbols: string[]): Promise<Map<string, number>> {
-  const out = new Map<string, number>();
-  if (!BRAPI_TOKEN || symbols.length === 0) return out;
-
-  const chunks = chunkArray(symbols, 50);
-  await Promise.all(
-    chunks.map(async (chunk) => {
-      try {
-        const url = `${BRAPI_BASE}/quote/${chunk.join(',')}?token=${BRAPI_TOKEN}&range=1d&interval=1d`;
-        const res = await fetch(url, { signal: AbortSignal.timeout(15_000) });
-        if (!res.ok) return;
-        const data: any = await res.json();
-        for (const item of data?.results ?? []) {
-          const price = item?.regularMarketPrice;
-          if (item?.symbol && Number.isFinite(price) && price > 0) {
-            out.set(String(item.symbol).toUpperCase(), price);
-          }
-        }
-      } catch {
-        // ignore chunk failure
-      }
-    })
-  );
-  return out;
-}
 
 // ---------------------------------------------------------------------------
 // Normalise sector ID from URL param
@@ -467,8 +440,22 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
       status: 'ok',
       mt5_symbols: ticksCache.size,
       sector_cache_age_ms: sectorCache ? Date.now() - sectorCache.loadedAt : null,
-      brapi_configured: BRAPI_TOKEN.length > 0,
+      mt5_active: ticksCache.size > 0,
     });
+  }
+
+  // symbols/check — retorna preço MT5 para lista de símbolos
+  if (method === 'GET' && path === '/api/v1/market/symbols/check') {
+    const raw = (url.searchParams.get('symbols') ?? '').trim();
+    const requested = raw ? raw.split(',').map((s) => s.trim().toUpperCase()).filter(Boolean) : [];
+    const items = requested.map((sym) => {
+      const t = ticksCache.get(sym);
+      if (t) {
+        return { requested: sym, symbol: sym, priceBRL: t.ask > 0 ? t.ask : t.bid, status: 'ok', source: 'mt5', updatedAt: Number(t.timestamp) };
+      }
+      return { requested: sym, symbol: sym, status: 'no_data', message: 'aguardando tick do MT5' };
+    });
+    return json(res, 200, { items });
   }
 
   const sectorDetailMatch = path.match(/^\/api\/v1\/market\/sectors\/([^/]+)$/);
@@ -477,10 +464,10 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
     try {
       const data = await loadSectorData();
       const sector = data.sectors.find((s) => s.sector_id === sectorId);
-      if (!sector) return json(res, 404, { error: 'Sector not found', sectorId });
-      return json(res, 200, sector);
+      // Return empty sector instead of 404 to avoid frontend errors
+      return json(res, 200, sector ?? { sector_id: sectorId, sector_name: sectorId, count: 0, exchanges: [] });
     } catch {
-      return json(res, 500, { error: 'Failed to load sector data' });
+      return json(res, 200, { sector_id: sectorId, sector_name: sectorId, count: 0, exchanges: [] });
     }
   }
 
@@ -535,8 +522,6 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
 
       const items: QuoteItem[] = [];
 
-      // First: check MT5 cache
-      const brapiSymbols: string[] = [];
       for (const s of list) {
         const mt5 = ticksCache.get(s.symbol);
         if (mt5) {
@@ -549,45 +534,13 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
             source: 'mt5',
           });
         } else {
-          brapiSymbols.push(s.symbol);
-        }
-      }
-
-      // Then: fetch remaining from BRAPI (only BOVESPA symbols)
-      const bovespaSymbols = brapiSymbols.filter((sym) => {
-        const row = list.find((s) => s.symbol === sym);
-        return !row || row.exchange === 'BOVESPA' || row.exchange === 'B3';
-      });
-
-      const brapiPrices = await fetchBrapiQuotes(bovespaSymbols);
-
-      for (const sym of brapiSymbols) {
-        const row = list.find((s) => s.symbol === sym)!;
-        const price = brapiPrices.get(sym);
-        if (price !== undefined) {
-          items.push({
-            symbol: sym,
-            exchange: row.exchange,
-            priceBRL: price,
-            status: 'ok',
-            updatedAt: Date.now(),
-            source: 'brapi',
-          });
-        } else {
-          items.push({
-            symbol: sym,
-            exchange: row.exchange,
-            status: 'no_data',
-            message: BRAPI_TOKEN
-              ? 'Quote unavailable from BRAPI'
-              : 'Set BRAPI_TOKEN env var to enable real-time quotes',
-          });
+          items.push({ symbol: s.symbol, exchange: s.exchange, status: 'no_data', message: 'aguardando tick do MT5' });
         }
       }
 
       return json(res, 200, { sectorId, total: items.length, items });
-    } catch (err: any) {
-      return json(res, 500, { error: String(err?.message ?? err) });
+    } catch {
+      return json(res, 200, { sectorId, total: 0, items: [] });
     }
   }
 

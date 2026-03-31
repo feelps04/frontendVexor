@@ -1,0 +1,21 @@
+{
+  "name": "vexor-node",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=@transaction-auth-engine/core --workspace=@transaction-auth-engine/shared --workspace=vexor-webtransport-server --workspace=web",
+    "dev": "npm run dev --workspaces",
+    "clean": "npm run clean --workspaces"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.2.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.3"
+  },
+  "dependencies": {
+    "appwrite": "^24.0.0"
+  }
+}

@@ -1,0 +1,1900 @@
+sector_id,sector_name,exchange,symbol,description,type,full_symbol
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,AAGR11,FII Agrícola A,Ação,BOVESPA\AAGR11
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,ABEV3,Ambev ON,Ação,BOVESPA\ABEV3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,AGRO3,Agrogalaxy ON,Ação,BOVESPA\AGRO3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,AGRX11,FII Agrícola,Ação,BOVESPA\AGRX11
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,AGXY3,Agrogalaxy XY ON,Ação,BOVESPA\AGXY3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,AMZO34,BDR Amazon Fresh,Ação,BOVESPA\AMZO34
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,BEEF11,ETF Proteína,Ação,BOVESPA\BEEF11
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,BEEF3,Minerva ON,Ação,BOVESPA\BEEF3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,CAMB3,Cambuci ON,Ação,BOVESPA\CAMB3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,CAML3,Camil ON,Ação,BOVESPA\CAML3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,CASH3,Méliuz ON,Ação,BOVESPA\CASH3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,COCA34,BDR Coca-Cola,Ação,BOVESPA\COCA34
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,CORN11,ETF Grãos,Ação,BOVESPA\CORN11
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,GOAT11,ETF Agro,Ação,BOVESPA\GOAT11
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,IAGR11,FII IAG,Ação,BOVESPA\IAGR11
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,JALL3,JBS ON,Ação,BOVESPA\JALL3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,JBSS32,JBS Bonds,Ação,BOVESPA\JBSS32
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,MATD3,Mato Grosso ON,Ação,BOVESPA\MATD3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,MBRF3,Minerva BDR,Ação,BOVESPA\MBRF3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,MDIA3,M. Dias Branco ON,Ação,BOVESPA\MDIA3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,MEAL3,BK Brasil ON,Ação,BOVESPA\MEAL3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,NATU3,Natura ON,Ação,BOVESPA\NATU3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,PEPB34,BDR PepsiCo,Ação,BOVESPA\PEPB34
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,RAIZ4,Raízen PN,Ação,BOVESPA\RAIZ4
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,RURA11,FII Rural,Ação,BOVESPA\RURA11
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,SLCE3,SLC Agrícola ON,Ação,BOVESPA\SLCE3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,SMFT3,Smart Fit ON,Ação,BOVESPA\SMFT3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,SMTO3,São Martinho ON,Ação,BOVESPA\SMTO3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,SOJA3,Soja ON,Ação,BOVESPA\SOJA3
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,STZB34,BDR Constellation,Ação,BOVESPA\STZB34
+sector_001,Ações - Agronegócio e Alimentos,BOVESPA,TGMA3,Tegma ON,Ação,BOVESPA\TGMA3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,ALOS3,Allos ON,Ação,BOVESPA\ALOS3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,AXIA3,Axia ON,Ação,BOVESPA\AXIA3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,AXIA6,Axia PNB,Ação,BOVESPA\AXIA6
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,AXIA7,Axia PNC,Ação,BOVESPA\AXIA7
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,CURY3,Cury ON,Ação,BOVESPA\CURY3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,CYRE3,Cyrela ON,Ação,BOVESPA\CYRE3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,CYRE4,Cyrela PN,Ação,BOVESPA\CYRE4
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,DEXP3,Dexxos ON,Ação,BOVESPA\DEXP3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,DIRR3,Direcional ON,Ação,BOVESPA\DIRR3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,DXCO3,Dexco ON,Ação,BOVESPA\DXCO3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,EVEN3,Even ON,Ação,BOVESPA\EVEN3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,EZTC3,EZTC ON,Ação,BOVESPA\EZTC3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,GGPS3,GPS ON,Ação,BOVESPA\GGPS3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,HBOR3,Helbor ON,Ação,BOVESPA\HBOR3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,HOME34,BDR Home Depot,Ação,BOVESPA\HOME34
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,JHSF3,JHSF ON,Ação,BOVESPA\JHSF3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,LAND3,Landbank ON,Ação,BOVESPA\LAND3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,LAVV3,Lavvi ON,Ação,BOVESPA\LAVV3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,LOGG3,Log Com ON,Ação,BOVESPA\LOGG3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,LUPA13,Lupa CRI,Ação,BOVESPA\LUPA13
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,LUPA3,Lupa ON,Ação,BOVESPA\LUPA3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,MRVE3,MRV ON,Ação,BOVESPA\MRVE3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,MTRE3,Mitre ON,Ação,BOVESPA\MTRE3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,NGRD3,Norgrid ON,Ação,BOVESPA\NGRD3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,PDGR3,PDG ON,Ação,BOVESPA\PDGR3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,PLPL3,Plpar ON,Ação,BOVESPA\PLPL3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,RENT3,Localiza ON,Ação,BOVESPA\RENT3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,RENT4,Localiza PN,Ação,BOVESPA\RENT4
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,RSID3,Rossi ON,Ação,BOVESPA\RSID3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,SEER3,Ser ON,Ação,BOVESPA\SEER3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,TEND3,Tenda ON,Ação,BOVESPA\TEND3
+sector_002,Ações - Construção Civil e Imóveis,BOVESPA,TRIS3,Trisul ON,Ação,BOVESPA\TRIS3
+sector_003,Ações - Educação,BOVESPA,ANIM3,Ânima ON,Ação,BOVESPA\ANIM3
+sector_003,Ações - Educação,BOVESPA,COGN3,Cogna ON,Ação,BOVESPA\COGN3
+sector_003,Ações - Educação,BOVESPA,ESPA3,Espaço Smart ON,Ação,BOVESPA\ESPA3
+sector_003,Ações - Educação,BOVESPA,SEER3,Ser Educacional ON,Ação,BOVESPA\SEER3
+sector_003,Ações - Educação,BOVESPA,YDUQ3,Yduqs ON,Ação,BOVESPA\YDUQ3
+sector_004,Ações - Energia Elétrica,BOVESPA,ALUP11,Alupar UNT,Ação,BOVESPA\ALUP11
+sector_004,Ações - Energia Elétrica,BOVESPA,ALUP3,Alupar ON,Ação,BOVESPA\ALUP3
+sector_004,Ações - Energia Elétrica,BOVESPA,ALUP4,Alupar PN,Ação,BOVESPA\ALUP4
+sector_004,Ações - Energia Elétrica,BOVESPA,AURE3,Auren ON,Ação,BOVESPA\AURE3
+sector_004,Ações - Energia Elétrica,BOVESPA,CBEE3,CBEE ON,Ação,BOVESPA\CBEE3
+sector_004,Ações - Energia Elétrica,BOVESPA,CEAB3,CEA ON,Ação,BOVESPA\CEAB3
+sector_004,Ações - Energia Elétrica,BOVESPA,CEBR3,CELB ON,Ação,BOVESPA\CEBR3
+sector_004,Ações - Energia Elétrica,BOVESPA,CEBR5,CELB PNA,Ação,BOVESPA\CEBR5
+sector_004,Ações - Energia Elétrica,BOVESPA,CEBR6,CELB PNB,Ação,BOVESPA\CEBR6
+sector_004,Ações - Energia Elétrica,BOVESPA,CEEB3,Coelba ON,Ação,BOVESPA\CEEB3
+sector_004,Ações - Energia Elétrica,BOVESPA,CEOC11,Ceoc UNT,Ação,BOVESPA\CEOC11
+sector_004,Ações - Energia Elétrica,BOVESPA,CGRA4,Ceg PN,Ação,BOVESPA\CGRA4
+sector_004,Ações - Energia Elétrica,BOVESPA,CLSC4,Celesc PN,Ação,BOVESPA\CLSC4
+sector_004,Ações - Energia Elétrica,BOVESPA,CMIG3,Cemig ON,Ação,BOVESPA\CMIG3
+sector_004,Ações - Energia Elétrica,BOVESPA,CMIG4,Cemig PN,Ação,BOVESPA\CMIG4
+sector_004,Ações - Energia Elétrica,BOVESPA,COCE3,Coelce ON,Ação,BOVESPA\COCE3
+sector_004,Ações - Energia Elétrica,BOVESPA,COCE5,Coelce PNA,Ação,BOVESPA\COCE5
+sector_004,Ações - Energia Elétrica,BOVESPA,COCE6,Coelce PNB,Ação,BOVESPA\COCE6
+sector_004,Ações - Energia Elétrica,BOVESPA,CPFE3,CPFL Energia ON,Ação,BOVESPA\CPFE3
+sector_004,Ações - Energia Elétrica,BOVESPA,CPLE3,Copel ON,Ação,BOVESPA\CPLE3
+sector_004,Ações - Energia Elétrica,BOVESPA,CSMG3,Copasa ON,Ação,BOVESPA\CSMG3
+sector_004,Ações - Energia Elétrica,BOVESPA,D1EL34,BDR Duke Energy,Ação,BOVESPA\D1EL34
+sector_004,Ações - Energia Elétrica,BOVESPA,E1QN34,BDR Enel,Ação,BOVESPA\E1QN34
+sector_004,Ações - Energia Elétrica,BOVESPA,EGIE3,Engie Brasil ON,Ação,BOVESPA\EGIE3
+sector_004,Ações - Energia Elétrica,BOVESPA,EKTR4,Elektro PN,Ação,BOVESPA\EKTR4
+sector_004,Ações - Energia Elétrica,BOVESPA,EMAE3,Emae ON,Ação,BOVESPA\EMAE3
+sector_004,Ações - Energia Elétrica,BOVESPA,EMAE4,Emae PN,Ação,BOVESPA\EMAE4
+sector_004,Ações - Energia Elétrica,BOVESPA,ENER3,Energias Brasil ON,Ação,BOVESPA\ENER3
+sector_004,Ações - Energia Elétrica,BOVESPA,ENEV3,Eneva ON,Ação,BOVESPA\ENEV3
+sector_004,Ações - Energia Elétrica,BOVESPA,ENGI11,Energisa UNT,Ação,BOVESPA\ENGI11
+sector_004,Ações - Energia Elétrica,BOVESPA,ENGI3,Energisa ON,Ação,BOVESPA\ENGI3
+sector_004,Ações - Energia Elétrica,BOVESPA,ENGI4,Energisa PN,Ação,BOVESPA\ENGI4
+sector_004,Ações - Energia Elétrica,BOVESPA,EPAR3,EPAR ON,Ação,BOVESPA\EPAR3
+sector_004,Ações - Energia Elétrica,BOVESPA,EQPA3,Equatorial Pará ON,Ação,BOVESPA\EQPA3
+sector_004,Ações - Energia Elétrica,BOVESPA,EQTL3,Equatorial ON,Ação,BOVESPA\EQTL3
+sector_004,Ações - Energia Elétrica,BOVESPA,GEPA4,Gepetro PN,Ação,BOVESPA\GEPA4
+sector_004,Ações - Energia Elétrica,BOVESPA,ISAE3,Isa Cteep ON,Ação,BOVESPA\ISAE3
+sector_004,Ações - Energia Elétrica,BOVESPA,ISAE4,Isa Cteep PN,Ação,BOVESPA\ISAE4
+sector_004,Ações - Energia Elétrica,BOVESPA,LIGT3,Light ON,Ação,BOVESPA\LIGT3
+sector_004,Ações - Energia Elétrica,BOVESPA,NEOE3,Neoenergia ON,Ação,BOVESPA\NEOE3
+sector_004,Ações - Energia Elétrica,BOVESPA,REDE3,Rede Energia ON,Ação,BOVESPA\REDE3
+sector_004,Ações - Energia Elétrica,BOVESPA,RNEW3,Rio Verde ON,Ação,BOVESPA\RNEW3
+sector_004,Ações - Energia Elétrica,BOVESPA,RNEW4,Rio Verde PN,Ação,BOVESPA\RNEW4
+sector_004,Ações - Energia Elétrica,BOVESPA,SNSY3,Sanepar ON,Ação,BOVESPA\SNSY3
+sector_004,Ações - Energia Elétrica,BOVESPA,SNSY5,Sanepar PNA,Ação,BOVESPA\SNSY5
+sector_004,Ações - Energia Elétrica,BOVESPA,TAEE11,Taesa UNT,Ação,BOVESPA\TAEE11
+sector_004,Ações - Energia Elétrica,BOVESPA,TAEE3,Taesa ON,Ação,BOVESPA\TAEE3
+sector_004,Ações - Energia Elétrica,BOVESPA,TAEE4,Taesa PN,Ação,BOVESPA\TAEE4
+sector_004,Ações - Energia Elétrica,BOVESPA,W1EL34,BDR Williams Cos,Ação,BOVESPA\W1EL34
+sector_005,Ações - Financeiro - Bancos,BOVESPA,ABCB4,ABC Brasil PN,Ação,BOVESPA\ABCB4
+sector_005,Ações - Financeiro - Bancos,BOVESPA,B3SA3,B3 ON,Ação,BOVESPA\B3SA3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BAZA3,Banco da Amazônia ON,Ação,BOVESPA\BAZA3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BBAS3,Banco do Brasil ON,Ação,BOVESPA\BBAS3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BBDC3,Bradesco ON,Ação,BOVESPA\BBDC3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BBDC4,Bradesco PN,Ação,BOVESPA\BBDC4
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BCSA34,BDR BofA,Ação,BOVESPA\BCSA34
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BEES3,Banestes ON,Ação,BOVESPA\BEES3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BEES4,Banestes PN,Ação,BOVESPA\BEES4
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BERK34,BDR Berkshire Hathaway,Ação,BOVESPA\BERK34
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BGIP3,Banese ON,Ação,BOVESPA\BGIP3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BGIP4,Banese PN,Ação,BOVESPA\BGIP4
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BMEB3,BRB ON,Ação,BOVESPA\BMEB3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BMEB4,BRB PN,Ação,BOVESPA\BMEB4
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BMGB4,BMG PN,Ação,BOVESPA\BMGB4
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BNBR3,Banco do Nordeste ON,Ação,BOVESPA\BNBR3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BPAC11,BTG Pactual UNT,Ação,BOVESPA\BPAC11
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BPAC3,BTG Pactual ON,Ação,BOVESPA\BPAC3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BPAC5,BTG Pactual PNA,Ação,BOVESPA\BPAC5
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BRSR3,Banrisul ON,Ação,BOVESPA\BRSR3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BRSR6,Banrisul PNB,Ação,BOVESPA\BRSR6
+sector_005,Ações - Financeiro - Bancos,BOVESPA,BSLI3,BSL Investments ON,Ação,BOVESPA\BSLI3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,CXSE3,Caixa Seg ON,Ação,BOVESPA\CXSE3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,ITSA3,Itaúsa ON,Ação,BOVESPA\ITSA3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,ITSA4,Itaúsa PN,Ação,BOVESPA\ITSA4
+sector_005,Ações - Financeiro - Bancos,BOVESPA,ITUB3,Itaú Unibanco ON,Ação,BOVESPA\ITUB3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,ITUB4,Itaú Unibanco PN,Ação,BOVESPA\ITUB4
+sector_005,Ações - Financeiro - Bancos,BOVESPA,JPMC34,BDR JPMorgan,Ação,BOVESPA\JPMC34
+sector_005,Ações - Financeiro - Bancos,BOVESPA,PINE4,Pine PN,Ação,BOVESPA\PINE4
+sector_005,Ações - Financeiro - Bancos,BOVESPA,SANB11,Santander BR UNT,Ação,BOVESPA\SANB11
+sector_005,Ações - Financeiro - Bancos,BOVESPA,SANB3,Santander BR ON,Ação,BOVESPA\SANB3
+sector_005,Ações - Financeiro - Bancos,BOVESPA,SANB4,Santander BR PN,Ação,BOVESPA\SANB4
+sector_005,Ações - Financeiro - Bancos,BOVESPA,UBSG34,BDR UBS,Ação,BOVESPA\UBSG34
+sector_005,Ações - Financeiro - Bancos,BOVESPA,WFCO34,BDR Wells Fargo,Ação,BOVESPA\WFCO34
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,AMOB3,Amob ON,Ação,BOVESPA\AMOB3
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,BMKS3,Bemobi ON,Ação,BOVESPA\BMKS3
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,CASH3,Méliuz ON,Ação,BOVESPA\CASH3
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,CVCB3,CVC Brasil ON,Ação,BOVESPA\CVCB3
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,DOTZ3,Dotz ON,Ação,BOVESPA\DOTZ3
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,IFCM3,IFCM ON,Ação,BOVESPA\IFCM3
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,MELI34,BDR MercadoLibre,Ação,BOVESPA\MELI34
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,NUIF11,ETF Nubank,Ação,BOVESPA\NUIF11
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,PAGS34,BDR PagSeguro,Ação,BOVESPA\PAGS34
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,PGCO34,BDR Pagseguro C,Ação,BOVESPA\PGCO34
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,POSI3,Positivo ON,Ação,BOVESPA\POSI3
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,PYPL34,BDR PayPal,Ação,BOVESPA\PYPL34
+sector_006,Ações - Financeiro - Fintechs/Pagamentos,BOVESPA,VISA34,BDR Visa,Ação,BOVESPA\VISA34
+sector_007,Ações - Financeiro - Seguros,BOVESPA,BBSE3,BB Seguridade ON,Ação,BOVESPA\BBSE3
+sector_007,Ações - Financeiro - Seguros,BOVESPA,CXSE3,Caixa Seguridade ON,Ação,BOVESPA\CXSE3
+sector_007,Ações - Financeiro - Seguros,BOVESPA,IRBR3,IRB Brasil ON,Ação,BOVESPA\IRBR3
+sector_007,Ações - Financeiro - Seguros,BOVESPA,PSSA3,Porto Seguro ON,Ação,BOVESPA\PSSA3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,AURA33,Aura Minerals BDR,Ação,BOVESPA\AURA33
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,BRAP3,Bradespar ON,Ação,BOVESPA\BRAP3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,BRAP4,Bradespar PN,Ação,BOVESPA\BRAP4
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,CAMB3,Cambuci ON,Ação,BOVESPA\CAMB3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,CAML3,Camil ON,Ação,BOVESPA\CAML3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,CMIN3,CSN Mineração ON,Ação,BOVESPA\CMIN3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,CSNA3,CSN ON,Ação,BOVESPA\CSNA3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,FESA4,Ferbasa PN,Ação,BOVESPA\FESA4
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,GGBR3,Gerdau ON,Ação,BOVESPA\GGBR3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,GGBR4,Gerdau PN,Ação,BOVESPA\GGBR4
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,GOAU3,Gerdau MetalúrgicaON,Ação,BOVESPA\GOAU3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,GOAU4,Gerdau Metalúrgica PN,Ação,BOVESPA\GOAU4
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,INEP3,Inepar ON,Ação,BOVESPA\INEP3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,INEP4,Inepar PN,Ação,BOVESPA\INEP4
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,KEPL3,Kepler Weber ON,Ação,BOVESPA\KEPL3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,MYPK3,Iochpe-Maxion ON,Ação,BOVESPA\MYPK3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,ROMI3,Romi ON,Ação,BOVESPA\ROMI3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,TTEN3,Três Tentos ON,Ação,BOVESPA\TTEN3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,TUPY3,Tupy ON,Ação,BOVESPA\TUPY3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,USIM3,Usiminas ON,Ação,BOVESPA\USIM3
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,USIM5,Usiminas PNA,Ação,BOVESPA\USIM5
+sector_009,Ações - Mineração e Siderurgia,BOVESPA,VALE3,Vale ON,Ação,BOVESPA\VALE3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,ALLD3,Allied ON,Ação,BOVESPA\ALLD3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,ATTA3,Atta ON,Ação,BOVESPA\ATTA3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,BBAS11,BB Seguridade UNT,Ação,BOVESPA\BBAS11
+sector_010,Ações - Outros Setores Brasil,BOVESPA,CLSC4,Celesc PN,Ação,BOVESPA\CLSC4
+sector_010,Ações - Outros Setores Brasil,BOVESPA,CRPG5,Cremer PNA,Ação,BOVESPA\CRPG5
+sector_010,Ações - Outros Setores Brasil,BOVESPA,CTSA3,Santanense ON,Ação,BOVESPA\CTSA3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,CTSA4,Santanense PN,Ação,BOVESPA\CTSA4
+sector_010,Ações - Outros Setores Brasil,BOVESPA,DESK3,Desktop ON,Ação,BOVESPA\DESK3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,ESPA3,Espaço Smart ON,Ação,BOVESPA\ESPA3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,ETER3,Eternit ON,Ação,BOVESPA\ETER3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,FHER3,FHer ON,Ação,BOVESPA\FHER3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,FIQE3,FIQe ON,Ação,BOVESPA\FIQE3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,GRND3,Grendene ON,Ação,BOVESPA\GRND3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,HAGA3,Haga ON,Ação,BOVESPA\HAGA3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,HAGA4,Haga PN,Ação,BOVESPA\HAGA4
+sector_010,Ações - Outros Setores Brasil,BOVESPA,IGSN3,Igs Nato ON,Ação,BOVESPA\IGSN3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,LPSB3,Lopes BR ON,Ação,BOVESPA\LPSB3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,LUPA3,Lupa ON,Ação,BOVESPA\LUPA3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,MILS3,Mills ON,Ação,BOVESPA\MILS3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,MULT3,Multiplan ON,Ação,BOVESPA\MULT3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,NGRD3,Norgrid ON,Ação,BOVESPA\NGRD3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,OPCT3,Opctar ON,Ação,BOVESPA\OPCT3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,RCSL3,Recrusul ON,Ação,BOVESPA\RCSL3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,RCSL4,Recrusul PN,Ação,BOVESPA\RCSL4
+sector_010,Ações - Outros Setores Brasil,BOVESPA,RENT3,Localiza ON,Ação,BOVESPA\RENT3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,ROMI3,Romi ON,Ação,BOVESPA\ROMI3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,SCAR3,São Carlos ON,Ação,BOVESPA\SCAR3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,SEQL3,Sequoia ON,Ação,BOVESPA\SEQL3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,SHUL4,Schulz PN,Ação,BOVESPA\SHUL4
+sector_010,Ações - Outros Setores Brasil,BOVESPA,TASA3,Tasters ON,Ação,BOVESPA\TASA3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,TASA4,Tasters PN,Ação,BOVESPA\TASA4
+sector_010,Ações - Outros Setores Brasil,BOVESPA,VITT3,Vittia ON,Ação,BOVESPA\VITT3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,VULC3,Vulcabras ON,Ação,BOVESPA\VULC3
+sector_010,Ações - Outros Setores Brasil,BOVESPA,WEGE3,WEG ON,Ação,BOVESPA\WEGE3
+sector_011,Ações - Papel e Celulose,BOVESPA,KLBN11,Klabin UNT,Ação,BOVESPA\KLBN11
+sector_011,Ações - Papel e Celulose,BOVESPA,KLBN3,Klabin ON,Ação,BOVESPA\KLBN3
+sector_011,Ações - Papel e Celulose,BOVESPA,KLBN4,Klabin PN,Ação,BOVESPA\KLBN4
+sector_011,Ações - Papel e Celulose,BOVESPA,POMO3,Marcopolo ON,Ação,BOVESPA\POMO3
+sector_011,Ações - Papel e Celulose,BOVESPA,POMO4,Marcopolo PN,Ação,BOVESPA\POMO4
+sector_011,Ações - Papel e Celulose,BOVESPA,RANI3,Irani ON,Ação,BOVESPA\RANI3
+sector_011,Ações - Papel e Celulose,BOVESPA,SUZB3,Suzano ON,Ação,BOVESPA\SUZB3
+sector_012,Ações - Petroquímica e Química,BOVESPA,BRKM3,Braskem ON,Ação,BOVESPA\BRKM3
+sector_012,Ações - Petroquímica e Química,BOVESPA,BRKM5,Braskem PNA,Ação,BOVESPA\BRKM5
+sector_012,Ações - Petroquímica e Química,BOVESPA,BRKM6,Braskem PNB,Ação,BOVESPA\BRKM6
+sector_012,Ações - Petroquímica e Química,BOVESPA,CATP34,BDR Caterpillar,Ação,BOVESPA\CATP34
+sector_012,Ações - Petroquímica e Química,BOVESPA,UNIP3,Unipac ON,Ação,BOVESPA\UNIP3
+sector_012,Ações - Petroquímica e Química,BOVESPA,UNIP6,Unipac PNB,Ação,BOVESPA\UNIP6
+sector_013,Ações - Petróleo e Gás,BOVESPA,ATTB34,BDR AT&T,Ação,BOVESPA\ATTB34
+sector_013,Ações - Petróleo e Gás,BOVESPA,BRAV3,Brava Energia ON,Ação,BOVESPA\BRAV3
+sector_013,Ações - Petróleo e Gás,BOVESPA,CHVX34,BDR Chevron,Ação,BOVESPA\CHVX34
+sector_013,Ações - Petróleo e Gás,BOVESPA,COPH34,BDR ConocoPhillips,Ação,BOVESPA\COPH34
+sector_013,Ações - Petróleo e Gás,BOVESPA,CSAN3,Cosan ON,Ação,BOVESPA\CSAN3
+sector_013,Ações - Petróleo e Gás,BOVESPA,EXXO34,BDR ExxonMobil,Ação,BOVESPA\EXXO34
+sector_013,Ações - Petróleo e Gás,BOVESPA,OIBR3,Oi ON,Ação,BOVESPA\OIBR3
+sector_013,Ações - Petróleo e Gás,BOVESPA,OIBR4,Oi PN,Ação,BOVESPA\OIBR4
+sector_013,Ações - Petróleo e Gás,BOVESPA,OXYP34,BDR Occidental Petroleum,Ação,BOVESPA\OXYP34
+sector_013,Ações - Petróleo e Gás,BOVESPA,PETR3,Petrobras ON,Ação,BOVESPA\PETR3
+sector_013,Ações - Petróleo e Gás,BOVESPA,PETR4,Petrobras PN,Ação,BOVESPA\PETR4
+sector_013,Ações - Petróleo e Gás,BOVESPA,PRIO3,PetroRio ON,Ação,BOVESPA\PRIO3
+sector_013,Ações - Petróleo e Gás,BOVESPA,PRNR3,Panoro Energy ON,Ação,BOVESPA\PRNR3
+sector_013,Ações - Petróleo e Gás,BOVESPA,RECV3,Recôncavo ON,Ação,BOVESPA\RECV3
+sector_013,Ações - Petróleo e Gás,BOVESPA,RPMG3,Refinaria Manguinhos ON,Ação,BOVESPA\RPMG3
+sector_013,Ações - Petróleo e Gás,BOVESPA,SLBG34,BDR Schlumberger,Ação,BOVESPA\SLBG34
+sector_013,Ações - Petróleo e Gás,BOVESPA,UGPA3,Ultrapar ON,Ação,BOVESPA\UGPA3
+sector_013,Ações - Petróleo e Gás,BOVESPA,VBBR3,Vibra Energia ON,Ação,BOVESPA\VBBR3
+sector_014,Ações - Saneamento,BOVESPA,CSMG3,Copasa ON,Ação,BOVESPA\CSMG3
+sector_014,Ações - Saneamento,BOVESPA,ENBR3,EDP BR ON,Ação,BOVESPA\ENBR3
+sector_014,Ações - Saneamento,BOVESPA,ENGI3,Energisa ON,Ação,BOVESPA\ENGI3
+sector_014,Ações - Saneamento,BOVESPA,EQPA3,Equatorial Pará ON,Ação,BOVESPA\EQPA3
+sector_014,Ações - Saneamento,BOVESPA,LWSA3,Locaweb/CAGECE ON,Ação,BOVESPA\LWSA3
+sector_014,Ações - Saneamento,BOVESPA,SAPR11,Sanepar UNT,Ação,BOVESPA\SAPR11
+sector_014,Ações - Saneamento,BOVESPA,SAPR3,Sanepar ON,Ação,BOVESPA\SAPR3
+sector_014,Ações - Saneamento,BOVESPA,SAPR4,Sanepar PN,Ação,BOVESPA\SAPR4
+sector_014,Ações - Saneamento,BOVESPA,SBSP3,Sabesp ON,Ação,BOVESPA\SBSP3
+sector_014,Ações - Saneamento,BOVESPA,SNSY3,Sanepar ON,Ação,BOVESPA\SNSY3
+sector_014,Ações - Saneamento,BOVESPA,SNSY5,Sanepar PNA,Ação,BOVESPA\SNSY5
+sector_015,Ações - Saúde e Farmácia,BOVESPA,ABBV34,BDR AbbVie,Ação,BOVESPA\ABBV34
+sector_015,Ações - Saúde e Farmácia,BOVESPA,AMGN34,BDR Amgen,Ação,BOVESPA\AMGN34
+sector_015,Ações - Saúde e Farmácia,BOVESPA,ANIM3,Anima Educação ON,Ação,BOVESPA\ANIM3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,BIOM3,Biomm ON,Ação,BOVESPA\BIOM3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,BLAU3,Blau Farmacêutica ON,Ação,BOVESPA\BLAU3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,COPH34,BDR ConocoPhillips,Ação,BOVESPA\COPH34
+sector_015,Ações - Saúde e Farmácia,BOVESPA,DASA3,Diagnósticos América ON,Ação,BOVESPA\DASA3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,DEXP3,Dexxos ON,Ação,BOVESPA\DEXP3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,FLRY3,Fleury ON,Ação,BOVESPA\FLRY3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,HAPV3,Hapvida ON,Ação,BOVESPA\HAPV3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,HYPE3,Hypera ON,Ação,BOVESPA\HYPE3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,JFEN3,Jalles Machado ON,Ação,BOVESPA\JFEN3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,JNJB34,BDR Johnson&Johnson,Ação,BOVESPA\JNJB34
+sector_015,Ações - Saúde e Farmácia,BOVESPA,LILY34,BDR Eli Lilly,Ação,BOVESPA\LILY34
+sector_015,Ações - Saúde e Farmácia,BOVESPA,MDTC34,BDR Medtronic,Ação,BOVESPA\MDTC34
+sector_015,Ações - Saúde e Farmácia,BOVESPA,MGEL4,Marcopolo PN,Ação,BOVESPA\MGEL4
+sector_015,Ações - Saúde e Farmácia,BOVESPA,MRCK34,BDR Merck,Ação,BOVESPA\MRCK34
+sector_015,Ações - Saúde e Farmácia,BOVESPA,ODPV3,Odontoprev ON,Ação,BOVESPA\ODPV3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,OFSA3,Oncoclínicas ON,Ação,BOVESPA\OFSA3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,ONCO3,Oncoclinicas ON,Ação,BOVESPA\ONCO3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,PFIZ34,BDR Pfizer,Ação,BOVESPA\PFIZ34
+sector_015,Ações - Saúde e Farmácia,BOVESPA,PFRM3,Profarma ON,Ação,BOVESPA\PFRM3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,PGMN3,Primed ON,Ação,BOVESPA\PGMN3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,PNVL3,Panvel ON,Ação,BOVESPA\PNVL3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,QUAL3,Qualicorp ON,Ação,BOVESPA\QUAL3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,RDOR3,Rede D'Or ON,Ação,BOVESPA\RDOR3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,SEER3,Ser Educacional ON,Ação,BOVESPA\SEER3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,SIMH3,Simpar ON,Ação,BOVESPA\SIMH3
+sector_015,Ações - Saúde e Farmácia,BOVESPA,UNHH34,BDR UnitedHealth,Ação,BOVESPA\UNHH34
+sector_016,Ações - Tecnologia,BOVESPA,AAPL34,BDR Apple,Ação,BOVESPA\AAPL34
+sector_016,Ações - Tecnologia,BOVESPA,ADBE34,BDR Adobe,Ação,BOVESPA\ADBE34
+sector_016,Ações - Tecnologia,BOVESPA,AERI3,Aeri ON,Ação,BOVESPA\AERI3
+sector_016,Ações - Tecnologia,BOVESPA,AMZO34,BDR Amazon,Ação,BOVESPA\AMZO34
+sector_016,Ações - Tecnologia,BOVESPA,ARML3,Armac ON,Ação,BOVESPA\ARML3
+sector_016,Ações - Tecnologia,BOVESPA,ASML34,BDR ASML,Ação,BOVESPA\ASML34
+sector_016,Ações - Tecnologia,BOVESPA,AVGO34,BDR Broadcom,Ação,BOVESPA\AVGO34
+sector_016,Ações - Tecnologia,BOVESPA,BABA34,BDR Alibaba,Ação,BOVESPA\BABA34
+sector_016,Ações - Tecnologia,BOVESPA,BMKS3,Bemobi ON,Ação,BOVESPA\BMKS3
+sector_016,Ações - Tecnologia,BOVESPA,BMOB3,Bemobi ON,Ação,BOVESPA\BMOB3
+sector_016,Ações - Tecnologia,BOVESPA,COGN3,Cogna ON,Ação,BOVESPA\COGN3
+sector_016,Ações - Tecnologia,BOVESPA,COIN11,ETF Coinbase,Ação,BOVESPA\COIN11
+sector_016,Ações - Tecnologia,BOVESPA,CSCO34,BDR Cisco,Ação,BOVESPA\CSCO34
+sector_016,Ações - Tecnologia,BOVESPA,CSXC34,BDR CSX,Ação,BOVESPA\CSXC34
+sector_016,Ações - Tecnologia,BOVESPA,DESK3,Desktop ON,Ação,BOVESPA\DESK3
+sector_016,Ações - Tecnologia,BOVESPA,DHER34,BDR Deutsche Hermes,Ação,BOVESPA\DHER34
+sector_016,Ações - Tecnologia,BOVESPA,DISB34,BDR Disney,Ação,BOVESPA\DISB34
+sector_016,Ações - Tecnologia,BOVESPA,DMVF3,DM Varejista ON,Ação,BOVESPA\DMVF3
+sector_016,Ações - Tecnologia,BOVESPA,DOTZ3,Dotz ON,Ação,BOVESPA\DOTZ3
+sector_016,Ações - Tecnologia,BOVESPA,EBAY34,BDR eBay,Ação,BOVESPA\EBAY34
+sector_016,Ações - Tecnologia,BOVESPA,EQIX34,BDR Equinix,Ação,BOVESPA\EQIX34
+sector_016,Ações - Tecnologia,BOVESPA,FICT3,Fict ON,Ação,BOVESPA\FICT3
+sector_016,Ações - Tecnologia,BOVESPA,GOGL34,BDR Alphabet A,Ação,BOVESPA\GOGL34
+sector_016,Ações - Tecnologia,BOVESPA,GOGL35,BDR Alphabet B,Ação,BOVESPA\GOGL35
+sector_016,Ações - Tecnologia,BOVESPA,IFCM3,IFCM ON,Ação,BOVESPA\IFCM3
+sector_016,Ações - Tecnologia,BOVESPA,IGTI11,IGTI11 UNT,Ação,BOVESPA\IGTI11
+sector_016,Ações - Tecnologia,BOVESPA,IGTI3,IGTI ON,Ação,BOVESPA\IGTI3
+sector_016,Ações - Tecnologia,BOVESPA,INTB3,Intelbras ON,Ação,BOVESPA\INTB3
+sector_016,Ações - Tecnologia,BOVESPA,INTU34,BDR Intuit,Ação,BOVESPA\INTU34
+sector_016,Ações - Tecnologia,BOVESPA,LEVE3,Lever ON,Ação,BOVESPA\LEVE3
+sector_016,Ações - Tecnologia,BOVESPA,LWSA3,Locaweb ON,Ação,BOVESPA\LWSA3
+sector_016,Ações - Tecnologia,BOVESPA,MELI34,BDR MercadoLibre,Ação,BOVESPA\MELI34
+sector_016,Ações - Tecnologia,BOVESPA,MELK3,Méliuz ON,Ação,BOVESPA\MELK3
+sector_016,Ações - Tecnologia,BOVESPA,META11,ETF Meta,Ação,BOVESPA\META11
+sector_016,Ações - Tecnologia,BOVESPA,MSFT34,BDR Microsoft,Ação,BOVESPA\MSFT34
+sector_016,Ações - Tecnologia,BOVESPA,NETE34,BDR Net1 UEPS,Ação,BOVESPA\NETE34
+sector_016,Ações - Tecnologia,BOVESPA,NEXP3,Nexpe ON,Ação,BOVESPA\NEXP3
+sector_016,Ações - Tecnologia,BOVESPA,NFLX34,BDR Netflix,Ação,BOVESPA\NFLX34
+sector_016,Ações - Tecnologia,BOVESPA,NMRH34,BDR Newmarket,Ação,BOVESPA\NMRH34
+sector_016,Ações - Tecnologia,BOVESPA,NVDC34,BDR Nvidia,Ação,BOVESPA\NVDC34
+sector_016,Ações - Tecnologia,BOVESPA,ORCL34,BDR Oracle,Ação,BOVESPA\ORCL34
+sector_016,Ações - Tecnologia,BOVESPA,PDTC3,Produttare ON,Ação,BOVESPA\PDTC3
+sector_016,Ações - Tecnologia,BOVESPA,POSI3,Positivo Tecnologia ON,Ação,BOVESPA\POSI3
+sector_016,Ações - Tecnologia,BOVESPA,QCOM34,BDR Qualcomm,Ação,BOVESPA\QCOM34
+sector_016,Ações - Tecnologia,BOVESPA,RIOT34,BDR Riot,Ação,BOVESPA\RIOT34
+sector_016,Ações - Tecnologia,BOVESPA,SAPP34,BDR SAP,Ação,BOVESPA\SAPP34
+sector_016,Ações - Tecnologia,BOVESPA,SEQL3,Sequoia ON,Ação,BOVESPA\SEQL3
+sector_016,Ações - Tecnologia,BOVESPA,SIMN34,BDR Simon Prop,Ação,BOVESPA\SIMN34
+sector_016,Ações - Tecnologia,BOVESPA,SYNE3,Synapsis ON,Ação,BOVESPA\SYNE3
+sector_016,Ações - Tecnologia,BOVESPA,TECN3,Tecnosolo ON,Ação,BOVESPA\TECN3
+sector_016,Ações - Tecnologia,BOVESPA,TOTS3,Totvs ON,Ação,BOVESPA\TOTS3
+sector_016,Ações - Tecnologia,BOVESPA,TSLA34,BDR Tesla,Ação,BOVESPA\TSLA34
+sector_016,Ações - Tecnologia,BOVESPA,TSMC34,BDR TSMC,Ação,BOVESPA\TSMC34
+sector_016,Ações - Tecnologia,BOVESPA,VVEO3,Vero ON,Ação,BOVESPA\VVEO3
+sector_017,Ações - Telecomunicações,BOVESPA,DESK3,Desktop ON,Ação,BOVESPA\DESK3
+sector_017,Ações - Telecomunicações,BOVESPA,INTB3,Intelbras ON,Ação,BOVESPA\INTB3
+sector_017,Ações - Telecomunicações,BOVESPA,LWSA3,Locaweb ON,Ação,BOVESPA\LWSA3
+sector_017,Ações - Telecomunicações,BOVESPA,OIBR3,Oi ON,Ação,BOVESPA\OIBR3
+sector_017,Ações - Telecomunicações,BOVESPA,OIBR4,Oi PN,Ação,BOVESPA\OIBR4
+sector_017,Ações - Telecomunicações,BOVESPA,TELB3,Telebras ON,Ação,BOVESPA\TELB3
+sector_017,Ações - Telecomunicações,BOVESPA,TELB4,Telebras PN,Ação,BOVESPA\TELB4
+sector_017,Ações - Telecomunicações,BOVESPA,TIMS3,TIM Brasil ON,Ação,BOVESPA\TIMS3
+sector_017,Ações - Telecomunicações,BOVESPA,TTEN3,Três Tentos ON,Ação,BOVESPA\TTEN3
+sector_017,Ações - Telecomunicações,BOVESPA,VIVT3,Telefonica Brasil ON,Ação,BOVESPA\VIVT3
+sector_017,Ações - Telecomunicações,BOVESPA,VVEO3,Vero ON,Ação,BOVESPA\VVEO3
+sector_018,Ações - Transporte e Logística,BOVESPA,ALLD3,Allied ON,Ação,BOVESPA\ALLD3
+sector_018,Ações - Transporte e Logística,BOVESPA,AZEV3,Azevedo & Travassos ON,Ação,BOVESPA\AZEV3
+sector_018,Ações - Transporte e Logística,BOVESPA,AZEV4,Azevedo & Travassos PN,Ação,BOVESPA\AZEV4
+sector_018,Ações - Transporte e Logística,BOVESPA,CSAN3,Cosan ON,Ação,BOVESPA\CSAN3
+sector_018,Ações - Transporte e Logística,BOVESPA,FRAS3,Frasle ON,Ação,BOVESPA\FRAS3
+sector_018,Ações - Transporte e Logística,BOVESPA,JALL3,JBS ON,Ação,BOVESPA\JALL3
+sector_018,Ações - Transporte e Logística,BOVESPA,JSLG3,JSL ON,Ação,BOVESPA\JSLG3
+sector_018,Ações - Transporte e Logística,BOVESPA,LOGG3,Log Com ON,Ação,BOVESPA\LOGG3
+sector_018,Ações - Transporte e Logística,BOVESPA,MOVI3,Movida ON,Ação,BOVESPA\MOVI3
+sector_018,Ações - Transporte e Logística,BOVESPA,PCAR3,GPA ON,Ação,BOVESPA\PCAR3
+sector_018,Ações - Transporte e Logística,BOVESPA,PTBL3,Portobello ON,Ação,BOVESPA\PTBL3
+sector_018,Ações - Transporte e Logística,BOVESPA,RAIL3,Rumo ON,Ação,BOVESPA\RAIL3
+sector_018,Ações - Transporte e Logística,BOVESPA,RENT3,Localiza ON,Ação,BOVESPA\RENT3
+sector_018,Ações - Transporte e Logística,BOVESPA,RPAD5,Rodopar PNA,Ação,BOVESPA\RPAD5
+sector_018,Ações - Transporte e Logística,BOVESPA,SIMH3,Simpar ON,Ação,BOVESPA\SIMH3
+sector_018,Ações - Transporte e Logística,BOVESPA,TCSA3,Tecsa ON,Ação,BOVESPA\TCSA3
+sector_018,Ações - Transporte e Logística,BOVESPA,TPIS3,Triunfo ON,Ação,BOVESPA\TPIS3
+sector_018,Ações - Transporte e Logística,BOVESPA,UGPA3,Ultrapar ON,Ação,BOVESPA\UGPA3
+sector_018,Ações - Transporte e Logística,BOVESPA,VAMO3,Vamos ON,Ação,BOVESPA\VAMO3
+sector_018,Ações - Transporte e Logística,BOVESPA,VBBR3,Vibra ON,Ação,BOVESPA\VBBR3
+sector_019,Ações - Varejo e Consumo,BOVESPA,ALOS3,Allos ON,Ação,BOVESPA\ALOS3
+sector_019,Ações - Varejo e Consumo,BOVESPA,ALPA4,Alpargatas PN,Ação,BOVESPA\ALPA4
+sector_019,Ações - Varejo e Consumo,BOVESPA,AMAR3,Amar's ON,Ação,BOVESPA\AMAR3
+sector_019,Ações - Varejo e Consumo,BOVESPA,AMER3,Americanas ON,Ação,BOVESPA\AMER3
+sector_019,Ações - Varejo e Consumo,BOVESPA,AMZO34,BDR Amazon,Ação,BOVESPA\AMZO34
+sector_019,Ações - Varejo e Consumo,BOVESPA,ASAI3,Assaí ON,Ação,BOVESPA\ASAI3
+sector_019,Ações - Varejo e Consumo,BOVESPA,BRPR3,BR Properties ON,Ação,BOVESPA\BRPR3
+sector_019,Ações - Varejo e Consumo,BOVESPA,CEAB3,C&A ON,Ação,BOVESPA\CEAB3
+sector_019,Ações - Varejo e Consumo,BOVESPA,COLG34,BDR Colgate,Ação,BOVESPA\COLG34
+sector_019,Ações - Varejo e Consumo,BOVESPA,COWC34,BDR Costco,Ação,BOVESPA\COWC34
+sector_019,Ações - Varejo e Consumo,BOVESPA,DISB34,BDR Disney,Ação,BOVESPA\DISB34
+sector_019,Ações - Varejo e Consumo,BOVESPA,EBAY34,BDR eBay,Ação,BOVESPA\EBAY34
+sector_019,Ações - Varejo e Consumo,BOVESPA,GRND3,Grendene ON,Ação,BOVESPA\GRND3
+sector_019,Ações - Varejo e Consumo,BOVESPA,HBSA3,Hering ON,Ação,BOVESPA\HBSA3
+sector_019,Ações - Varejo e Consumo,BOVESPA,JHSF3,JHSF ON,Ação,BOVESPA\JHSF3
+sector_019,Ações - Varejo e Consumo,BOVESPA,LJQQ3,Livraria Quero-Quero ON,Ação,BOVESPA\LJQQ3
+sector_019,Ações - Varejo e Consumo,BOVESPA,LREN3,Lojas Renner ON,Ação,BOVESPA\LREN3
+sector_019,Ações - Varejo e Consumo,BOVESPA,MACY34,BDR Macy's,Ação,BOVESPA\MACY34
+sector_019,Ações - Varejo e Consumo,BOVESPA,MGLU3,Magazine Luiza ON,Ação,BOVESPA\MGLU3
+sector_019,Ações - Varejo e Consumo,BOVESPA,MULT3,Multiplan ON,Ação,BOVESPA\MULT3
+sector_019,Ações - Varejo e Consumo,BOVESPA,NATU3,Natura ON,Ação,BOVESPA\NATU3
+sector_019,Ações - Varejo e Consumo,BOVESPA,NIKE34,BDR Nike,Ação,BOVESPA\NIKE34
+sector_019,Ações - Varejo e Consumo,BOVESPA,PCAR3,Pão de Açúcar ON,Ação,BOVESPA\PCAR3
+sector_019,Ações - Varejo e Consumo,BOVESPA,PFRM3,Profarma ON,Ação,BOVESPA\PFRM3
+sector_019,Ações - Varejo e Consumo,BOVESPA,PGCO34,BDR Procter&Gamble,Ação,BOVESPA\PGCO34
+sector_019,Ações - Varejo e Consumo,BOVESPA,RADL3,Raia Drogasil ON,Ação,BOVESPA\RADL3
+sector_019,Ações - Varejo e Consumo,BOVESPA,SBFG3,Grupo Soma ON,Ação,BOVESPA\SBFG3
+sector_019,Ações - Varejo e Consumo,BOVESPA,SCAR3,São Carlos ON,Ação,BOVESPA\SCAR3
+sector_019,Ações - Varejo e Consumo,BOVESPA,SHOW3,T4F Entretenimento ON,Ação,BOVESPA\SHOW3
+sector_019,Ações - Varejo e Consumo,BOVESPA,TFCO4,Teka PN,Ação,BOVESPA\TFCO4
+sector_019,Ações - Varejo e Consumo,BOVESPA,VIVA3,Vivara ON,Ação,BOVESPA\VIVA3
+sector_019,Ações - Varejo e Consumo,BOVESPA,VLID3,Valid ON,Ação,BOVESPA\VLID3
+sector_019,Ações - Varejo e Consumo,BOVESPA,WALM34,BDR Walmart,Ação,BOVESPA\WALM34
+sector_020,BDR - Ações Internacionais,BOVESPA,ABBV34,BDR AbbVie,BDR,BOVESPA\ABBV34
+sector_020,BDR - Ações Internacionais,BOVESPA,AIRB34,BDR Airbus,BDR,BOVESPA\AIRB34
+sector_020,BDR - Ações Internacionais,BOVESPA,AMGN34,BDR Amgen,BDR,BOVESPA\AMGN34
+sector_020,BDR - Ações Internacionais,BOVESPA,ARMT34,BDR ArcelorMittal,BDR,BOVESPA\ARMT34
+sector_020,BDR - Ações Internacionais,BOVESPA,ASML34,BDR ASML,BDR,BOVESPA\ASML34
+sector_020,BDR - Ações Internacionais,BOVESPA,ATTB34,BDR AT&T,BDR,BOVESPA\ATTB34
+sector_020,BDR - Ações Internacionais,BOVESPA,BABA34,BDR Alibaba,BDR,BOVESPA\BABA34
+sector_020,BDR - Ações Internacionais,BOVESPA,BCSA34,BDR BofA,BDR,BOVESPA\BCSA34
+sector_020,BDR - Ações Internacionais,BOVESPA,BIDU34,BDR Baidu,BDR,BOVESPA\BIDU34
+sector_020,BDR - Ações Internacionais,BOVESPA,BKNG34,BDR Booking,BDR,BOVESPA\BKNG34
+sector_020,BDR - Ações Internacionais,BOVESPA,BLAK34,BDR BlackRock,BDR,BOVESPA\BLAK34
+sector_020,BDR - Ações Internacionais,BOVESPA,BOAC34,BDR Boeing,BDR,BOVESPA\BOAC34
+sector_020,BDR - Ações Internacionais,BOVESPA,BONY34,BDR BNY Mellon,BDR,BOVESPA\BONY34
+sector_020,BDR - Ações Internacionais,BOVESPA,BOXP34,BDR Box,BDR,BOVESPA\BOXP34
+sector_020,BDR - Ações Internacionais,BOVESPA,C2OI34,BDR ConocoPhillips,BDR,BOVESPA\C2OI34
+sector_020,BDR - Ações Internacionais,BOVESPA,CATP34,BDR Caterpillar,BDR,BOVESPA\CATP34
+sector_020,BDR - Ações Internacionais,BOVESPA,COCA34,BDR Coca-Cola,BDR,BOVESPA\COCA34
+sector_020,BDR - Ações Internacionais,BOVESPA,COWC34,BDR Costco,BDR,BOVESPA\COWC34
+sector_020,BDR - Ações Internacionais,BOVESPA,CSCO34,BDR Cisco,BDR,BOVESPA\CSCO34
+sector_020,BDR - Ações Internacionais,BOVESPA,CTGP34,BDR Corteva,BDR,BOVESPA\CTGP34
+sector_020,BDR - Ações Internacionais,BOVESPA,DBAG34,BDR Deutsche Bank,BDR,BOVESPA\DBAG34
+sector_020,BDR - Ações Internacionais,BOVESPA,DDNB34,BDR DDN,BDR,BOVESPA\DDNB34
+sector_020,BDR - Ações Internacionais,BOVESPA,DEEC34,BDR Deere,BDR,BOVESPA\DEEC34
+sector_020,BDR - Ações Internacionais,BOVESPA,DEOP34,BDR Dexcom,BDR,BOVESPA\DEOP34
+sector_020,BDR - Ações Internacionais,BOVESPA,DGCO34,BDR Diageo,BDR,BOVESPA\DGCO34
+sector_020,BDR - Ações Internacionais,BOVESPA,DISB34,BDR Disney,BDR,BOVESPA\DISB34
+sector_020,BDR - Ações Internacionais,BOVESPA,DLTR34,BDR Dollar Tree,BDR,BOVESPA\DLTR34
+sector_020,BDR - Ações Internacionais,BOVESPA,DUKB34,BDR Duke Energy,BDR,BOVESPA\DUKB34
+sector_020,BDR - Ações Internacionais,BOVESPA,EBAY34,BDR eBay,BDR,BOVESPA\EBAY34
+sector_020,BDR - Ações Internacionais,BOVESPA,ELCI34,BDR Eli Lilly,BDR,BOVESPA\ELCI34
+sector_020,BDR - Ações Internacionais,BOVESPA,EQIX34,BDR Equinix,BDR,BOVESPA\EQIX34
+sector_020,BDR - Ações Internacionais,BOVESPA,EXGR34,BDR Exelon,BDR,BOVESPA\EXGR34
+sector_020,BDR - Ações Internacionais,BOVESPA,EXXO34,BDR ExxonMobil,BDR,BOVESPA\EXXO34
+sector_020,BDR - Ações Internacionais,BOVESPA,FASL34,BDR Faro Tech,BDR,BOVESPA\FASL34
+sector_020,BDR - Ações Internacionais,BOVESPA,FCXO34,BDR Freeport,BDR,BOVESPA\FCXO34
+sector_020,BDR - Ações Internacionais,BOVESPA,FDMO34,BDR FedEx,BDR,BOVESPA\FDMO34
+sector_020,BDR - Ações Internacionais,BOVESPA,FFTD34,BDR FMC,BDR,BOVESPA\FFTD34
+sector_020,BDR - Ações Internacionais,BOVESPA,FMSC34,BDR Fastenal,BDR,BOVESPA\FMSC34
+sector_020,BDR - Ações Internacionais,BOVESPA,FMXB34,BDR Femsa,BDR,BOVESPA\FMXB34
+sector_020,BDR - Ações Internacionais,BOVESPA,FOXC34,BDR Fox Corp,BDR,BOVESPA\FOXC34
+sector_020,BDR - Ações Internacionais,BOVESPA,FSLR34,BDR First Solar,BDR,BOVESPA\FSLR34
+sector_020,BDR - Ações Internacionais,BOVESPA,GILD34,BDR Gilead,BDR,BOVESPA\GILD34
+sector_020,BDR - Ações Internacionais,BOVESPA,GMCO34,BDR GM,BDR,BOVESPA\GMCO34
+sector_020,BDR - Ações Internacionais,BOVESPA,HOME34,BDR Home Depot,BDR,BOVESPA\HOME34
+sector_020,BDR - Ações Internacionais,BOVESPA,HONB34,BDR Honeywell,BDR,BOVESPA\HONB34
+sector_020,BDR - Ações Internacionais,BOVESPA,HOND34,BDR Honda,BDR,BOVESPA\HOND34
+sector_020,BDR - Ações Internacionais,BOVESPA,INTU34,BDR Intuit,BDR,BOVESPA\INTU34
+sector_020,BDR - Ações Internacionais,BOVESPA,JNJB34,BDR J&J,BDR,BOVESPA\JNJB34
+sector_020,BDR - Ações Internacionais,BOVESPA,JPMC34,BDR JPMorgan,BDR,BOVESPA\JPMC34
+sector_020,BDR - Ações Internacionais,BOVESPA,K2CG34,BDR KLA Corp,BDR,BOVESPA\K2CG34
+sector_020,BDR - Ações Internacionais,BOVESPA,LILY34,BDR Eli Lilly,BDR,BOVESPA\LILY34
+sector_020,BDR - Ações Internacionais,BOVESPA,LOWC34,BDR Lowe's,BDR,BOVESPA\LOWC34
+sector_020,BDR - Ações Internacionais,BOVESPA,MDTC34,BDR Medtronic,BDR,BOVESPA\MDTC34
+sector_020,BDR - Ações Internacionais,BOVESPA,MELI34,BDR MercadoLibre,BDR,BOVESPA\MELI34
+sector_020,BDR - Ações Internacionais,BOVESPA,MKLC34,BDR Markel,BDR,BOVESPA\MKLC34
+sector_020,BDR - Ações Internacionais,BOVESPA,MRCK34,BDR Merck,BDR,BOVESPA\MRCK34
+sector_020,BDR - Ações Internacionais,BOVESPA,MSFT34,BDR Microsoft,BDR,BOVESPA\MSFT34
+sector_020,BDR - Ações Internacionais,BOVESPA,MUTC34,BDR Molson Coors,BDR,BOVESPA\MUTC34
+sector_020,BDR - Ações Internacionais,BOVESPA,NEXT34,BDR NEXT,BDR,BOVESPA\NEXT34
+sector_020,BDR - Ações Internacionais,BOVESPA,NFLX34,BDR Netflix,BDR,BOVESPA\NFLX34
+sector_020,BDR - Ações Internacionais,BOVESPA,NIKE34,BDR Nike,BDR,BOVESPA\NIKE34
+sector_020,BDR - Ações Internacionais,BOVESPA,NOKI34,BDR Nokia,BDR,BOVESPA\NOKI34
+sector_020,BDR - Ações Internacionais,BOVESPA,NVDC34,BDR Nvidia,BDR,BOVESPA\NVDC34
+sector_020,BDR - Ações Internacionais,BOVESPA,ORCL34,BDR Oracle,BDR,BOVESPA\ORCL34
+sector_020,BDR - Ações Internacionais,BOVESPA,ORLY34,BDR O'Reilly Auto,BDR,BOVESPA\ORLY34
+sector_020,BDR - Ações Internacionais,BOVESPA,PAGS34,BDR PagSeguro,BDR,BOVESPA\PAGS34
+sector_020,BDR - Ações Internacionais,BOVESPA,PEPB34,BDR PepsiCo,BDR,BOVESPA\PEPB34
+sector_020,BDR - Ações Internacionais,BOVESPA,PFIZ34,BDR Pfizer,BDR,BOVESPA\PFIZ34
+sector_020,BDR - Ações Internacionais,BOVESPA,PGCO34,BDR P&G,BDR,BOVESPA\PGCO34
+sector_020,BDR - Ações Internacionais,BOVESPA,PYPL34,BDR PayPal,BDR,BOVESPA\PYPL34
+sector_020,BDR - Ações Internacionais,BOVESPA,QCOM34,BDR Qualcomm,BDR,BOVESPA\QCOM34
+sector_020,BDR - Ações Internacionais,BOVESPA,REGN34,BDR Regeneron,BDR,BOVESPA\REGN34
+sector_020,BDR - Ações Internacionais,BOVESPA,RIOT34,BDR Riot,BDR,BOVESPA\RIOT34
+sector_020,BDR - Ações Internacionais,BOVESPA,ROST34,BDR Ross Stores,BDR,BOVESPA\ROST34
+sector_020,BDR - Ações Internacionais,BOVESPA,ROXO34,BDR PaySign,BDR,BOVESPA\ROXO34
+sector_020,BDR - Ações Internacionais,BOVESPA,RYTT34,BDR Roper Tech,BDR,BOVESPA\RYTT34
+sector_020,BDR - Ações Internacionais,BOVESPA,SAPP34,BDR SAP,BDR,BOVESPA\SAPP34
+sector_020,BDR - Ações Internacionais,BOVESPA,SCHW34,BDR Charles Schwab,BDR,BOVESPA\SCHW34
+sector_020,BDR - Ações Internacionais,BOVESPA,SIMN34,BDR Simon Prop,BDR,BOVESPA\SIMN34
+sector_020,BDR - Ações Internacionais,BOVESPA,SLBG34,BDR Schlumberger,BDR,BOVESPA\SLBG34
+sector_020,BDR - Ações Internacionais,BOVESPA,SNEC34,BDR Schneider,BDR,BOVESPA\SNEC34
+sector_020,BDR - Ações Internacionais,BOVESPA,SPGI34,BDR S&P Global,BDR,BOVESPA\SPGI34
+sector_020,BDR - Ações Internacionais,BOVESPA,SSFO34,BDR Salesforce,BDR,BOVESPA\SSFO34
+sector_020,BDR - Ações Internacionais,BOVESPA,STMN34,BDR STMicro,BDR,BOVESPA\STMN34
+sector_020,BDR - Ações Internacionais,BOVESPA,STZB34,BDR Constellation,BDR,BOVESPA\STZB34
+sector_020,BDR - Ações Internacionais,BOVESPA,TAKP34,BDR Takeda,BDR,BOVESPA\TAKP34
+sector_020,BDR - Ações Internacionais,BOVESPA,TEXA34,BDR Texas Inst,BDR,BOVESPA\TEXA34
+sector_020,BDR - Ações Internacionais,BOVESPA,TGTB34,BDR Target,BDR,BOVESPA\TGTB34
+sector_020,BDR - Ações Internacionais,BOVESPA,TJXC34,BDR TJX,BDR,BOVESPA\TJXC34
+sector_020,BDR - Ações Internacionais,BOVESPA,TMCO34,BDR Tenaris,BDR,BOVESPA\TMCO34
+sector_020,BDR - Ações Internacionais,BOVESPA,TMOS34,BDR T-Mobile,BDR,BOVESPA\TMOS34
+sector_020,BDR - Ações Internacionais,BOVESPA,TPRY34,BDR Treasury,BDR,BOVESPA\TPRY34
+sector_020,BDR - Ações Internacionais,BOVESPA,TRVC34,BDR TravelCenters,BDR,BOVESPA\TRVC34
+sector_020,BDR - Ações Internacionais,BOVESPA,TSLA34,BDR Tesla,BDR,BOVESPA\TSLA34
+sector_020,BDR - Ações Internacionais,BOVESPA,TSMC34,BDR TSMC,BDR,BOVESPA\TSMC34
+sector_020,BDR - Ações Internacionais,BOVESPA,TSNF34,BDR Tyson Foods,BDR,BOVESPA\TSNF34
+sector_020,BDR - Ações Internacionais,BOVESPA,TXSA34,BDR Textron,BDR,BOVESPA\TXSA34
+sector_020,BDR - Ações Internacionais,BOVESPA,UBSG34,BDR UBS,BDR,BOVESPA\UBSG34
+sector_020,BDR - Ações Internacionais,BOVESPA,ULEV34,BDR Unilever,BDR,BOVESPA\ULEV34
+sector_020,BDR - Ações Internacionais,BOVESPA,UNHH34,BDR UnitedHealth,BDR,BOVESPA\UNHH34
+sector_020,BDR - Ações Internacionais,BOVESPA,UPAC34,BDR United Parcel,BDR,BOVESPA\UPAC34
+sector_020,BDR - Ações Internacionais,BOVESPA,UPSS34,BDR UPS,BDR,BOVESPA\UPSS34
+sector_020,BDR - Ações Internacionais,BOVESPA,VERZ34,BDR Verizon,BDR,BOVESPA\VERZ34
+sector_020,BDR - Ações Internacionais,BOVESPA,VFCO34,BDR VF Corp,BDR,BOVESPA\VFCO34
+sector_020,BDR - Ações Internacionais,BOVESPA,VISA34,BDR Visa,BDR,BOVESPA\VISA34
+sector_020,BDR - Ações Internacionais,BOVESPA,VLOE34,BDR Vale ADR,BDR,BOVESPA\VLOE34
+sector_020,BDR - Ações Internacionais,BOVESPA,VLYB34,BDR Valley Natl,BDR,BOVESPA\VLYB34
+sector_020,BDR - Ações Internacionais,BOVESPA,VRSN34,BDR VeriSign,BDR,BOVESPA\VRSN34
+sector_020,BDR - Ações Internacionais,BOVESPA,VRTX34,BDR Vertex,BDR,BOVESPA\VRTX34
+sector_020,BDR - Ações Internacionais,BOVESPA,WALM34,BDR Walmart,BDR,BOVESPA\WALM34
+sector_020,BDR - Ações Internacionais,BOVESPA,WFCO34,BDR Wells Fargo,BDR,BOVESPA\WFCO34
+sector_020,BDR - Ações Internacionais,BOVESPA,WUNI34,BDR Western Union,BDR,BOVESPA\WUNI34
+sector_020,BDR - Ações Internacionais,BOVESPA,XRAY34,BDR Dentsply,BDR,BOVESPA\XRAY34
+sector_020,BDR - Ações Internacionais,BOVESPA,XRXB34,BDR Xerox,BDR,BOVESPA\XRXB34
+sector_020,BDR - Ações Internacionais,BOVESPA,Y2PF34,BDR YPF,BDR,BOVESPA\Y2PF34
+sector_020,BDR - Ações Internacionais,BOVESPA,YUMR34,BDR Yum! Brands,BDR,BOVESPA\YUMR34
+sector_021,Commodities - Agronegócio,BOVESPA,AGRO3,Agrogalaxy,Commodity/Ação,BOVESPA\AGRO3
+sector_021,Commodities - Agronegócio,BOVESPA,AGXY3,Agrogalaxy XY,Commodity/Ação,BOVESPA\AGXY3
+sector_021,Commodities - Agronegócio,BOVESPA,BEEF3,Minerva,Commodity/Ação,BOVESPA\BEEF3
+sector_021,Commodities - Agronegócio,BOVESPA,CAML3,Camil Alimentos,Commodity/Ação,BOVESPA\CAML3
+sector_021,Commodities - Agronegócio,COMMODITIES,CC,Cacau Futuro (ICE),Commodity/Ação,COMMODITIES\CC
+sector_021,Commodities - Agronegócio,BOVESPA,CORN11,ETF Grãos BR,Commodity/Ação,BOVESPA\CORN11
+sector_021,Commodities - Agronegócio,COMMODITIES,CT,Algodão Futuro (ICE),Commodity/Ação,COMMODITIES\CT
+sector_021,Commodities - Agronegócio,COMMODITIES,GF,Boi Magro Futuro (CME),Commodity/Ação,COMMODITIES\GF
+sector_021,Commodities - Agronegócio,COMMODITIES,HE,Porco Futuro (CME),Commodity/Ação,COMMODITIES\HE
+sector_021,Commodities - Agronegócio,BOVESPA,JALL3,JBS,Commodity/Ação,BOVESPA\JALL3
+sector_021,Commodities - Agronegócio,COMMODITIES,KC,Café Arábica (ICE),Commodity/Ação,COMMODITIES\KC
+sector_021,Commodities - Agronegócio,COMMODITIES,LE,Boi Gordo Futuro (CME),Commodity/Ação,COMMODITIES\LE
+sector_021,Commodities - Agronegócio,COMMODITIES,OJ,Suco Laranja (ICE),Commodity/Ação,COMMODITIES\OJ
+sector_021,Commodities - Agronegócio,COMMODITIES,SB,Açúcar Futuro (ICE),Commodity/Ação,COMMODITIES\SB
+sector_021,Commodities - Agronegócio,BOVESPA,SLCE3,SLC Agrícola,Commodity/Ação,BOVESPA\SLCE3
+sector_021,Commodities - Agronegócio,BOVESPA,SMTO3,São Martinho Açúcar,Commodity/Ação,BOVESPA\SMTO3
+sector_021,Commodities - Agronegócio,BOVESPA,SOJA3,Soja BR,Commodity/Ação,BOVESPA\SOJA3
+sector_021,Commodities - Agronegócio,BOVESPA,TTEN3,Três Tentos,Commodity/Ação,BOVESPA\TTEN3
+sector_021,Commodities - Agronegócio,COMMODITIES,ZC,Milho Futuro (CBOT),Commodity/Ação,COMMODITIES\ZC
+sector_021,Commodities - Agronegócio,COMMODITIES,ZS,Soja Futuro (CBOT),Commodity/Ação,COMMODITIES\ZS
+sector_021,Commodities - Agronegócio,COMMODITIES,ZW,Trigo Futuro (CBOT),Commodity/Ação,COMMODITIES\ZW
+sector_022,Commodities - Café (BMF),BMF,CCMH26,Futuro Café Conillon H/26,Futuro,BMF\CCMH26
+sector_022,Commodities - Café (BMF),BMF,CCMK26,Futuro Café Conillon K/26,Futuro,BMF\CCMK26
+sector_022,Commodities - Café (BMF),BMF,CCMU26,Futuro Café Conillon U/26,Futuro,BMF\CCMU26
+sector_022,Commodities - Café (BMF),BMF,SJCH26,Futuro Café H/26,Futuro,BMF\SJCH26
+sector_022,Commodities - Café (BMF),BMF,SJCK26,Futuro Café K/26,Futuro,BMF\SJCK26
+sector_022,Commodities - Café (BMF),BMF,SJCN26,Futuro Café N/26,Futuro,BMF\SJCN26
+sector_022,Commodities - Café (BMF),BMF,SJCX26,Futuro Café X/26,Futuro,BMF\SJCX26
+sector_023,Commodities - Energia e Petróleo,BOVESPA,BRAV3,Brava Energia,Commodity/Ação,BOVESPA\BRAV3
+sector_023,Commodities - Energia e Petróleo,COMMODITIES,BZ,Petróleo Brent Futuro (ICE),Commodity/Ação,COMMODITIES\BZ
+sector_023,Commodities - Energia e Petróleo,BOVESPA,CHVX34,BDR Chevron,Commodity/Ação,BOVESPA\CHVX34
+sector_023,Commodities - Energia e Petróleo,COMMODITIES,CL,Petróleo WTI Futuro (NYMEX),Commodity/Ação,COMMODITIES\CL
+sector_023,Commodities - Energia e Petróleo,BOVESPA,EXXO34,BDR ExxonMobil,Commodity/Ação,BOVESPA\EXXO34
+sector_023,Commodities - Energia e Petróleo,COMMODITIES,HO,Óleo de Aquecimento (NYMEX),Commodity/Ação,COMMODITIES\HO
+sector_023,Commodities - Energia e Petróleo,COMMODITIES,NG,Gás Natural Futuro (NYMEX),Commodity/Ação,COMMODITIES\NG
+sector_023,Commodities - Energia e Petróleo,BOVESPA,PETR3,Petrobras PN,Commodity/Ação,BOVESPA\PETR3
+sector_023,Commodities - Energia e Petróleo,BOVESPA,PETR4,Petrobras PNB,Commodity/Ação,BOVESPA\PETR4
+sector_023,Commodities - Energia e Petróleo,BOVESPA,PRIO3,PetroRio,Commodity/Ação,BOVESPA\PRIO3
+sector_023,Commodities - Energia e Petróleo,BOVESPA,PRNR3,Panoro Energy,Commodity/Ação,BOVESPA\PRNR3
+sector_023,Commodities - Energia e Petróleo,COMMODITIES,RB,Gasolina Futuro (NYMEX),Commodity/Ação,COMMODITIES\RB
+sector_023,Commodities - Energia e Petróleo,BOVESPA,RECV3,Recôncavo,Commodity/Ação,BOVESPA\RECV3
+sector_023,Commodities - Energia e Petróleo,BOVESPA,RPMG3,Refinaria Manguinhos,Commodity/Ação,BOVESPA\RPMG3
+sector_024,Commodities - Etanol (BMF),BMF,ETHG26,Futuro Etanol G/26,Futuro,BMF\ETHG26
+sector_024,Commodities - Etanol (BMF),BMF,ETHH26,Futuro Etanol H/26,Futuro,BMF\ETHH26
+sector_025,Commodities - Metais Preciosos,COMMODITIES,ALI,Alumínio Futuro,Commodity,COMMODITIES\ALI
+sector_025,Commodities - Metais Preciosos,BOVESPA,AURA33,BDR Aura Minerals,Commodity,BOVESPA\AURA33
+sector_025,Commodities - Metais Preciosos,COMMODITIES,GC,Ouro Futuro (COMEX),Commodity,COMMODITIES\GC
+sector_025,Commodities - Metais Preciosos,BOVESPA,GOLD11,ETF Ouro BR,Commodity,BOVESPA\GOLD11
+sector_025,Commodities - Metais Preciosos,COMMODITIES,HG,Cobre Futuro (COMEX),Commodity,COMMODITIES\HG
+sector_025,Commodities - Metais Preciosos,COMMODITIES,PA,Paládio Futuro (NYMEX),Commodity,COMMODITIES\PA
+sector_025,Commodities - Metais Preciosos,COMMODITIES,PL,Platina Futuro (NYMEX),Commodity,COMMODITIES\PL
+sector_025,Commodities - Metais Preciosos,COMMODITIES,SI,Prata Futuro (COMEX),Commodity,COMMODITIES\SI
+sector_025,Commodities - Metais Preciosos,BOVESPA,SLVB34,BDR Silver ETF,Commodity,BOVESPA\SLVB34
+sector_026,Commodities - Ouro (BMF),BMF,BGI,Futuro Mini-Ouro,Futuro,BMF\BGI
+sector_026,Commodities - Ouro (BMF),BMF,BGIO,Futuro Ouro BMF,Futuro,BMF\BGIO
+sector_027,Cripto - ETFs e Fundos,BOVESPA,AZPL11,ETF Arbitrum/Polygon,ETF,BOVESPA\AZPL11
+sector_027,Cripto - ETFs e Fundos,BOVESPA,BITH11,ETF Bitcoin Hashdex,ETF,BOVESPA\BITH11
+sector_027,Cripto - ETFs e Fundos,BOVESPA,BTHF11,ETF Bitcoin Fundo,ETF,BOVESPA\BTHF11
+sector_027,Cripto - ETFs e Fundos,BOVESPA,COIN11,ETF Coinbase,ETF,BOVESPA\COIN11
+sector_027,Cripto - ETFs e Fundos,BOVESPA,CRPT11,ETF Cripto Diversificado B,ETF,BOVESPA\CRPT11
+sector_027,Cripto - ETFs e Fundos,BOVESPA,DEFI11,ETF DeFi,ETF,BOVESPA\DEFI11
+sector_027,Cripto - ETFs e Fundos,BOVESPA,ETHA39,BDR Ethereum iShares,ETF,BOVESPA\ETHA39
+sector_027,Cripto - ETFs e Fundos,BOVESPA,ETHE11,ETF Ethereum,ETF,BOVESPA\ETHE11
+sector_027,Cripto - ETFs e Fundos,BOVESPA,HASH11,ETF Cripto Diversificado,ETF,BOVESPA\HASH11
+sector_027,Cripto - ETFs e Fundos,BOVESPA,HODL11,ETF Bitcoin HODL,ETF,BOVESPA\HODL11
+sector_027,Cripto - ETFs e Fundos,BOVESPA,IBIT39,BDR Bitcoin iShares,ETF,BOVESPA\IBIT39
+sector_027,Cripto - ETFs e Fundos,BOVESPA,QBTC11,ETF Bitcoin QBTC,ETF,BOVESPA\QBTC11
+sector_027,Cripto - ETFs e Fundos,BOVESPA,QETH11,ETF Ethereum Hashdex,ETF,BOVESPA\QETH11
+sector_027,Cripto - ETFs e Fundos,BOVESPA,RIOT34,BDR Riot Blockchain,ETF,BOVESPA\RIOT34
+sector_027,Cripto - ETFs e Fundos,BOVESPA,SNFZ11,ETF Solana,ETF,BOVESPA\SNFZ11
+sector_027,Cripto - ETFs e Fundos,BOVESPA,SOLH11,ETF Solana Hashdex,ETF,BOVESPA\SOLH11
+sector_028,Cripto - Futuros (BMF),BMF,BGIG26,Futuro Ouro/Bitcoin Fev/26,Futuro,BMF\BGIG26
+sector_028,Cripto - Futuros (BMF),BMF,BGIH26,Futuro Ouro/Bitcoin Mar/26,Futuro,BMF\BGIH26
+sector_028,Cripto - Futuros (BMF),BMF,BGIJ26,Futuro Ouro/Bitcoin Abr/26,Futuro,BMF\BGIJ26
+sector_028,Cripto - Futuros (BMF),BMF,BGIK26,Futuro Ouro/Bitcoin Mai/26,Futuro,BMF\BGIK26
+sector_028,Cripto - Futuros (BMF),BMF,BGIM26,Futuro Ouro/Bitcoin Jun/26,Futuro,BMF\BGIM26
+sector_028,Cripto - Futuros (BMF),BMF,BGIN26,Futuro Ouro/Bitcoin Jul/26,Futuro,BMF\BGIN26
+sector_028,Cripto - Futuros (BMF),BMF,BGIQ26,Futuro Ouro/Bitcoin Ago/26,Futuro,BMF\BGIQ26
+sector_028,Cripto - Futuros (BMF),BMF,BGIU26,Futuro Ouro/Bitcoin Set/26,Futuro,BMF\BGIU26
+sector_028,Cripto - Futuros (BMF),BMF,BGIV26,Futuro Ouro/Bitcoin Out/26,Futuro,BMF\BGIV26
+sector_028,Cripto - Futuros (BMF),BMF,BGIX26,Futuro Ouro/Bitcoin Nov/26,Futuro,BMF\BGIX26
+sector_028,Cripto - Futuros (BMF),BMF,BITG26,Futuro Bitcoin Fev/26,Futuro,BMF\BITG26
+sector_028,Cripto - Futuros (BMF),BMF,BITH26,Futuro Bitcoin Mar/26,Futuro,BMF\BITH26
+sector_028,Cripto - Futuros (BMF),BMF,BITK26,Futuro Bitcoin Mai/26,Futuro,BMF\BITK26
+sector_028,Cripto - Futuros (BMF),BMF,BITN26,Futuro Bitcoin Nov/26,Futuro,BMF\BITN26
+sector_028,Cripto - Futuros (BMF),BMF,BITU26,Futuro Bitcoin Set/26,Futuro,BMF\BITU26
+sector_028,Cripto - Futuros (BMF),BMF,BITZ26,Futuro Bitcoin Dez/26,Futuro,BMF\BITZ26
+sector_028,Cripto - Futuros (BMF),BMF,ETRG26,Futuro Ethereum Fev/26,Futuro,BMF\ETRG26
+sector_028,Cripto - Futuros (BMF),BMF,ETRH26,Futuro Ethereum Mar/26,Futuro,BMF\ETRH26
+sector_028,Cripto - Futuros (BMF),BMF,SOLG26,Futuro Solana Fev/26,Futuro,BMF\SOLG26
+sector_028,Cripto - Futuros (BMF),BMF,SOLH26,Futuro Solana Mar/26,Futuro,BMF\SOLH26
+sector_029,Cripto - Spot,CRYPTO,AAVE,Aave,Criptomoeda,CRYPTO\AAVE
+sector_029,Cripto - Spot,CRYPTO,ADA,Cardano,Criptomoeda,CRYPTO\ADA
+sector_029,Cripto - Spot,CRYPTO,ALGO,Algorand,Criptomoeda,CRYPTO\ALGO
+sector_029,Cripto - Spot,CRYPTO,APT,Aptos,Criptomoeda,CRYPTO\APT
+sector_029,Cripto - Spot,CRYPTO,ARB,Arbitrum,Criptomoeda,CRYPTO\ARB
+sector_029,Cripto - Spot,CRYPTO,ATOM,Cosmos,Criptomoeda,CRYPTO\ATOM
+sector_029,Cripto - Spot,CRYPTO,AVAX,Avalanche,Criptomoeda,CRYPTO\AVAX
+sector_029,Cripto - Spot,CRYPTO,AXS,Axie Infinity,Criptomoeda,CRYPTO\AXS
+sector_029,Cripto - Spot,CRYPTO,BCH,Bitcoin Cash,Criptomoeda,CRYPTO\BCH
+sector_029,Cripto - Spot,CRYPTO,BNB,Binance Coin,Criptomoeda,CRYPTO\BNB
+sector_029,Cripto - Spot,CRYPTO,BTC,Bitcoin,Criptomoeda,CRYPTO\BTC
+sector_029,Cripto - Spot,CRYPTO,BUSD,Binance USD,Criptomoeda,CRYPTO\BUSD
+sector_029,Cripto - Spot,CRYPTO,DAI,Dai Stablecoin,Criptomoeda,CRYPTO\DAI
+sector_029,Cripto - Spot,CRYPTO,DOGE,Dogecoin,Criptomoeda,CRYPTO\DOGE
+sector_029,Cripto - Spot,CRYPTO,DOT,Polkadot,Criptomoeda,CRYPTO\DOT
+sector_029,Cripto - Spot,CRYPTO,EOS,EOS,Criptomoeda,CRYPTO\EOS
+sector_029,Cripto - Spot,CRYPTO,ETH,Ethereum,Criptomoeda,CRYPTO\ETH
+sector_029,Cripto - Spot,CRYPTO,FDUSD,First Digital USD,Criptomoeda,CRYPTO\FDUSD
+sector_029,Cripto - Spot,CRYPTO,FIL,Filecoin,Criptomoeda,CRYPTO\FIL
+sector_029,Cripto - Spot,CRYPTO,HBAR,Hedera,Criptomoeda,CRYPTO\HBAR
+sector_029,Cripto - Spot,CRYPTO,ICP,Internet Computer,Criptomoeda,CRYPTO\ICP
+sector_029,Cripto - Spot,CRYPTO,LINK,Chainlink,Criptomoeda,CRYPTO\LINK
+sector_029,Cripto - Spot,CRYPTO,LTC,Litecoin,Criptomoeda,CRYPTO\LTC
+sector_029,Cripto - Spot,CRYPTO,MANA,Decentraland,Criptomoeda,CRYPTO\MANA
+sector_029,Cripto - Spot,CRYPTO,MATIC,Polygon,Criptomoeda,CRYPTO\MATIC
+sector_029,Cripto - Spot,CRYPTO,NEAR,Near Protocol,Criptomoeda,CRYPTO\NEAR
+sector_029,Cripto - Spot,CRYPTO,OP,Optimism,Criptomoeda,CRYPTO\OP
+sector_029,Cripto - Spot,CRYPTO,PEPE,Pepe,Criptomoeda,CRYPTO\PEPE
+sector_029,Cripto - Spot,CRYPTO,SAND,The Sandbox,Criptomoeda,CRYPTO\SAND
+sector_029,Cripto - Spot,CRYPTO,SHIB,Shiba Inu,Criptomoeda,CRYPTO\SHIB
+sector_029,Cripto - Spot,CRYPTO,SOL,Solana,Criptomoeda,CRYPTO\SOL
+sector_029,Cripto - Spot,CRYPTO,SUI,Sui,Criptomoeda,CRYPTO\SUI
+sector_029,Cripto - Spot,CRYPTO,TON,Toncoin,Criptomoeda,CRYPTO\TON
+sector_029,Cripto - Spot,CRYPTO,TRX,Tron,Criptomoeda,CRYPTO\TRX
+sector_029,Cripto - Spot,CRYPTO,UNI,Uniswap,Criptomoeda,CRYPTO\UNI
+sector_029,Cripto - Spot,CRYPTO,USDC,USD Coin,Criptomoeda,CRYPTO\USDC
+sector_029,Cripto - Spot,CRYPTO,USDT,Tether USDT,Criptomoeda,CRYPTO\USDT
+sector_029,Cripto - Spot,CRYPTO,VET,VeChain,Criptomoeda,CRYPTO\VET
+sector_029,Cripto - Spot,CRYPTO,XLM,Stellar,Criptomoeda,CRYPTO\XLM
+sector_029,Cripto - Spot,CRYPTO,XRP,Ripple,Criptomoeda,CRYPTO\XRP
+sector_029,Cripto - Spot,CRYPTO,XTZ,Tezos,Criptomoeda,CRYPTO\XTZ
+sector_030,FII - CRI e Papel,BOVESPA,BCRI11,Banestes CRI,FII,BOVESPA\BCRI11
+sector_030,FII - CRI e Papel,BOVESPA,CACR11,CA Credito,FII,BOVESPA\CACR11
+sector_030,FII - CRI e Papel,BOVESPA,CCME11,CC Mais,FII,BOVESPA\CCME11
+sector_030,FII - CRI e Papel,BOVESPA,CPTS11,Capitânia,FII,BOVESPA\CPTS11
+sector_030,FII - CRI e Papel,BOVESPA,CXRI11,Caixa RI,FII,BOVESPA\CXRI11
+sector_030,FII - CRI e Papel,BOVESPA,DCRA11,DCA Real,FII,BOVESPA\DCRA11
+sector_030,FII - CRI e Papel,BOVESPA,GCRI11,Gen Cap CRI,FII,BOVESPA\GCRI11
+sector_030,FII - CRI e Papel,BOVESPA,HCRI11,Hedge CRI,FII,BOVESPA\HCRI11
+sector_030,FII - CRI e Papel,BOVESPA,HGCR11,CGHG CRI,FII,BOVESPA\HGCR11
+sector_030,FII - CRI e Papel,BOVESPA,IBCR11,Itaú CRI,FII,BOVESPA\IBCR11
+sector_030,FII - CRI e Papel,BOVESPA,ICRI11,Iridium CRI,FII,BOVESPA\ICRI11
+sector_030,FII - CRI e Papel,BOVESPA,KCRE11,Kinea CRI,FII,BOVESPA\KCRE11
+sector_030,FII - CRI e Papel,BOVESPA,KNCA11,Kinea CA,FII,BOVESPA\KNCA11
+sector_030,FII - CRI e Papel,BOVESPA,KNCR11,Kinea CRI,FII,BOVESPA\KNCR11
+sector_030,FII - CRI e Papel,BOVESPA,KNHF11,Kinea HF,FII,BOVESPA\KNHF11
+sector_030,FII - CRI e Papel,BOVESPA,KNHY11,Kinea HY,FII,BOVESPA\KNHY11
+sector_030,FII - CRI e Papel,BOVESPA,KNIP11,Kinea IP,FII,BOVESPA\KNIP11
+sector_030,FII - CRI e Papel,BOVESPA,KNRE11,Kinea RE,FII,BOVESPA\KNRE11
+sector_030,FII - CRI e Papel,BOVESPA,KNRI11,Kinea RI,FII,BOVESPA\KNRI11
+sector_030,FII - CRI e Papel,BOVESPA,KNSC11,Kinea SC,FII,BOVESPA\KNSC11
+sector_030,FII - CRI e Papel,BOVESPA,KNUQ11,Kinea Unique,FII,BOVESPA\KNUQ11
+sector_030,FII - CRI e Papel,BOVESPA,MXRF11,Maxi Renda,FII,BOVESPA\MXRF11
+sector_030,FII - CRI e Papel,BOVESPA,NCRI11,Nord CRI,FII,BOVESPA\NCRI11
+sector_030,FII - CRI e Papel,BOVESPA,RBHY11,RBR High Yield,FII,BOVESPA\RBHY11
+sector_030,FII - CRI e Papel,BOVESPA,RBIF11,RBR IF,FII,BOVESPA\RBIF11
+sector_030,FII - CRI e Papel,BOVESPA,RBOP11,RBR Op,FII,BOVESPA\RBOP11
+sector_030,FII - CRI e Papel,BOVESPA,RBRL11,RBR Log,FII,BOVESPA\RBRL11
+sector_030,FII - CRI e Papel,BOVESPA,RBRP11,RBR Prop,FII,BOVESPA\RBRP11
+sector_030,FII - CRI e Papel,BOVESPA,RBRR11,RBR R,FII,BOVESPA\RBRR11
+sector_030,FII - CRI e Papel,BOVESPA,RBRS11,RBR RS,FII,BOVESPA\RBRS11
+sector_030,FII - CRI e Papel,BOVESPA,RBRX11,RBR X,FII,BOVESPA\RBRX11
+sector_030,FII - CRI e Papel,BOVESPA,RBRY11,RBR Rendimento High Grade,FII,BOVESPA\RBRY11
+sector_030,FII - CRI e Papel,BOVESPA,RECR11,REC Recebíveis,FII,BOVESPA\RECR11
+sector_030,FII - CRI e Papel,BOVESPA,VCRI11,Valora CRI,FII,BOVESPA\VCRI11
+sector_030,FII - CRI e Papel,BOVESPA,VCRR11,Valora Credito,FII,BOVESPA\VCRR11
+sector_030,FII - CRI e Papel,BOVESPA,VGRI11,VG CRI,FII,BOVESPA\VGRI11
+sector_030,FII - CRI e Papel,BOVESPA,VRTA11,Votorantim Asset,FII,BOVESPA\VRTA11
+sector_031,FII - Diversificado,BOVESPA,AAGR11,FII AAG,FII,BOVESPA\AAGR11
+sector_031,FII - Diversificado,BOVESPA,AFHI11,AF Invest,FII,BOVESPA\AFHI11
+sector_031,FII - Diversificado,BOVESPA,AIEC11,Ancar IC,FII,BOVESPA\AIEC11
+sector_031,FII - Diversificado,BOVESPA,AJFI11,AJ Fundo,FII,BOVESPA\AJFI11
+sector_031,FII - Diversificado,BOVESPA,ALZR11,Alianza Trust,FII,BOVESPA\ALZR11
+sector_031,FII - Diversificado,BOVESPA,AROA11,Aroa,FII,BOVESPA\AROA11
+sector_031,FII - Diversificado,BOVESPA,ARRI11,Arri,FII,BOVESPA\ARRI11
+sector_031,FII - Diversificado,BOVESPA,AZIN11,Azimut,FII,BOVESPA\AZIN11
+sector_031,FII - Diversificado,BOVESPA,BBFO11,BB FO,FII,BOVESPA\BBFO11
+sector_031,FII - Diversificado,BOVESPA,BBIG11,BB IG,FII,BOVESPA\BBIG11
+sector_031,FII - Diversificado,BOVESPA,BBRC11,BB RC,FII,BOVESPA\BBRC11
+sector_031,FII - Diversificado,BOVESPA,BCIA11,BC IA,FII,BOVESPA\BCIA11
+sector_031,FII - Diversificado,BOVESPA,BIDB11,BIDB,FII,BOVESPA\BIDB11
+sector_031,FII - Diversificado,BOVESPA,BIME11,Bime,FII,BOVESPA\BIME11
+sector_031,FII - Diversificado,BOVESPA,BODB11,Bod B,FII,BOVESPA\BODB11
+sector_031,FII - Diversificado,BOVESPA,BRZP11,BRZ P,FII,BOVESPA\BRZP11
+sector_031,FII - Diversificado,BOVESPA,BTAG11,BT AG,FII,BOVESPA\BTAG11
+sector_031,FII - Diversificado,BOVESPA,BTAL11,BT AL,FII,BOVESPA\BTAL11
+sector_031,FII - Diversificado,BOVESPA,BTCI11,BT CI,FII,BOVESPA\BTCI11
+sector_031,FII - Diversificado,BOVESPA,BTRA11,BT RA,FII,BOVESPA\BTRA11
+sector_031,FII - Diversificado,BOVESPA,CARE11,Care,FII,BOVESPA\CARE11
+sector_031,FII - Diversificado,BOVESPA,CDII11,CDI,FII,BOVESPA\CDII11
+sector_031,FII - Diversificado,BOVESPA,CLIN11,Clin,FII,BOVESPA\CLIN11
+sector_031,FII - Diversificado,BOVESPA,CNES11,CNES,FII,BOVESPA\CNES11
+sector_031,FII - Diversificado,BOVESPA,CPSH11,CP SH,FII,BOVESPA\CPSH11
+sector_031,FII - Diversificado,BOVESPA,CPTI11,Capitânia Tit,FII,BOVESPA\CPTI11
+sector_031,FII - Diversificado,BOVESPA,CPTR11,Cap TR,FII,BOVESPA\CPTR11
+sector_031,FII - Diversificado,BOVESPA,CRFF11,CR FF,FII,BOVESPA\CRFF11
+sector_031,FII - Diversificado,BOVESPA,CRPT11,Cripto FII,FII,BOVESPA\CRPT11
+sector_031,FII - Diversificado,BOVESPA,CXAG11,Caixa AG,FII,BOVESPA\CXAG11
+sector_031,FII - Diversificado,BOVESPA,CXCI11,Caixa CI,FII,BOVESPA\CXCI11
+sector_031,FII - Diversificado,BOVESPA,CXCO11,Caixa CO,FII,BOVESPA\CXCO11
+sector_031,FII - Diversificado,BOVESPA,CYCR11,Cycle CRI,FII,BOVESPA\CYCR11
+sector_031,FII - Diversificado,BOVESPA,DAMA11,Dama,FII,BOVESPA\DAMA11
+sector_031,FII - Diversificado,BOVESPA,DEFI11,DeFi,FII,BOVESPA\DEFI11
+sector_031,FII - Diversificado,BOVESPA,DPRO11,DP RO,FII,BOVESPA\DPRO11
+sector_031,FII - Diversificado,BOVESPA,DVFF11,DV FF,FII,BOVESPA\DVFF11
+sector_031,FII - Diversificado,BOVESPA,EGAF11,EGA F,FII,BOVESPA\EGAF11
+sector_031,FII - Diversificado,BOVESPA,EGYR11,EGY R,FII,BOVESPA\EGYR11
+sector_031,FII - Diversificado,BOVESPA,ENDD11,END D,FII,BOVESPA\ENDD11
+sector_031,FII - Diversificado,BOVESPA,EQIR11,EQ IR,FII,BOVESPA\EQIR11
+sector_031,FII - Diversificado,BOVESPA,EXES11,EX ES,FII,BOVESPA\EXES11
+sector_031,FII - Diversificado,BOVESPA,FAED11,FA ED,FII,BOVESPA\FAED11
+sector_031,FII - Diversificado,BOVESPA,FATN11,FAT N,FII,BOVESPA\FATN11
+sector_031,FII - Diversificado,BOVESPA,FCFL11,FC FL,FII,BOVESPA\FCFL11
+sector_031,FII - Diversificado,BOVESPA,FIGS11,FIG S,FII,BOVESPA\FIGS11
+sector_031,FII - Diversificado,BOVESPA,FIIB11,FI IB,FII,BOVESPA\FIIB11
+sector_031,FII - Diversificado,BOVESPA,FIND11,FI ND,FII,BOVESPA\FIND11
+sector_031,FII - Diversificado,BOVESPA,FIXA11,FIX A,FII,BOVESPA\FIXA11
+sector_031,FII - Diversificado,BOVESPA,FLCR11,FL CR,FII,BOVESPA\FLCR11
+sector_031,FII - Diversificado,BOVESPA,FMOF11,FM OF,FII,BOVESPA\FMOF11
+sector_031,FII - Diversificado,BOVESPA,FNAM11,FN AM,FII,BOVESPA\FNAM11
+sector_031,FII - Diversificado,BOVESPA,FVPQ11,FV PQ,FII,BOVESPA\FVPQ11
+sector_031,FII - Diversificado,BOVESPA,GAME11,GAME,FII,BOVESPA\GAME11
+sector_031,FII - Diversificado,BOVESPA,GARE11,GA RE,FII,BOVESPA\GARE11
+sector_031,FII - Diversificado,BOVESPA,GCRA11,GC RA,FII,BOVESPA\GCRA11
+sector_031,FII - Diversificado,BOVESPA,GCRI11,GC RI,FII,BOVESPA\GCRI11
+sector_031,FII - Diversificado,BOVESPA,GENB11,GE NB,FII,BOVESPA\GENB11
+sector_031,FII - Diversificado,BOVESPA,GRWA11,GR WA,FII,BOVESPA\GRWA11
+sector_031,FII - Diversificado,BOVESPA,GSFI11,GS FI,FII,BOVESPA\GSFI11
+sector_031,FII - Diversificado,BOVESPA,GZIT11,GZ IT,FII,BOVESPA\GZIT11
+sector_031,FII - Diversificado,BOVESPA,HABT11,HAB T,FII,BOVESPA\HABT11
+sector_031,FII - Diversificado,BOVESPA,HBCR11,HB CR,FII,BOVESPA\HBCR11
+sector_031,FII - Diversificado,BOVESPA,HCTR11,HC TR,FII,BOVESPA\HCTR11
+sector_031,FII - Diversificado,BOVESPA,HOFC11,HO FC,FII,BOVESPA\HOFC11
+sector_031,FII - Diversificado,BOVESPA,HRDF11,HR DF,FII,BOVESPA\HRDF11
+sector_031,FII - Diversificado,BOVESPA,HREC11,HR EC,FII,BOVESPA\HREC11
+sector_031,FII - Diversificado,BOVESPA,HTMX11,HT MX,FII,BOVESPA\HTMX11
+sector_031,FII - Diversificado,BOVESPA,IAGR11,IA GR,FII,BOVESPA\IAGR11
+sector_031,FII - Diversificado,BOVESPA,IFIX11,ETF FIIs,FII,BOVESPA\IFIX11
+sector_031,FII - Diversificado,BOVESPA,ITIP11,IT IP,FII,BOVESPA\ITIP11
+sector_031,FII - Diversificado,BOVESPA,ITRI11,IT RI,FII,BOVESPA\ITRI11
+sector_031,FII - Diversificado,BOVESPA,JFLL11,JF LL,FII,BOVESPA\JFLL11
+sector_031,FII - Diversificado,BOVESPA,JGPX11,JGP X,FII,BOVESPA\JGPX11
+sector_031,FII - Diversificado,BOVESPA,JPPA11,JP PA,FII,BOVESPA\JPPA11
+sector_031,FII - Diversificado,BOVESPA,JSAF11,JS AF,FII,BOVESPA\JSAF11
+sector_031,FII - Diversificado,BOVESPA,JURO11,JURO,FII,BOVESPA\JURO11
+sector_031,FII - Diversificado,BOVESPA,KDIF11,KD IF,FII,BOVESPA\KDIF11
+sector_031,FII - Diversificado,BOVESPA,KISU11,KI SU,FII,BOVESPA\KISU11
+sector_031,FII - Diversificado,BOVESPA,KIVO11,KI VO,FII,BOVESPA\KIVO11
+sector_031,FII - Diversificado,BOVESPA,LASC11,LA SC,FII,BOVESPA\LASC11
+sector_031,FII - Diversificado,BOVESPA,LIFE11,LIFE,FII,BOVESPA\LIFE11
+sector_031,FII - Diversificado,BOVESPA,LSAG11,LS AG,FII,BOVESPA\LSAG11
+sector_031,FII - Diversificado,BOVESPA,MANA11,MANA,FII,BOVESPA\MANA11
+sector_031,FII - Diversificado,BOVESPA,MAXR11,MAX R,FII,BOVESPA\MAXR11
+sector_031,FII - Diversificado,BOVESPA,MCCI11,MC CI,FII,BOVESPA\MCCI11
+sector_031,FII - Diversificado,BOVESPA,MFII11,MF II,FII,BOVESPA\MFII11
+sector_031,FII - Diversificado,BOVESPA,MGHT11,MG HT,FII,BOVESPA\MGHT11
+sector_031,FII - Diversificado,BOVESPA,MXRF11,Maxi Renda,FII,BOVESPA\MXRF11
+sector_031,FII - Diversificado,BOVESPA,NAVT11,NAV T,FII,BOVESPA\NAVT11
+sector_031,FII - Diversificado,BOVESPA,NEWL11,NEW L,FII,BOVESPA\NEWL11
+sector_031,FII - Diversificado,BOVESPA,OGIN11,OG IN,FII,BOVESPA\OGIN11
+sector_031,FII - Diversificado,BOVESPA,OIAG11,OI AG,FII,BOVESPA\OIAG11
+sector_031,FII - Diversificado,BOVESPA,OUJP11,OU JP,FII,BOVESPA\OUJP11
+sector_031,FII - Diversificado,BOVESPA,PABY11,PAB Y,FII,BOVESPA\PABY11
+sector_031,FII - Diversificado,BOVESPA,PATC11,PAT C,FII,BOVESPA\PATC11
+sector_031,FII - Diversificado,BOVESPA,PATL11,PAT L,FII,BOVESPA\PATL11
+sector_031,FII - Diversificado,BOVESPA,PEMA11,PE MA,FII,BOVESPA\PEMA11
+sector_031,FII - Diversificado,BOVESPA,PEVC11,PE VC,FII,BOVESPA\PEVC11
+sector_031,FII - Diversificado,BOVESPA,PFIN11,PF IN,FII,BOVESPA\PFIN11
+sector_031,FII - Diversificado,BOVESPA,PLCA11,PL CA,FII,BOVESPA\PLCA11
+sector_031,FII - Diversificado,BOVESPA,PLRI11,PL RI,FII,BOVESPA\PLRI11
+sector_031,FII - Diversificado,BOVESPA,PORD11,PO RD,FII,BOVESPA\PORD11
+sector_031,FII - Diversificado,BOVESPA,PPLA11,PP LA,FII,BOVESPA\PPLA11
+sector_031,FII - Diversificado,BOVESPA,PRSN11,PR SN,FII,BOVESPA\PRSN11
+sector_031,FII - Diversificado,BOVESPA,PSVM11,PS VM,FII,BOVESPA\PSVM11
+sector_031,FII - Diversificado,BOVESPA,RBDS11,RB DS,FII,BOVESPA\RBDS11
+sector_031,FII - Diversificado,BOVESPA,RBHG11,RB HG,FII,BOVESPA\RBHG11
+sector_031,FII - Diversificado,BOVESPA,RBIR11,RB IR,FII,BOVESPA\RBIR11
+sector_031,FII - Diversificado,BOVESPA,RCFA11,RC FA,FII,BOVESPA\RCFA11
+sector_031,FII - Diversificado,BOVESPA,RCRB11,RC RB,FII,BOVESPA\RCRB11
+sector_031,FII - Diversificado,BOVESPA,RELG11,RE LG,FII,BOVESPA\RELG11
+sector_031,FII - Diversificado,BOVESPA,RINV11,RI NV,FII,BOVESPA\RINV11
+sector_031,FII - Diversificado,BOVESPA,RNGO11,RN GO,FII,BOVESPA\RNGO11
+sector_031,FII - Diversificado,BOVESPA,RPRI11,RP RI,FII,BOVESPA\RPRI11
+sector_031,FII - Diversificado,BOVESPA,RZAG11,RZ AG,FII,BOVESPA\RZAG11
+sector_031,FII - Diversificado,BOVESPA,RZAK11,RZ AK,FII,BOVESPA\RZAK11
+sector_031,FII - Diversificado,BOVESPA,RZAT11,RZ AT,FII,BOVESPA\RZAT11
+sector_031,FII - Diversificado,BOVESPA,RZTR11,RZ TR,FII,BOVESPA\RZTR11
+sector_031,FII - Diversificado,BOVESPA,SCPF11,SC PF,FII,BOVESPA\SCPF11
+sector_031,FII - Diversificado,BOVESPA,SMRE11,SM RE,FII,BOVESPA\SMRE11
+sector_031,FII - Diversificado,BOVESPA,SNAG11,SN AG,FII,BOVESPA\SNAG11
+sector_031,FII - Diversificado,BOVESPA,SNCI11,SN CI,FII,BOVESPA\SNCI11
+sector_031,FII - Diversificado,BOVESPA,SNEL11,SN EL,FII,BOVESPA\SNEL11
+sector_031,FII - Diversificado,BOVESPA,SNFF11,SN FF,FII,BOVESPA\SNFF11
+sector_031,FII - Diversificado,BOVESPA,SNLG11,SN LG,FII,BOVESPA\SNLG11
+sector_031,FII - Diversificado,BOVESPA,SNME11,SN ME,FII,BOVESPA\SNME11
+sector_031,FII - Diversificado,BOVESPA,SPTW11,SP TW,FII,BOVESPA\SPTW11
+sector_031,FII - Diversificado,BOVESPA,SVAL11,SV AL,FII,BOVESPA\SVAL11
+sector_031,FII - Diversificado,BOVESPA,TEPP11,TE PP,FII,BOVESPA\TEPP11
+sector_031,FII - Diversificado,BOVESPA,TGAR11,TG AR,FII,BOVESPA\TGAR11
+sector_031,FII - Diversificado,BOVESPA,TORD11,TO RD,FII,BOVESPA\TORD11
+sector_031,FII - Diversificado,BOVESPA,TRBL11,TR BL,FII,BOVESPA\TRBL11
+sector_031,FII - Diversificado,BOVESPA,TRIG11,TR IG,FII,BOVESPA\TRIG11
+sector_031,FII - Diversificado,BOVESPA,TVRI11,TV RI,FII,BOVESPA\TVRI11
+sector_031,FII - Diversificado,BOVESPA,URPR11,UR PR,FII,BOVESPA\URPR11
+sector_031,FII - Diversificado,BOVESPA,VCJR11,VC JR,FII,BOVESPA\VCJR11
+sector_031,FII - Diversificado,BOVESPA,VCRA11,VC RA,FII,BOVESPA\VCRA11
+sector_031,FII - Diversificado,BOVESPA,VGHF11,VG HF,FII,BOVESPA\VGHF11
+sector_031,FII - Diversificado,BOVESPA,VGIA11,VG IA,FII,BOVESPA\VGIA11
+sector_031,FII - Diversificado,BOVESPA,VIGT11,VI GT,FII,BOVESPA\VIGT11
+sector_031,FII - Diversificado,BOVESPA,VILG11,VI LG,FII,BOVESPA\VILG11
+sector_031,FII - Diversificado,BOVESPA,VINO11,VI NO,FII,BOVESPA\VINO11
+sector_031,FII - Diversificado,BOVESPA,VISC11,VI SC,FII,BOVESPA\VISC11
+sector_031,FII - Diversificado,BOVESPA,VIUR11,VI UR,FII,BOVESPA\VIUR11
+sector_031,FII - Diversificado,BOVESPA,VSHO11,VS HO,FII,BOVESPA\VSHO11
+sector_031,FII - Diversificado,BOVESPA,VSLH11,VS LH,FII,BOVESPA\VSLH11
+sector_031,FII - Diversificado,BOVESPA,VVCR11,VV CR,FII,BOVESPA\VVCR11
+sector_031,FII - Diversificado,BOVESPA,VVMR11,VV MR,FII,BOVESPA\VVMR11
+sector_031,FII - Diversificado,BOVESPA,WHGR11,WH GR,FII,BOVESPA\WHGR11
+sector_031,FII - Diversificado,BOVESPA,WPLZ11,WP LZ,FII,BOVESPA\WPLZ11
+sector_031,FII - Diversificado,BOVESPA,XPCA11,XP CA,FII,BOVESPA\XPCA11
+sector_031,FII - Diversificado,BOVESPA,XPCM11,XP CM,FII,BOVESPA\XPCM11
+sector_031,FII - Diversificado,BOVESPA,XPID11,XP ID,FII,BOVESPA\XPID11
+sector_031,FII - Diversificado,BOVESPA,XPSF11,XP SF,FII,BOVESPA\XPSF11
+sector_032,FII - Fundo de Fundos,BOVESPA,BCFF11,BTG FoF,FII,BOVESPA\BCFF11
+sector_032,FII - Fundo de Fundos,BOVESPA,CRAA11,Capitânia FoF,FII,BOVESPA\CRAA11
+sector_032,FII - Fundo de Fundos,BOVESPA,FGAA11,Formatura FoF,FII,BOVESPA\FGAA11
+sector_032,FII - Fundo de Fundos,BOVESPA,HFOF11,Hedge Fundo de Fundos,FII,BOVESPA\HFOF11
+sector_032,FII - Fundo de Fundos,BOVESPA,KFOF11,Kinea FoF,FII,BOVESPA\KFOF11
+sector_032,FII - Fundo de Fundos,BOVESPA,RFOF11,REC FoF,FII,BOVESPA\RFOF11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,ATSA11,Átrio Shopping,FII,BOVESPA\ATSA11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,BLCA11,Blanca,FII,BOVESPA\BLCA11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,BRCR11,BTG Lajes Corporativas,FII,BOVESPA\BRCR11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,DEVA11,Devant,FII,BOVESPA\DEVA11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,FLMA11,Flora Malls,FII,BOVESPA\FLMA11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,HGBS11,CGHG Shopping,FII,BOVESPA\HGBS11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,HGRE11,CGHG Real Estate,FII,BOVESPA\HGRE11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,HSML11,HSI Malls,FII,BOVESPA\HSML11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,JSRE11,JS Real Estate,FII,BOVESPA\JSRE11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,PVBI11,VBI Prime Properties,FII,BOVESPA\PVBI11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,RBRD11,RBR Development,FII,BOVESPA\RBRD11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,RBRP11,RBR Properties,FII,BOVESPA\RBRP11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,RBRR11,RBR Renda,FII,BOVESPA\RBRR11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,SEQR11,Sequoia Recebíveis,FII,BOVESPA\SEQR11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,VGIR11,Valora CRI,FII,BOVESPA\VGIR11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,VINO11,Vinci Offices,FII,BOVESPA\VINO11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,VISC11,Vinci Shopping,FII,BOVESPA\VISC11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,XPIE11,XP Industrial,FII,BOVESPA\XPIE11
+sector_033,FII - Lajes Corporativas e Shoppings,BOVESPA,XPML11,XP Malls,FII,BOVESPA\XPML11
+sector_034,FII - Logístico e Industrial,BOVESPA,BLMG11,Bluemacaw Log,FII,BOVESPA\BLMG11
+sector_034,FII - Logístico e Industrial,BOVESPA,BRCO11,Bresco Logística,FII,BOVESPA\BRCO11
+sector_034,FII - Logístico e Industrial,BOVESPA,BTLG11,BTG Log,FII,BOVESPA\BTLG11
+sector_034,FII - Logístico e Industrial,BOVESPA,GGRC11,GGR Covepi,FII,BOVESPA\GGRC11
+sector_034,FII - Logístico e Industrial,BOVESPA,GLOG11,Golgi Log,FII,BOVESPA\GLOG11
+sector_034,FII - Logístico e Industrial,BOVESPA,GTWR11,Gaivota,FII,BOVESPA\GTWR11
+sector_034,FII - Logístico e Industrial,BOVESPA,HGLG11,CGHG Logística,FII,BOVESPA\HGLG11
+sector_034,FII - Logístico e Industrial,BOVESPA,HLOG11,Hedge Log,FII,BOVESPA\HLOG11
+sector_034,FII - Logístico e Industrial,BOVESPA,HSLG11,HSI Log,FII,BOVESPA\HSLG11
+sector_034,FII - Logístico e Industrial,BOVESPA,LVBI11,LVBi,FII,BOVESPA\LVBI11
+sector_034,FII - Logístico e Industrial,BOVESPA,PATL11,Pátria Log,FII,BOVESPA\PATL11
+sector_034,FII - Logístico e Industrial,BOVESPA,RBVA11,RBR Valor,FII,BOVESPA\RBVA11
+sector_034,FII - Logístico e Industrial,BOVESPA,SNLG11,Suno Log,FII,BOVESPA\SNLG11
+sector_034,FII - Logístico e Industrial,BOVESPA,TORD11,Tordesilhas,FII,BOVESPA\TORD11
+sector_034,FII - Logístico e Industrial,BOVESPA,TRXF11,TRX Fundo,FII,BOVESPA\TRXF11
+sector_034,FII - Logístico e Industrial,BOVESPA,VGIP11,Valora Imobi,FII,BOVESPA\VGIP11
+sector_034,FII - Logístico e Industrial,BOVESPA,VILG11,Vinci Logística,FII,BOVESPA\VILG11
+sector_034,FII - Logístico e Industrial,BOVESPA,WHGR11,WH Geral,FII,BOVESPA\WHGR11
+sector_034,FII - Logístico e Industrial,BOVESPA,XPLG11,XP Log,FII,BOVESPA\XPLG11
+sector_035,FII - Saúde e Hospitais,BOVESPA,HCTR11,Hectare CRI,FII,BOVESPA\HCTR11
+sector_035,FII - Saúde e Hospitais,BOVESPA,HOSI11,Hedge Hospitais,FII,BOVESPA\HOSI11
+sector_035,FII - Saúde e Hospitais,BOVESPA,HSAF11,HSI Hospitais,FII,BOVESPA\HSAF11
+sector_035,FII - Saúde e Hospitais,BOVESPA,NSLU11,Nossa Senhora de Lourdes,FII,BOVESPA\NSLU11
+sector_035,FII - Saúde e Hospitais,BOVESPA,NVHO11,Novo Horizonte,FII,BOVESPA\NVHO11
+sector_036,Moedas - Divisas Spot,FOREX,ARS,Peso Argentino,Moeda,FOREX\ARS
+sector_036,Moedas - Divisas Spot,FOREX,AUD,Dólar Australiano,Moeda,FOREX\AUD
+sector_036,Moedas - Divisas Spot,FOREX,BRL,Real Brasileiro,Moeda,FOREX\BRL
+sector_036,Moedas - Divisas Spot,FOREX,CAD,Dólar Canadense,Moeda,FOREX\CAD
+sector_036,Moedas - Divisas Spot,FOREX,CHF,Franco Suíço,Moeda,FOREX\CHF
+sector_036,Moedas - Divisas Spot,FOREX,CLP,Peso Chileno,Moeda,FOREX\CLP
+sector_036,Moedas - Divisas Spot,FOREX,CNH,Yuan Chinês Offshore,Moeda,FOREX\CNH
+sector_036,Moedas - Divisas Spot,FOREX,CNY,Yuan Chinês,Moeda,FOREX\CNY
+sector_036,Moedas - Divisas Spot,FOREX,COP,Peso Colombiano,Moeda,FOREX\COP
+sector_036,Moedas - Divisas Spot,FOREX,DKK,Coroa Dinamarquesa,Moeda,FOREX\DKK
+sector_036,Moedas - Divisas Spot,FOREX,EUR,Euro,Moeda,FOREX\EUR
+sector_036,Moedas - Divisas Spot,FOREX,GBP,Libra Esterlina,Moeda,FOREX\GBP
+sector_036,Moedas - Divisas Spot,FOREX,HKD,Dólar de Hong Kong,Moeda,FOREX\HKD
+sector_036,Moedas - Divisas Spot,FOREX,HUF,Forint Húngaro,Moeda,FOREX\HUF
+sector_036,Moedas - Divisas Spot,FOREX,INR,Rupia Indiana,Moeda,FOREX\INR
+sector_036,Moedas - Divisas Spot,FOREX,JPY,Iene Japonês,Moeda,FOREX\JPY
+sector_036,Moedas - Divisas Spot,FOREX,KRW,Won Coreano Sul,Moeda,FOREX\KRW
+sector_036,Moedas - Divisas Spot,FOREX,MXN,Peso Mexicano,Moeda,FOREX\MXN
+sector_036,Moedas - Divisas Spot,FOREX,NOK,Coroa Norueguesa,Moeda,FOREX\NOK
+sector_036,Moedas - Divisas Spot,FOREX,NZD,Dólar Neo-Zelandês,Moeda,FOREX\NZD
+sector_036,Moedas - Divisas Spot,FOREX,PEN,Sol Peruano,Moeda,FOREX\PEN
+sector_036,Moedas - Divisas Spot,FOREX,PLN,Zloti Polonês,Moeda,FOREX\PLN
+sector_036,Moedas - Divisas Spot,FOREX,RUB,Rublo Russo,Moeda,FOREX\RUB
+sector_036,Moedas - Divisas Spot,FOREX,SEK,Coroa Sueca,Moeda,FOREX\SEK
+sector_036,Moedas - Divisas Spot,FOREX,SGD,Dólar de Singapura,Moeda,FOREX\SGD
+sector_036,Moedas - Divisas Spot,FOREX,THB,Baht Tailandês,Moeda,FOREX\THB
+sector_036,Moedas - Divisas Spot,FOREX,TRY,Lira Turca,Moeda,FOREX\TRY
+sector_036,Moedas - Divisas Spot,FOREX,TWD,Dólar de Taiwan,Moeda,FOREX\TWD
+sector_036,Moedas - Divisas Spot,FOREX,USD,Dólar Americano,Moeda,FOREX\USD
+sector_036,Moedas - Divisas Spot,FOREX,UYU,Peso Uruguaio,Moeda,FOREX\UYU
+sector_036,Moedas - Divisas Spot,FOREX,ZAR,Rand Sul-Africano,Moeda,FOREX\ZAR
+sector_037,Moedas - ETF Câmbio,BOVESPA,DOLA11,ETF Dólar,ETF,BOVESPA\DOLA11
+sector_037,Moedas - ETF Câmbio,BOVESPA,EURO11,ETF Euro,ETF,BOVESPA\EURO11
+sector_037,Moedas - ETF Câmbio,BOVESPA,KDOL11,ETF Dólar Kinea,ETF,BOVESPA\KDOL11
+sector_037,Moedas - ETF Câmbio,BOVESPA,USDB11,ETF USD Bonds,ETF,BOVESPA\USDB11
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,CAD,Futuro Dólar CA,Futuro,BMF\CAD
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOL,Futuro Dólar Cheio,Futuro,BMF\DOL
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLF27,Futuro Dólar Jan/27,Futuro,BMF\DOLF27
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLF28,Futuro Dólar Jan/28,Futuro,BMF\DOLF28
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLF29,Futuro Dólar Jan/29,Futuro,BMF\DOLF29
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLF30,Futuro Dólar Jan/30,Futuro,BMF\DOLF30
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLH26,Futuro Dólar Mar/26,Futuro,BMF\DOLH26
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLJ26,Futuro Dólar Jun/26,Futuro,BMF\DOLJ26
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLJ27,Futuro Dólar Jun/27,Futuro,BMF\DOLJ27
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLJ28,Futuro Dólar Jun/28,Futuro,BMF\DOLJ28
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLN26,Futuro Dólar Nov/26,Futuro,BMF\DOLN26
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLN27,Futuro Dólar Nov/27,Futuro,BMF\DOLN27
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLN28,Futuro Dólar Nov/28,Futuro,BMF\DOLN28
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLN29,Futuro Dólar Nov/29,Futuro,BMF\DOLN29
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLN30,Futuro Dólar Nov/30,Futuro,BMF\DOLN30
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLV26,Futuro Dólar Out/26,Futuro,BMF\DOLV26
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLV27,Futuro Dólar Out/27,Futuro,BMF\DOLV27
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,DOLV28,Futuro Dólar Out/28,Futuro,BMF\DOLV28
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,EUR,Futuro Euro,Futuro,BMF\EUR
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,GBP,Futuro Libra,Futuro,BMF\GBP
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,JPY,Futuro Iene,Futuro,BMF\JPY
+sector_038,Moedas - Futuros Câmbio (BMF),BMF,WDO,Mini Futuro Dólar,Futuro,BMF\WDO
+sector_039,Moedas - Pares Cambiais,FX_PAIR,ARSBRL,Peso AR/Real,Par Cambial,FX_PAIR\ARSBRL
+sector_039,Moedas - Pares Cambiais,FX_PAIR,AUDBRL,Dólar AU/Real,Par Cambial,FX_PAIR\AUDBRL
+sector_039,Moedas - Pares Cambiais,FX_PAIR,AUDUSD,Dólar AU/Dólar,Par Cambial,FX_PAIR\AUDUSD
+sector_039,Moedas - Pares Cambiais,FX_PAIR,CADBRL,Dólar CA/Real,Par Cambial,FX_PAIR\CADBRL
+sector_039,Moedas - Pares Cambiais,FX_PAIR,CHFBRL,Franco Suíço/Real,Par Cambial,FX_PAIR\CHFBRL
+sector_039,Moedas - Pares Cambiais,FX_PAIR,CNYBRL,Yuan/Real,Par Cambial,FX_PAIR\CNYBRL
+sector_039,Moedas - Pares Cambiais,FX_PAIR,EURBRL,Euro/Real,Par Cambial,FX_PAIR\EURBRL
+sector_039,Moedas - Pares Cambiais,FX_PAIR,EURGBP,Euro/Libra,Par Cambial,FX_PAIR\EURGBP
+sector_039,Moedas - Pares Cambiais,FX_PAIR,EURJPY,Euro/Iene,Par Cambial,FX_PAIR\EURJPY
+sector_039,Moedas - Pares Cambiais,FX_PAIR,EURUSD,Euro/Dólar,Par Cambial,FX_PAIR\EURUSD
+sector_039,Moedas - Pares Cambiais,FX_PAIR,GBPBRL,Libra/Real,Par Cambial,FX_PAIR\GBPBRL
+sector_039,Moedas - Pares Cambiais,FX_PAIR,GBPJPY,Libra/Iene,Par Cambial,FX_PAIR\GBPJPY
+sector_039,Moedas - Pares Cambiais,FX_PAIR,GBPUSD,Libra/Dólar,Par Cambial,FX_PAIR\GBPUSD
+sector_039,Moedas - Pares Cambiais,FX_PAIR,JPYBRL,Iene/Real,Par Cambial,FX_PAIR\JPYBRL
+sector_039,Moedas - Pares Cambiais,FX_PAIR,MXNBRL,Peso MX/Real,Par Cambial,FX_PAIR\MXNBRL
+sector_039,Moedas - Pares Cambiais,FX_PAIR,NZDUSD,Dólar NZ/Dólar,Par Cambial,FX_PAIR\NZDUSD
+sector_039,Moedas - Pares Cambiais,FX_PAIR,USDBRL,Dólar/Real,Par Cambial,FX_PAIR\USDBRL
+sector_039,Moedas - Pares Cambiais,FX_PAIR,USDCAD,Dólar/Dólar CA,Par Cambial,FX_PAIR\USDCAD
+sector_039,Moedas - Pares Cambiais,FX_PAIR,USDCHF,Dólar/Franco,Par Cambial,FX_PAIR\USDCHF
+sector_039,Moedas - Pares Cambiais,FX_PAIR,USDCNY,Dólar/Yuan,Par Cambial,FX_PAIR\USDCNY
+sector_039,Moedas - Pares Cambiais,FX_PAIR,USDINR,Dólar/Rupia,Par Cambial,FX_PAIR\USDINR
+sector_039,Moedas - Pares Cambiais,FX_PAIR,USDJPY,Dólar/Iene,Par Cambial,FX_PAIR\USDJPY
+sector_039,Moedas - Pares Cambiais,FX_PAIR,USDMXN,Dólar/Peso MX,Par Cambial,FX_PAIR\USDMXN
+sector_039,Moedas - Pares Cambiais,FX_PAIR,USDZAR,Dólar/Rand,Par Cambial,FX_PAIR\USDZAR
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,CDB,CDB - Certificado de Depósito Bancário,Renda Fixa,RENDA_FIXA\CDB
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,COE,COE - Certificado de Operações Estruturadas,Renda Fixa,RENDA_FIXA\COE
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,CRA,CRA - Certificado de Recebíveis Agronegócio,Renda Fixa,RENDA_FIXA\CRA
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,CRI,CRI - Certificado de Recebíveis Imobiliários,Renda Fixa,RENDA_FIXA\CRI
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,DEBENTURE,Debêntures Corporativas,Renda Fixa,RENDA_FIXA\DEBENTURE
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,DEBENTURE_INC,Debêntures Incentivadas,Renda Fixa,RENDA_FIXA\DEBENTURE_INC
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,FI_RF,Fundos de Investimento Renda Fixa,Renda Fixa,RENDA_FIXA\FI_RF
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,LCA,LCA - Letra de Crédito Agronegócio,Renda Fixa,RENDA_FIXA\LCA
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,LCI,LCI - Letra de Crédito Imobiliário,Renda Fixa,RENDA_FIXA\LCI
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,LFT,LFT - Tesouro Selic,Renda Fixa,RENDA_FIXA\LFT
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,LTN,Letras do Tesouro Nacional (pré-fixado),Renda Fixa,RENDA_FIXA\LTN
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,NTN-B,NTN-B - Tesouro IPCA+,Renda Fixa,RENDA_FIXA\NTN-B
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,NTN-B_PRINC,NTN-B Principal - Tesouro IPCA+,Renda Fixa,RENDA_FIXA\NTN-B_PRINC
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,NTN-C,NTN-C - Tesouro IGP-M+,Renda Fixa,RENDA_FIXA\NTN-C
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,NTN-F,NTN-F - Tesouro Prefixado Longo,Renda Fixa,RENDA_FIXA\NTN-F
+sector_040,Renda Fixa - Brasil,RENDA_FIXA,POUPANCA,Caderneta de Poupança,Renda Fixa,RENDA_FIXA\POUPANCA
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF27,Cupom Cambial DOC Jan/27,Futuro,BMF\DCOF27
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF28,Cupom Cambial DOC Jan/28,Futuro,BMF\DCOF28
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF29,Cupom Cambial DOC Jan/29,Futuro,BMF\DCOF29
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF30,Cupom Cambial DOC Jan/30,Futuro,BMF\DCOF30
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF31,Cupom Cambial DOC Jan/31,Futuro,BMF\DCOF31
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF32,Cupom Cambial DOC Jan/32,Futuro,BMF\DCOF32
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF33,Cupom Cambial DOC Jan/33,Futuro,BMF\DCOF33
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF34,Cupom Cambial DOC Jan/34,Futuro,BMF\DCOF34
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF35,Cupom Cambial DOC Jan/35,Futuro,BMF\DCOF35
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF36,Cupom Cambial DOC Jan/36,Futuro,BMF\DCOF36
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF37,Cupom Cambial DOC Jan/37,Futuro,BMF\DCOF37
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF38,Cupom Cambial DOC Jan/38,Futuro,BMF\DCOF38
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF39,Cupom Cambial DOC Jan/39,Futuro,BMF\DCOF39
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOF40,Cupom Cambial DOC Jan/40,Futuro,BMF\DCOF40
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOH26,Cupom Cambial DOC Mar/26,Futuro,BMF\DCOH26
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOJ26,Cupom Cambial DOC Jun/26,Futuro,BMF\DCOJ26
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOJ27,Cupom Cambial DOC Jun/27,Futuro,BMF\DCOJ27
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOJ28,Cupom Cambial DOC Jun/28,Futuro,BMF\DCOJ28
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOJ29,Cupom Cambial DOC Jun/29,Futuro,BMF\DCOJ29
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOJ30,Cupom Cambial DOC Jun/30,Futuro,BMF\DCOJ30
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCON26,Cupom Cambial DOC Nov/26,Futuro,BMF\DCON26
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCON27,Cupom Cambial DOC Nov/27,Futuro,BMF\DCON27
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCON28,Cupom Cambial DOC Nov/28,Futuro,BMF\DCON28
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCON29,Cupom Cambial DOC Nov/29,Futuro,BMF\DCON29
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCON30,Cupom Cambial DOC Nov/30,Futuro,BMF\DCON30
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOV26,Cupom Cambial DOC Out/26,Futuro,BMF\DCOV26
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOV27,Cupom Cambial DOC Out/27,Futuro,BMF\DCOV27
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOV28,Cupom Cambial DOC Out/28,Futuro,BMF\DCOV28
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DCOV29,Cupom Cambial DOC Out/29,Futuro,BMF\DCOV29
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF27,Cupom Cambial DDI Jan/27,Futuro,BMF\DDIF27
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF28,Cupom Cambial DDI Jan/28,Futuro,BMF\DDIF28
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF29,Cupom Cambial DDI Jan/29,Futuro,BMF\DDIF29
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF30,Cupom Cambial DDI Jan/30,Futuro,BMF\DDIF30
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF31,Cupom Cambial DDI Jan/31,Futuro,BMF\DDIF31
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF32,Cupom Cambial DDI Jan/32,Futuro,BMF\DDIF32
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF33,Cupom Cambial DDI Jan/33,Futuro,BMF\DDIF33
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF34,Cupom Cambial DDI Jan/34,Futuro,BMF\DDIF34
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF35,Cupom Cambial DDI Jan/35,Futuro,BMF\DDIF35
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF36,Cupom Cambial DDI Jan/36,Futuro,BMF\DDIF36
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF37,Cupom Cambial DDI Jan/37,Futuro,BMF\DDIF37
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF38,Cupom Cambial DDI Jan/38,Futuro,BMF\DDIF38
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF39,Cupom Cambial DDI Jan/39,Futuro,BMF\DDIF39
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIF40,Cupom Cambial DDI Jan/40,Futuro,BMF\DDIF40
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIH26,Cupom Cambial DDI Mar/26,Futuro,BMF\DDIH26
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIJ26,Cupom Cambial DDI Jun/26,Futuro,BMF\DDIJ26
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIJ27,Cupom Cambial DDI Jun/27,Futuro,BMF\DDIJ27
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIJ28,Cupom Cambial DDI Jun/28,Futuro,BMF\DDIJ28
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIJ29,Cupom Cambial DDI Jun/29,Futuro,BMF\DDIJ29
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIJ30,Cupom Cambial DDI Jun/30,Futuro,BMF\DDIJ30
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIN26,Cupom Cambial DDI Nov/26,Futuro,BMF\DDIN26
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIN27,Cupom Cambial DDI Nov/27,Futuro,BMF\DDIN27
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIN28,Cupom Cambial DDI Nov/28,Futuro,BMF\DDIN28
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIN29,Cupom Cambial DDI Nov/29,Futuro,BMF\DDIN29
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIN30,Cupom Cambial DDI Nov/30,Futuro,BMF\DDIN30
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIV26,Cupom Cambial DDI Out/26,Futuro,BMF\DDIV26
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIV27,Cupom Cambial DDI Out/27,Futuro,BMF\DDIV27
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIV28,Cupom Cambial DDI Out/28,Futuro,BMF\DDIV28
+sector_041,Renda Fixa - Cupom Cambial (BMF),BMF,DDIV29,Cupom Cambial DDI Out/29,Futuro,BMF\DDIV29
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCF27,Cupom IPCA Jan/27,Futuro,BMF\FRCF27
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCF28,Cupom IPCA Jan/28,Futuro,BMF\FRCF28
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCF29,Cupom IPCA Jan/29,Futuro,BMF\FRCF29
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCF30,Cupom IPCA Jan/30,Futuro,BMF\FRCF30
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCF31,Cupom IPCA Jan/31,Futuro,BMF\FRCF31
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCF32,Cupom IPCA Jan/32,Futuro,BMF\FRCF32
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCF33,Cupom IPCA Jan/33,Futuro,BMF\FRCF33
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCF34,Cupom IPCA Jan/34,Futuro,BMF\FRCF34
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCF36,Cupom IPCA Jan/36,Futuro,BMF\FRCF36
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCF37,Cupom IPCA Jan/37,Futuro,BMF\FRCF37
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCF38,Cupom IPCA Jan/38,Futuro,BMF\FRCF38
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCF39,Cupom IPCA Jan/39,Futuro,BMF\FRCF39
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCJ26,Cupom IPCA Jun/26,Futuro,BMF\FRCJ26
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCJ27,Cupom IPCA Jun/27,Futuro,BMF\FRCJ27
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCJ28,Cupom IPCA Jun/28,Futuro,BMF\FRCJ28
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCJ30,Cupom IPCA Jun/30,Futuro,BMF\FRCJ30
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCN26,Cupom IPCA Nov/26,Futuro,BMF\FRCN26
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCN27,Cupom IPCA Nov/27,Futuro,BMF\FRCN27
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCN28,Cupom IPCA Nov/28,Futuro,BMF\FRCN28
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCN30,Cupom IPCA Nov/30,Futuro,BMF\FRCN30
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCV26,Cupom IPCA Out/26,Futuro,BMF\FRCV26
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCV27,Cupom IPCA Out/27,Futuro,BMF\FRCV27
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCV28,Cupom IPCA Out/28,Futuro,BMF\FRCV28
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRCV29,Cupom IPCA Out/29,Futuro,BMF\FRCV29
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROF27,Cupom IGP-M Jan/27,Futuro,BMF\FROF27
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROF28,Cupom IGP-M Jan/28,Futuro,BMF\FROF28
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROF29,Cupom IGP-M Jan/29,Futuro,BMF\FROF29
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROF30,Cupom IGP-M Jan/30,Futuro,BMF\FROF30
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROF31,Cupom IGP-M Jan/31,Futuro,BMF\FROF31
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROF32,Cupom IGP-M Jan/32,Futuro,BMF\FROF32
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROF34,Cupom IGP-M Jan/34,Futuro,BMF\FROF34
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROF35,Cupom IGP-M Jan/35,Futuro,BMF\FROF35
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROF36,Cupom IGP-M Jan/36,Futuro,BMF\FROF36
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROF37,Cupom IGP-M Jan/37,Futuro,BMF\FROF37
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROF38,Cupom IGP-M Jan/38,Futuro,BMF\FROF38
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROF39,Cupom IGP-M Jan/39,Futuro,BMF\FROF39
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROJ26,Cupom IGP-M Jun/26,Futuro,BMF\FROJ26
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROJ27,Cupom IGP-M Jun/27,Futuro,BMF\FROJ27
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROJ28,Cupom IGP-M Jun/28,Futuro,BMF\FROJ28
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROJ30,Cupom IGP-M Jun/30,Futuro,BMF\FROJ30
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRON26,Cupom IGP-M Nov/26,Futuro,BMF\FRON26
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRON27,Cupom IGP-M Nov/27,Futuro,BMF\FRON27
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRON28,Cupom IGP-M Nov/28,Futuro,BMF\FRON28
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FRON30,Cupom IGP-M Nov/30,Futuro,BMF\FRON30
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROV26,Cupom IGP-M Out/26,Futuro,BMF\FROV26
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROV27,Cupom IGP-M Out/27,Futuro,BMF\FROV27
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROV28,Cupom IGP-M Out/28,Futuro,BMF\FROV28
+sector_042,Renda Fixa - Cupom IPCA/IGP-M (BMF),BMF,FROV29,Cupom IGP-M Out/29,Futuro,BMF\FROV29
+sector_043,Renda Fixa - ETFs,BOVESPA,B5P211,ETF IMA-B 5+,ETF,BOVESPA\B5P211
+sector_043,Renda Fixa - ETFs,BOVESPA,BNDX11,ETF Bonds Global,ETF,BOVESPA\BNDX11
+sector_043,Renda Fixa - ETFs,BOVESPA,FIND11,ETF Índice Renda Fixa,ETF,BOVESPA\FIND11
+sector_043,Renda Fixa - ETFs,BOVESPA,FIXA11,ETF Renda Fixa IPCA,ETF,BOVESPA\FIXA11
+sector_043,Renda Fixa - ETFs,BOVESPA,IB5M11,ETF IMA-B 5,ETF,BOVESPA\IB5M11
+sector_043,Renda Fixa - ETFs,BOVESPA,IMAB11,ETF IMA-B,ETF,BOVESPA\IMAB11
+sector_043,Renda Fixa - ETFs,BOVESPA,INBR32,ETF IMA-Geral,ETF,BOVESPA\INBR32
+sector_043,Renda Fixa - ETFs,BOVESPA,IRFM11,ETF IMA-B Prefixado,ETF,BOVESPA\IRFM11
+sector_043,Renda Fixa - ETFs,BOVESPA,JURO11,ETF Juros,ETF,BOVESPA\JURO11
+sector_043,Renda Fixa - ETFs,BOVESPA,LFTB11,ETF LFT Selic B,ETF,BOVESPA\LFTB11
+sector_043,Renda Fixa - ETFs,BOVESPA,LFTS11,ETF LFT Selic,ETF,BOVESPA\LFTS11
+sector_043,Renda Fixa - ETFs,BOVESPA,PIBB11,ETF Ibovespa BB,ETF,BOVESPA\PIBB11
+sector_043,Renda Fixa - ETFs,BOVESPA,XFIX11,ETF Renda Fixa XP,ETF,BOVESPA\XFIX11
+sector_043,Renda Fixa - ETFs,BOVESPA,XPBR31,ETF Diversificado BR,ETF,BOVESPA\XPBR31
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F27,Futuro DI Jan/27,Futuro,BMF\DI1F27
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F28,Futuro DI Jan/28,Futuro,BMF\DI1F28
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F29,Futuro DI Jan/29,Futuro,BMF\DI1F29
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F30,Futuro DI Jan/30,Futuro,BMF\DI1F30
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F31,Futuro DI Jan/31,Futuro,BMF\DI1F31
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F32,Futuro DI Jan/32,Futuro,BMF\DI1F32
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F33,Futuro DI Jan/33,Futuro,BMF\DI1F33
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F34,Futuro DI Jan/34,Futuro,BMF\DI1F34
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F35,Futuro DI Jan/35,Futuro,BMF\DI1F35
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F36,Futuro DI Jan/36,Futuro,BMF\DI1F36
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F37,Futuro DI Jan/37,Futuro,BMF\DI1F37
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F38,Futuro DI Jan/38,Futuro,BMF\DI1F38
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F39,Futuro DI Jan/39,Futuro,BMF\DI1F39
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1F40,Futuro DI Jan/40,Futuro,BMF\DI1F40
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1H26,Futuro DI Mar/26,Futuro,BMF\DI1H26
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1J26,Futuro DI Jun/26,Futuro,BMF\DI1J26
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1J27,Futuro DI Jun/27,Futuro,BMF\DI1J27
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1J28,Futuro DI Jun/28,Futuro,BMF\DI1J28
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1J29,Futuro DI Jun/29,Futuro,BMF\DI1J29
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1J30,Futuro DI Jun/30,Futuro,BMF\DI1J30
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1N26,Futuro DI Nov/26,Futuro,BMF\DI1N26
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1N27,Futuro DI Nov/27,Futuro,BMF\DI1N27
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1N28,Futuro DI Nov/28,Futuro,BMF\DI1N28
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1N29,Futuro DI Nov/29,Futuro,BMF\DI1N29
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1N30,Futuro DI Nov/30,Futuro,BMF\DI1N30
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1V26,Futuro DI Out/26,Futuro,BMF\DI1V26
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1V27,Futuro DI Out/27,Futuro,BMF\DI1V27
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1V28,Futuro DI Out/28,Futuro,BMF\DI1V28
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,DI1V29,Futuro DI Out/29,Futuro,BMF\DI1V29
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F27,Opção DI Jan/27,Futuro,BMF\OC1F27
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F28,Opção DI Jan/28,Futuro,BMF\OC1F28
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F29,Opção DI Jan/29,Futuro,BMF\OC1F29
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F30,Opção DI Jan/30,Futuro,BMF\OC1F30
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F31,Opção DI Jan/31,Futuro,BMF\OC1F31
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F32,Opção DI Jan/32,Futuro,BMF\OC1F32
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F33,Opção DI Jan/33,Futuro,BMF\OC1F33
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F34,Opção DI Jan/34,Futuro,BMF\OC1F34
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F35,Opção DI Jan/35,Futuro,BMF\OC1F35
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F36,Opção DI Jan/36,Futuro,BMF\OC1F36
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F37,Opção DI Jan/37,Futuro,BMF\OC1F37
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F38,Opção DI Jan/38,Futuro,BMF\OC1F38
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F39,Opção DI Jan/39,Futuro,BMF\OC1F39
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1F40,Opção DI Jan/40,Futuro,BMF\OC1F40
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1H26,Opção DI Mar/26,Futuro,BMF\OC1H26
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1J26,Opção DI Jun/26,Futuro,BMF\OC1J26
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1J27,Opção DI Jun/27,Futuro,BMF\OC1J27
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1J28,Opção DI Jun/28,Futuro,BMF\OC1J28
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1J29,Opção DI Jun/29,Futuro,BMF\OC1J29
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1J30,Opção DI Jun/30,Futuro,BMF\OC1J30
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1N26,Opção DI Nov/26,Futuro,BMF\OC1N26
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1N27,Opção DI Nov/27,Futuro,BMF\OC1N27
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1N28,Opção DI Nov/28,Futuro,BMF\OC1N28
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1N29,Opção DI Nov/29,Futuro,BMF\OC1N29
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1N30,Opção DI Nov/30,Futuro,BMF\OC1N30
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1V26,Opção DI Out/26,Futuro,BMF\OC1V26
+sector_044,Renda Fixa - Futuros Juros (BMF),BMF,OC1V27,Opção DI Out/27,Futuro,BMF\OC1V27
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF27F28,Spread DI F27xF28,Spread,BMF\DIFF27F28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF27F29,Spread DI F27xF29,Spread,BMF\DIFF27F29
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF27F30,Spread DI F27xF30,Spread,BMF\DIFF27F30
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF27F31,Spread DI F27xF31,Spread,BMF\DIFF27F31
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF27F32,Spread DI F27xF32,Spread,BMF\DIFF27F32
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF27F35,Spread DI F27xF35,Spread,BMF\DIFF27F35
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF27J27,Spread DI F27xJ27,Spread,BMF\DIFF27J27
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF27J28,Spread DI F27xJ28,Spread,BMF\DIFF27J28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF27N27,Spread DI F27xN27,Spread,BMF\DIFF27N27
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF27N28,Spread DI F27xN28,Spread,BMF\DIFF27N28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF27V27,Spread DI F27xV27,Spread,BMF\DIFF27V27
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF27V28,Spread DI F27xV28,Spread,BMF\DIFF27V28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF28F29,Spread DI F28xF29,Spread,BMF\DIFF28F29
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF28F30,Spread DI F28xF30,Spread,BMF\DIFF28F30
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF33F34,Spread DI F33xF34,Spread,BMF\DIFF33F34
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF33F35,Spread DI F33xF35,Spread,BMF\DIFF33F35
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF33F37,Spread DI F33xF37,Spread,BMF\DIFF33F37
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF33F38,Spread DI F33xF38,Spread,BMF\DIFF33F38
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFF34F35,Spread DI F34xF35,Spread,BMF\DIFF34F35
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFH26J26,Spread DI H26xJ26,Spread,BMF\DIFH26J26
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFJ26F28,Spread DI J26xF28,Spread,BMF\DIFJ26F28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFJ26F29,Spread DI J26xF29,Spread,BMF\DIFJ26F29
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFJ26F31,Spread DI J26xF31,Spread,BMF\DIFJ26F31
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFJ26J27,Spread DI J26xJ27,Spread,BMF\DIFJ26J27
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFJ26N26,Spread DI J26xN26,Spread,BMF\DIFJ26N26
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFJ27F28,Spread DI J27xF28,Spread,BMF\DIFJ27F28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFJ28F29,Spread DI J28xF29,Spread,BMF\DIFJ28F29
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFJ28N28,Spread DI J28xN28,Spread,BMF\DIFJ28N28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFJ29F30,Spread DI J29xF30,Spread,BMF\DIFJ29F30
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN26F28,Spread DI N26xF28,Spread,BMF\DIFN26F28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN26F29,Spread DI N26xF29,Spread,BMF\DIFN26F29
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN26F30,Spread DI N26xF30,Spread,BMF\DIFN26F30
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN27F28,Spread DI N27xF28,Spread,BMF\DIFN27F28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN27F29,Spread DI N27xF29,Spread,BMF\DIFN27F29
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN27F30,Spread DI N27xF30,Spread,BMF\DIFN27F30
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN27F31,Spread DI N27xF31,Spread,BMF\DIFN27F31
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN27N28,Spread DI N27xN28,Spread,BMF\DIFN27N28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN28F29,Spread DI N28xF29,Spread,BMF\DIFN28F29
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN28F30,Spread DI N28xF30,Spread,BMF\DIFN28F30
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN29F30,Spread DI N29xF30,Spread,BMF\DIFN29F30
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN29F31,Spread DI N29xF31,Spread,BMF\DIFN29F31
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN29F32,Spread DI N29xF32,Spread,BMF\DIFN29F32
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN29V29,Spread DI N29xV29,Spread,BMF\DIFN29V29
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFN30F31,Spread DI N30xF31,Spread,BMF\DIFN30F31
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFV26F28,Spread DI V26xF28,Spread,BMF\DIFV26F28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFV26F29,Spread DI V26xF29,Spread,BMF\DIFV26F29
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFV26F31,Spread DI V26xF31,Spread,BMF\DIFV26F31
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFV27F28,Spread DI V27xF28,Spread,BMF\DIFV27F28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFV27F29,Spread DI V27xF29,Spread,BMF\DIFV27F29
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFV27F30,Spread DI V27xF30,Spread,BMF\DIFV27F30
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFV27N28,Spread DI V27xN28,Spread,BMF\DIFV27N28
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFV28F29,Spread DI V28xF29,Spread,BMF\DIFV28F29
+sector_045,Renda Fixa - Spreads DI (BMF),BMF,DIFV29F30,Spread DI V29xF30,Spread,BMF\DIFV29F30
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAFK27Q28,Swap DI x IPCA F Fwd,Swap,BMF\DAFK27Q28
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAFK29Q30,Swap DI x IPCA 2029/30,Swap,BMF\DAFK29Q30
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAFK35Q40,Swap DI x IPCA 35/40,Swap,BMF\DAFK35Q40
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAFQ26Q30,Swap DI x IPCA 26/30,Swap,BMF\DAFQ26Q30
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAFQ28Q30,Swap DI x IPCA Q Fwd,Swap,BMF\DAFQ28Q30
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAFQ32K33,Swap DI x IPCA 32/33,Swap,BMF\DAFQ32K33
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAIK27Q28,Swap DI x IPCA I Fwd,Swap,BMF\DAIK27Q28
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAIK29Q30,Swap DI x IPCA I 29/30,Swap,BMF\DAIK29Q30
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAIK35Q40,Swap DI x IPCA I 35/40,Swap,BMF\DAIK35Q40
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAIQ26Q30,Swap DI x IPCA I 26/30,Swap,BMF\DAIQ26Q30
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAIQ28Q30,Swap DI x IPCA I Fwd 2,Swap,BMF\DAIQ28Q30
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAIQ32K33,Swap DI x IPCA I 32/33,Swap,BMF\DAIQ32K33
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPF27,Swap DI x IPCA F/27,Swap,BMF\DAPF27
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPK27,Swap DI x IPCA K/27,Swap,BMF\DAPK27
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPK29,Swap DI x IPCA K/29,Swap,BMF\DAPK29
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPK33,Swap DI x IPCA K/33,Swap,BMF\DAPK33
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPK35,Swap DI x IPCA K/35,Swap,BMF\DAPK35
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPK45,Swap DI x IPCA K/45,Swap,BMF\DAPK45
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPK55,Swap DI x IPCA K/55,Swap,BMF\DAPK55
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPQ26,Swap DI x IPCA Q/26,Swap,BMF\DAPQ26
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPQ28,Swap DI x IPCA Q/28,Swap,BMF\DAPQ28
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPQ30,Swap DI x IPCA Q/30,Swap,BMF\DAPQ30
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPQ32,Swap DI x IPCA Q/32,Swap,BMF\DAPQ32
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPQ40,Swap DI x IPCA Q/40,Swap,BMF\DAPQ40
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPQ50,Swap DI x IPCA Q/50,Swap,BMF\DAPQ50
+sector_046,Renda Fixa - Swaps (BMF),BMF,DAPQ60,Swap DI x IPCA Q/60,Swap,BMF\DAPQ60
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF473,Tesouro IPCA+ 2029,Título Público,BOVESPA\TF473
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF474,Tesouro IPCA+ 2032,Título Público,BOVESPA\TF474
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF475,Tesouro IPCA+ 2035,Título Público,BOVESPA\TF475
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF483,Tesouro Prefixado 2026,Título Público,BOVESPA\TF483
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF484,Tesouro Prefixado 2027,Título Público,BOVESPA\TF484
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF485,Tesouro Prefixado 2029,Título Público,BOVESPA\TF485
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF493,Tesouro IPCA+ 2026,Título Público,BOVESPA\TF493
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF494,Tesouro IPCA+ 2030,Título Público,BOVESPA\TF494
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF495,Tesouro IPCA+ 2033,Título Público,BOVESPA\TF495
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF503,Tesouro Selic 2027,Título Público,BOVESPA\TF503
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF504,Tesouro Selic 2029,Título Público,BOVESPA\TF504
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF505,Tesouro Selic 2031,Título Público,BOVESPA\TF505
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF513,Tesouro Prefixado 2031,Título Público,BOVESPA\TF513
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF514,Tesouro Prefixado 2033,Título Público,BOVESPA\TF514
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF515,Tesouro Prefixado 2035,Título Público,BOVESPA\TF515
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF523,Tesouro IPCA+ 2040,Título Público,BOVESPA\TF523
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF524,Tesouro IPCA+ 2045,Título Público,BOVESPA\TF524
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF525,Tesouro IPCA+ 2050,Título Público,BOVESPA\TF525
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF533,Tesouro IPCA+ Juros 2030,Título Público,BOVESPA\TF533
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF534,Tesouro IPCA+ Juros 2035,Título Público,BOVESPA\TF534
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF535,Tesouro IPCA+ Juros 2040,Título Público,BOVESPA\TF535
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF543,Tesouro Renda+ 2030,Título Público,BOVESPA\TF543
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF544,Tesouro Renda+ 2035,Título Público,BOVESPA\TF544
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF553,Tesouro Educa+ 2028,Título Público,BOVESPA\TF553
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF554,Tesouro Educa+ 2030,Título Público,BOVESPA\TF554
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF555,Tesouro Educa+ 2032,Título Público,BOVESPA\TF555
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF563,Tesouro RendA+ 2040,Título Público,BOVESPA\TF563
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF564,Tesouro RendA+ 2045,Título Público,BOVESPA\TF564
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF565,Tesouro RendA+ 2050,Título Público,BOVESPA\TF565
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF573,Tesouro Prefixado 2027 Juros,Título Público,BOVESPA\TF573
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF574,Tesouro Prefixado 2030 Juros,Título Público,BOVESPA\TF574
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF575,Tesouro Prefixado 2033 Juros,Título Público,BOVESPA\TF575
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF583,Tesouro IPCA+ 2026 Juros,Título Público,BOVESPA\TF583
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF584,Tesouro IPCA+ 2028 Juros,Título Público,BOVESPA\TF584
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF585,Tesouro IPCA+ 2032 Juros,Título Público,BOVESPA\TF585
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF593,Tesouro Selic 2026,Título Público,BOVESPA\TF593
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF594,Tesouro Selic 2028,Título Público,BOVESPA\TF594
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF595,Tesouro Selic 2030,Título Público,BOVESPA\TF595
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF603,Tesouro Prefixado 2026 Curto,Título Público,BOVESPA\TF603
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF604,Tesouro Prefixado 2027 Curto,Título Público,BOVESPA\TF604
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF623,Tesouro IPCA+ 2055,Título Público,BOVESPA\TF623
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF624,Tesouro IPCA+ 2060,Título Público,BOVESPA\TF624
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF625,Tesouro IPCA+ 2065,Título Público,BOVESPA\TF625
+sector_047,Renda Fixa - Tesouro Direto,BOVESPA,TF645,Tesouro Renda+ 2060,Título Público,BOVESPA\TF645
+sector_048,Taxas de Referência,REF,CDI,CDI - Certificado Depósito Interbancário,Taxa,REF\CDI
+sector_048,Taxas de Referência,REF,ECB_RATE,ECB Rate,Taxa,REF\ECB_RATE
+sector_048,Taxas de Referência,REF,ESTR,€STR,Taxa,REF\ESTR
+sector_048,Taxas de Referência,REF,EURIBOR,EURIBOR,Taxa,REF\EURIBOR
+sector_048,Taxas de Referência,REF,FED_FUNDS,Fed Funds Rate,Taxa,REF\FED_FUNDS
+sector_048,Taxas de Referência,REF,IGP-DI,IGP-DI,Taxa,REF\IGP-DI
+sector_048,Taxas de Referência,REF,IGP-M,IGP-M,Taxa,REF\IGP-M
+sector_048,Taxas de Referência,REF,INPC,INPC,Taxa,REF\INPC
+sector_048,Taxas de Referência,REF,IPCA,IPCA - Inflação Oficial BR,Taxa,REF\IPCA
+sector_048,Taxas de Referência,REF,LIBOR,LIBOR,Taxa,REF\LIBOR
+sector_048,Taxas de Referência,REF,SELIC,Taxa Selic Meta,Taxa,REF\SELIC
+sector_048,Taxas de Referência,REF,SOFR,SOFR - Taxa EUA,Taxa,REF\SOFR
+sector_048,Taxas de Referência,REF,SONIA,SONIA UK,Taxa,REF\SONIA
+sector_048,Taxas de Referência,REF,TJLP,TJLP,Taxa,REF\TJLP
+sector_048,Taxas de Referência,REF,TONAR,TONAR Japão,Taxa,REF\TONAR
+sector_048,Taxas de Referência,REF,TR,TR - Taxa Referencial,Taxa,REF\TR
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA100,Taxa de Referência 100,Taxa,BOVESPA\TAXA100
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA101,Taxa de Referência 101,Taxa,BOVESPA\TAXA101
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA102,Taxa de Referência 102,Taxa,BOVESPA\TAXA102
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA103,Taxa de Referência 103,Taxa,BOVESPA\TAXA103
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA104,Taxa de Referência 104,Taxa,BOVESPA\TAXA104
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA105,Taxa de Referência 105,Taxa,BOVESPA\TAXA105
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA106,Taxa de Referência 106,Taxa,BOVESPA\TAXA106
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA107,Taxa de Referência 107,Taxa,BOVESPA\TAXA107
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA108,Taxa de Referência 108,Taxa,BOVESPA\TAXA108
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA109,Taxa de Referência 109,Taxa,BOVESPA\TAXA109
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA110,Taxa de Referência 110,Taxa,BOVESPA\TAXA110
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA111,Taxa de Referência 111,Taxa,BOVESPA\TAXA111
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA112,Taxa de Referência 112,Taxa,BOVESPA\TAXA112
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA113,Taxa de Referência 113,Taxa,BOVESPA\TAXA113
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA114,Taxa de Referência 114,Taxa,BOVESPA\TAXA114
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA115,Taxa de Referência 115,Taxa,BOVESPA\TAXA115
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA116,Taxa de Referência 116,Taxa,BOVESPA\TAXA116
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA117,Taxa de Referência 117,Taxa,BOVESPA\TAXA117
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA118,Taxa de Referência 118,Taxa,BOVESPA\TAXA118
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA119,Taxa de Referência 119,Taxa,BOVESPA\TAXA119
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA120,Taxa de Referência 120,Taxa,BOVESPA\TAXA120
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA121,Taxa de Referência 121,Taxa,BOVESPA\TAXA121
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA122,Taxa de Referência 122,Taxa,BOVESPA\TAXA122
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA123,Taxa de Referência 123,Taxa,BOVESPA\TAXA123
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA124,Taxa de Referência 124,Taxa,BOVESPA\TAXA124
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA125,Taxa de Referência 125,Taxa,BOVESPA\TAXA125
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA126,Taxa de Referência 126,Taxa,BOVESPA\TAXA126
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA127,Taxa de Referência 127,Taxa,BOVESPA\TAXA127
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA128,Taxa de Referência 128,Taxa,BOVESPA\TAXA128
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA129,Taxa de Referência 129,Taxa,BOVESPA\TAXA129
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA130,Taxa de Referência 130,Taxa,BOVESPA\TAXA130
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA131,Taxa de Referência 131,Taxa,BOVESPA\TAXA131
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA132,Taxa de Referência 132,Taxa,BOVESPA\TAXA132
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA133,Taxa de Referência 133,Taxa,BOVESPA\TAXA133
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA134,Taxa de Referência 134,Taxa,BOVESPA\TAXA134
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA135,Taxa de Referência 135,Taxa,BOVESPA\TAXA135
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA136,Taxa de Referência 136,Taxa,BOVESPA\TAXA136
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA137,Taxa de Referência 137,Taxa,BOVESPA\TAXA137
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA138,Taxa de Referência 138,Taxa,BOVESPA\TAXA138
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA139,Taxa de Referência 139,Taxa,BOVESPA\TAXA139
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA140,Taxa de Referência 140,Taxa,BOVESPA\TAXA140
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA141,Taxa de Referência 141,Taxa,BOVESPA\TAXA141
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA142,Taxa de Referência 142,Taxa,BOVESPA\TAXA142
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA143,Taxa de Referência 143,Taxa,BOVESPA\TAXA143
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA144,Taxa de Referência 144,Taxa,BOVESPA\TAXA144
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA145,Taxa de Referência 145,Taxa,BOVESPA\TAXA145
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA146,Taxa de Referência 146,Taxa,BOVESPA\TAXA146
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA147,Taxa de Referência 147,Taxa,BOVESPA\TAXA147
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA148,Taxa de Referência 148,Taxa,BOVESPA\TAXA148
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA149,Taxa de Referência 149,Taxa,BOVESPA\TAXA149
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA150,Taxa de Referência 150,Taxa,BOVESPA\TAXA150
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA151,Taxa de Referência 151,Taxa,BOVESPA\TAXA151
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA152,Taxa de Referência 152,Taxa,BOVESPA\TAXA152
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA153,Taxa de Referência 153,Taxa,BOVESPA\TAXA153
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA154,Taxa de Referência 154,Taxa,BOVESPA\TAXA154
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA155,Taxa de Referência 155,Taxa,BOVESPA\TAXA155
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA156,Taxa de Referência 156,Taxa,BOVESPA\TAXA156
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA157,Taxa de Referência 157,Taxa,BOVESPA\TAXA157
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA158,Taxa de Referência 158,Taxa,BOVESPA\TAXA158
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA159,Taxa de Referência 159,Taxa,BOVESPA\TAXA159
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA16,Taxa de Referência 16,Taxa,BOVESPA\TAXA16
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA160,Taxa de Referência 160,Taxa,BOVESPA\TAXA160
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA161,Taxa de Referência 161,Taxa,BOVESPA\TAXA161
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA162,Taxa de Referência 162,Taxa,BOVESPA\TAXA162
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA163,Taxa de Referência 163,Taxa,BOVESPA\TAXA163
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA164,Taxa de Referência 164,Taxa,BOVESPA\TAXA164
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA165,Taxa de Referência 165,Taxa,BOVESPA\TAXA165
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA166,Taxa de Referência 166,Taxa,BOVESPA\TAXA166
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA167,Taxa de Referência 167,Taxa,BOVESPA\TAXA167
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA168,Taxa de Referência 168,Taxa,BOVESPA\TAXA168
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA169,Taxa de Referência 169,Taxa,BOVESPA\TAXA169
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA16L,Taxa de Referência 16L,Taxa,BOVESPA\TAXA16L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA17,Taxa de Referência 17,Taxa,BOVESPA\TAXA17
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA170,Taxa de Referência 170,Taxa,BOVESPA\TAXA170
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA171,Taxa de Referência 171,Taxa,BOVESPA\TAXA171
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA172,Taxa de Referência 172,Taxa,BOVESPA\TAXA172
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA173,Taxa de Referência 173,Taxa,BOVESPA\TAXA173
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA174,Taxa de Referência 174,Taxa,BOVESPA\TAXA174
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA175,Taxa de Referência 175,Taxa,BOVESPA\TAXA175
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA176,Taxa de Referência 176,Taxa,BOVESPA\TAXA176
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA177,Taxa de Referência 177,Taxa,BOVESPA\TAXA177
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA178,Taxa de Referência 178,Taxa,BOVESPA\TAXA178
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA179,Taxa de Referência 179,Taxa,BOVESPA\TAXA179
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA17L,Taxa de Referência 17L,Taxa,BOVESPA\TAXA17L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA18,Taxa de Referência 18,Taxa,BOVESPA\TAXA18
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA180,Taxa de Referência 180,Taxa,BOVESPA\TAXA180
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA181,Taxa de Referência 181,Taxa,BOVESPA\TAXA181
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA182,Taxa de Referência 182,Taxa,BOVESPA\TAXA182
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA183,Taxa de Referência 183,Taxa,BOVESPA\TAXA183
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA184,Taxa de Referência 184,Taxa,BOVESPA\TAXA184
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA185,Taxa de Referência 185,Taxa,BOVESPA\TAXA185
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA186,Taxa de Referência 186,Taxa,BOVESPA\TAXA186
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA187,Taxa de Referência 187,Taxa,BOVESPA\TAXA187
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA188,Taxa de Referência 188,Taxa,BOVESPA\TAXA188
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA189,Taxa de Referência 189,Taxa,BOVESPA\TAXA189
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA18L,Taxa de Referência 18L,Taxa,BOVESPA\TAXA18L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA19,Taxa de Referência 19,Taxa,BOVESPA\TAXA19
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA190,Taxa de Referência 190,Taxa,BOVESPA\TAXA190
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA191,Taxa de Referência 191,Taxa,BOVESPA\TAXA191
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA192,Taxa de Referência 192,Taxa,BOVESPA\TAXA192
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA193,Taxa de Referência 193,Taxa,BOVESPA\TAXA193
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA194,Taxa de Referência 194,Taxa,BOVESPA\TAXA194
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA195,Taxa de Referência 195,Taxa,BOVESPA\TAXA195
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA196,Taxa de Referência 196,Taxa,BOVESPA\TAXA196
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA197,Taxa de Referência 197,Taxa,BOVESPA\TAXA197
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA198,Taxa de Referência 198,Taxa,BOVESPA\TAXA198
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA199,Taxa de Referência 199,Taxa,BOVESPA\TAXA199
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA19L,Taxa de Referência 19L,Taxa,BOVESPA\TAXA19L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA20,Taxa de Referência 20,Taxa,BOVESPA\TAXA20
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA200,Taxa de Referência 200,Taxa,BOVESPA\TAXA200
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA201,Taxa de Referência 201,Taxa,BOVESPA\TAXA201
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA202,Taxa de Referência 202,Taxa,BOVESPA\TAXA202
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA203,Taxa de Referência 203,Taxa,BOVESPA\TAXA203
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA204,Taxa de Referência 204,Taxa,BOVESPA\TAXA204
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA205,Taxa de Referência 205,Taxa,BOVESPA\TAXA205
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA206,Taxa de Referência 206,Taxa,BOVESPA\TAXA206
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA207,Taxa de Referência 207,Taxa,BOVESPA\TAXA207
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA208,Taxa de Referência 208,Taxa,BOVESPA\TAXA208
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA209,Taxa de Referência 209,Taxa,BOVESPA\TAXA209
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA20L,Taxa de Referência 20L,Taxa,BOVESPA\TAXA20L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA21,Taxa de Referência 21,Taxa,BOVESPA\TAXA21
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA210,Taxa de Referência 210,Taxa,BOVESPA\TAXA210
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA211,Taxa de Referência 211,Taxa,BOVESPA\TAXA211
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA212,Taxa de Referência 212,Taxa,BOVESPA\TAXA212
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA213,Taxa de Referência 213,Taxa,BOVESPA\TAXA213
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA214,Taxa de Referência 214,Taxa,BOVESPA\TAXA214
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA215,Taxa de Referência 215,Taxa,BOVESPA\TAXA215
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA216,Taxa de Referência 216,Taxa,BOVESPA\TAXA216
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA217,Taxa de Referência 217,Taxa,BOVESPA\TAXA217
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA218,Taxa de Referência 218,Taxa,BOVESPA\TAXA218
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA219,Taxa de Referência 219,Taxa,BOVESPA\TAXA219
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA21L,Taxa de Referência 21L,Taxa,BOVESPA\TAXA21L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA22,Taxa de Referência 22,Taxa,BOVESPA\TAXA22
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA220,Taxa de Referência 220,Taxa,BOVESPA\TAXA220
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA221,Taxa de Referência 221,Taxa,BOVESPA\TAXA221
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA222,Taxa de Referência 222,Taxa,BOVESPA\TAXA222
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA223,Taxa de Referência 223,Taxa,BOVESPA\TAXA223
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA224,Taxa de Referência 224,Taxa,BOVESPA\TAXA224
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA225,Taxa de Referência 225,Taxa,BOVESPA\TAXA225
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA226,Taxa de Referência 226,Taxa,BOVESPA\TAXA226
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA227,Taxa de Referência 227,Taxa,BOVESPA\TAXA227
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA228,Taxa de Referência 228,Taxa,BOVESPA\TAXA228
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA229,Taxa de Referência 229,Taxa,BOVESPA\TAXA229
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA22L,Taxa de Referência 22L,Taxa,BOVESPA\TAXA22L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA23,Taxa de Referência 23,Taxa,BOVESPA\TAXA23
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA230,Taxa de Referência 230,Taxa,BOVESPA\TAXA230
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA231,Taxa de Referência 231,Taxa,BOVESPA\TAXA231
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA232,Taxa de Referência 232,Taxa,BOVESPA\TAXA232
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA233,Taxa de Referência 233,Taxa,BOVESPA\TAXA233
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA234,Taxa de Referência 234,Taxa,BOVESPA\TAXA234
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA235,Taxa de Referência 235,Taxa,BOVESPA\TAXA235
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA236,Taxa de Referência 236,Taxa,BOVESPA\TAXA236
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA237,Taxa de Referência 237,Taxa,BOVESPA\TAXA237
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA238,Taxa de Referência 238,Taxa,BOVESPA\TAXA238
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA239,Taxa de Referência 239,Taxa,BOVESPA\TAXA239
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA23L,Taxa de Referência 23L,Taxa,BOVESPA\TAXA23L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA24,Taxa de Referência 24,Taxa,BOVESPA\TAXA24
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA240,Taxa de Referência 240,Taxa,BOVESPA\TAXA240
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA241,Taxa de Referência 241,Taxa,BOVESPA\TAXA241
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA242,Taxa de Referência 242,Taxa,BOVESPA\TAXA242
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA243,Taxa de Referência 243,Taxa,BOVESPA\TAXA243
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA244,Taxa de Referência 244,Taxa,BOVESPA\TAXA244
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA245,Taxa de Referência 245,Taxa,BOVESPA\TAXA245
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA246,Taxa de Referência 246,Taxa,BOVESPA\TAXA246
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA247,Taxa de Referência 247,Taxa,BOVESPA\TAXA247
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA248,Taxa de Referência 248,Taxa,BOVESPA\TAXA248
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA249,Taxa de Referência 249,Taxa,BOVESPA\TAXA249
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA24L,Taxa de Referência 24L,Taxa,BOVESPA\TAXA24L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA25,Taxa de Referência 25,Taxa,BOVESPA\TAXA25
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA250,Taxa de Referência 250,Taxa,BOVESPA\TAXA250
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA251,Taxa de Referência 251,Taxa,BOVESPA\TAXA251
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA252,Taxa de Referência 252,Taxa,BOVESPA\TAXA252
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA253,Taxa de Referência 253,Taxa,BOVESPA\TAXA253
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA254,Taxa de Referência 254,Taxa,BOVESPA\TAXA254
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA255,Taxa de Referência 255,Taxa,BOVESPA\TAXA255
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA256,Taxa de Referência 256,Taxa,BOVESPA\TAXA256
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA257,Taxa de Referência 257,Taxa,BOVESPA\TAXA257
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA258,Taxa de Referência 258,Taxa,BOVESPA\TAXA258
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA259,Taxa de Referência 259,Taxa,BOVESPA\TAXA259
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA25L,Taxa de Referência 25L,Taxa,BOVESPA\TAXA25L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA26,Taxa de Referência 26,Taxa,BOVESPA\TAXA26
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA260,Taxa de Referência 260,Taxa,BOVESPA\TAXA260
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA261,Taxa de Referência 261,Taxa,BOVESPA\TAXA261
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA262,Taxa de Referência 262,Taxa,BOVESPA\TAXA262
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA263,Taxa de Referência 263,Taxa,BOVESPA\TAXA263
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA264,Taxa de Referência 264,Taxa,BOVESPA\TAXA264
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA265,Taxa de Referência 265,Taxa,BOVESPA\TAXA265
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA266,Taxa de Referência 266,Taxa,BOVESPA\TAXA266
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA267,Taxa de Referência 267,Taxa,BOVESPA\TAXA267
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA268,Taxa de Referência 268,Taxa,BOVESPA\TAXA268
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA269,Taxa de Referência 269,Taxa,BOVESPA\TAXA269
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA26L,Taxa de Referência 26L,Taxa,BOVESPA\TAXA26L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA27,Taxa de Referência 27,Taxa,BOVESPA\TAXA27
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA270,Taxa de Referência 270,Taxa,BOVESPA\TAXA270
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA271,Taxa de Referência 271,Taxa,BOVESPA\TAXA271
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA272,Taxa de Referência 272,Taxa,BOVESPA\TAXA272
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA273,Taxa de Referência 273,Taxa,BOVESPA\TAXA273
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA274,Taxa de Referência 274,Taxa,BOVESPA\TAXA274
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA275,Taxa de Referência 275,Taxa,BOVESPA\TAXA275
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA276,Taxa de Referência 276,Taxa,BOVESPA\TAXA276
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA277,Taxa de Referência 277,Taxa,BOVESPA\TAXA277
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA278,Taxa de Referência 278,Taxa,BOVESPA\TAXA278
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA279,Taxa de Referência 279,Taxa,BOVESPA\TAXA279
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA27L,Taxa de Referência 27L,Taxa,BOVESPA\TAXA27L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA28,Taxa de Referência 28,Taxa,BOVESPA\TAXA28
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA280,Taxa de Referência 280,Taxa,BOVESPA\TAXA280
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA281,Taxa de Referência 281,Taxa,BOVESPA\TAXA281
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA282,Taxa de Referência 282,Taxa,BOVESPA\TAXA282
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA283,Taxa de Referência 283,Taxa,BOVESPA\TAXA283
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA284,Taxa de Referência 284,Taxa,BOVESPA\TAXA284
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA285,Taxa de Referência 285,Taxa,BOVESPA\TAXA285
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA286,Taxa de Referência 286,Taxa,BOVESPA\TAXA286
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA287,Taxa de Referência 287,Taxa,BOVESPA\TAXA287
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA288,Taxa de Referência 288,Taxa,BOVESPA\TAXA288
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA289,Taxa de Referência 289,Taxa,BOVESPA\TAXA289
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA28L,Taxa de Referência 28L,Taxa,BOVESPA\TAXA28L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA29,Taxa de Referência 29,Taxa,BOVESPA\TAXA29
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA290,Taxa de Referência 290,Taxa,BOVESPA\TAXA290
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA291,Taxa de Referência 291,Taxa,BOVESPA\TAXA291
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA292,Taxa de Referência 292,Taxa,BOVESPA\TAXA292
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA293,Taxa de Referência 293,Taxa,BOVESPA\TAXA293
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA294,Taxa de Referência 294,Taxa,BOVESPA\TAXA294
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA295,Taxa de Referência 295,Taxa,BOVESPA\TAXA295
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA296,Taxa de Referência 296,Taxa,BOVESPA\TAXA296
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA297,Taxa de Referência 297,Taxa,BOVESPA\TAXA297
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA298,Taxa de Referência 298,Taxa,BOVESPA\TAXA298
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA299,Taxa de Referência 299,Taxa,BOVESPA\TAXA299
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA29L,Taxa de Referência 29L,Taxa,BOVESPA\TAXA29L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA30,Taxa de Referência 30,Taxa,BOVESPA\TAXA30
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA300,Taxa de Referência 300,Taxa,BOVESPA\TAXA300
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA301,Taxa de Referência 301,Taxa,BOVESPA\TAXA301
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA302,Taxa de Referência 302,Taxa,BOVESPA\TAXA302
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA303,Taxa de Referência 303,Taxa,BOVESPA\TAXA303
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA304,Taxa de Referência 304,Taxa,BOVESPA\TAXA304
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA305,Taxa de Referência 305,Taxa,BOVESPA\TAXA305
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA306,Taxa de Referência 306,Taxa,BOVESPA\TAXA306
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA307,Taxa de Referência 307,Taxa,BOVESPA\TAXA307
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA308,Taxa de Referência 308,Taxa,BOVESPA\TAXA308
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA309,Taxa de Referência 309,Taxa,BOVESPA\TAXA309
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA30L,Taxa de Referência 30L,Taxa,BOVESPA\TAXA30L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA31,Taxa de Referência 31,Taxa,BOVESPA\TAXA31
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA310,Taxa de Referência 310,Taxa,BOVESPA\TAXA310
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA311,Taxa de Referência 311,Taxa,BOVESPA\TAXA311
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA312,Taxa de Referência 312,Taxa,BOVESPA\TAXA312
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA313,Taxa de Referência 313,Taxa,BOVESPA\TAXA313
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA314,Taxa de Referência 314,Taxa,BOVESPA\TAXA314
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA315,Taxa de Referência 315,Taxa,BOVESPA\TAXA315
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA316,Taxa de Referência 316,Taxa,BOVESPA\TAXA316
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA317,Taxa de Referência 317,Taxa,BOVESPA\TAXA317
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA318,Taxa de Referência 318,Taxa,BOVESPA\TAXA318
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA319,Taxa de Referência 319,Taxa,BOVESPA\TAXA319
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA31L,Taxa de Referência 31L,Taxa,BOVESPA\TAXA31L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA32,Taxa de Referência 32,Taxa,BOVESPA\TAXA32
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA320,Taxa de Referência 320,Taxa,BOVESPA\TAXA320
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA321,Taxa de Referência 321,Taxa,BOVESPA\TAXA321
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA322,Taxa de Referência 322,Taxa,BOVESPA\TAXA322
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA323,Taxa de Referência 323,Taxa,BOVESPA\TAXA323
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA324,Taxa de Referência 324,Taxa,BOVESPA\TAXA324
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA325,Taxa de Referência 325,Taxa,BOVESPA\TAXA325
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA326,Taxa de Referência 326,Taxa,BOVESPA\TAXA326
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA327,Taxa de Referência 327,Taxa,BOVESPA\TAXA327
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA328,Taxa de Referência 328,Taxa,BOVESPA\TAXA328
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA329,Taxa de Referência 329,Taxa,BOVESPA\TAXA329
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA32L,Taxa de Referência 32L,Taxa,BOVESPA\TAXA32L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA33,Taxa de Referência 33,Taxa,BOVESPA\TAXA33
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA330,Taxa de Referência 330,Taxa,BOVESPA\TAXA330
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA331,Taxa de Referência 331,Taxa,BOVESPA\TAXA331
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA332,Taxa de Referência 332,Taxa,BOVESPA\TAXA332
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA333,Taxa de Referência 333,Taxa,BOVESPA\TAXA333
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA334,Taxa de Referência 334,Taxa,BOVESPA\TAXA334
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA335,Taxa de Referência 335,Taxa,BOVESPA\TAXA335
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA336,Taxa de Referência 336,Taxa,BOVESPA\TAXA336
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA337,Taxa de Referência 337,Taxa,BOVESPA\TAXA337
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA338,Taxa de Referência 338,Taxa,BOVESPA\TAXA338
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA339,Taxa de Referência 339,Taxa,BOVESPA\TAXA339
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA33L,Taxa de Referência 33L,Taxa,BOVESPA\TAXA33L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA34,Taxa de Referência 34,Taxa,BOVESPA\TAXA34
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA340,Taxa de Referência 340,Taxa,BOVESPA\TAXA340
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA341,Taxa de Referência 341,Taxa,BOVESPA\TAXA341
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA342,Taxa de Referência 342,Taxa,BOVESPA\TAXA342
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA343,Taxa de Referência 343,Taxa,BOVESPA\TAXA343
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA344,Taxa de Referência 344,Taxa,BOVESPA\TAXA344
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA345,Taxa de Referência 345,Taxa,BOVESPA\TAXA345
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA346,Taxa de Referência 346,Taxa,BOVESPA\TAXA346
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA347,Taxa de Referência 347,Taxa,BOVESPA\TAXA347
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA348,Taxa de Referência 348,Taxa,BOVESPA\TAXA348
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA349,Taxa de Referência 349,Taxa,BOVESPA\TAXA349
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA34L,Taxa de Referência 34L,Taxa,BOVESPA\TAXA34L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA35,Taxa de Referência 35,Taxa,BOVESPA\TAXA35
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA350,Taxa de Referência 350,Taxa,BOVESPA\TAXA350
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA351,Taxa de Referência 351,Taxa,BOVESPA\TAXA351
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA352,Taxa de Referência 352,Taxa,BOVESPA\TAXA352
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA353,Taxa de Referência 353,Taxa,BOVESPA\TAXA353
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA354,Taxa de Referência 354,Taxa,BOVESPA\TAXA354
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA355,Taxa de Referência 355,Taxa,BOVESPA\TAXA355
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA356,Taxa de Referência 356,Taxa,BOVESPA\TAXA356
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA357,Taxa de Referência 357,Taxa,BOVESPA\TAXA357
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA358,Taxa de Referência 358,Taxa,BOVESPA\TAXA358
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA359,Taxa de Referência 359,Taxa,BOVESPA\TAXA359
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA35L,Taxa de Referência 35L,Taxa,BOVESPA\TAXA35L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA36,Taxa de Referência 36,Taxa,BOVESPA\TAXA36
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA360,Taxa de Referência 360,Taxa,BOVESPA\TAXA360
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA361,Taxa de Referência 361,Taxa,BOVESPA\TAXA361
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA362,Taxa de Referência 362,Taxa,BOVESPA\TAXA362
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA363,Taxa de Referência 363,Taxa,BOVESPA\TAXA363
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA364,Taxa de Referência 364,Taxa,BOVESPA\TAXA364
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA365,Taxa de Referência 365,Taxa,BOVESPA\TAXA365
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA36L,Taxa de Referência 36L,Taxa,BOVESPA\TAXA36L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA37,Taxa de Referência 37,Taxa,BOVESPA\TAXA37
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA37L,Taxa de Referência 37L,Taxa,BOVESPA\TAXA37L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA38,Taxa de Referência 38,Taxa,BOVESPA\TAXA38
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA38L,Taxa de Referência 38L,Taxa,BOVESPA\TAXA38L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA39,Taxa de Referência 39,Taxa,BOVESPA\TAXA39
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA39L,Taxa de Referência 39L,Taxa,BOVESPA\TAXA39L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA40,Taxa de Referência 40,Taxa,BOVESPA\TAXA40
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA40L,Taxa de Referência 40L,Taxa,BOVESPA\TAXA40L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA41,Taxa de Referência 41,Taxa,BOVESPA\TAXA41
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA41L,Taxa de Referência 41L,Taxa,BOVESPA\TAXA41L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA42,Taxa de Referência 42,Taxa,BOVESPA\TAXA42
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA42L,Taxa de Referência 42L,Taxa,BOVESPA\TAXA42L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA43,Taxa de Referência 43,Taxa,BOVESPA\TAXA43
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA43L,Taxa de Referência 43L,Taxa,BOVESPA\TAXA43L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA44,Taxa de Referência 44,Taxa,BOVESPA\TAXA44
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA44L,Taxa de Referência 44L,Taxa,BOVESPA\TAXA44L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA45,Taxa de Referência 45,Taxa,BOVESPA\TAXA45
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA45L,Taxa de Referência 45L,Taxa,BOVESPA\TAXA45L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA46,Taxa de Referência 46,Taxa,BOVESPA\TAXA46
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA46L,Taxa de Referência 46L,Taxa,BOVESPA\TAXA46L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA47,Taxa de Referência 47,Taxa,BOVESPA\TAXA47
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA47L,Taxa de Referência 47L,Taxa,BOVESPA\TAXA47L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA48,Taxa de Referência 48,Taxa,BOVESPA\TAXA48
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA48L,Taxa de Referência 48L,Taxa,BOVESPA\TAXA48L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA49,Taxa de Referência 49,Taxa,BOVESPA\TAXA49
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA49L,Taxa de Referência 49L,Taxa,BOVESPA\TAXA49L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA50,Taxa de Referência 50,Taxa,BOVESPA\TAXA50
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA50L,Taxa de Referência 50L,Taxa,BOVESPA\TAXA50L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA51,Taxa de Referência 51,Taxa,BOVESPA\TAXA51
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA51L,Taxa de Referência 51L,Taxa,BOVESPA\TAXA51L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA52,Taxa de Referência 52,Taxa,BOVESPA\TAXA52
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA52L,Taxa de Referência 52L,Taxa,BOVESPA\TAXA52L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA53,Taxa de Referência 53,Taxa,BOVESPA\TAXA53
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA53L,Taxa de Referência 53L,Taxa,BOVESPA\TAXA53L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA54,Taxa de Referência 54,Taxa,BOVESPA\TAXA54
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA54L,Taxa de Referência 54L,Taxa,BOVESPA\TAXA54L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA55,Taxa de Referência 55,Taxa,BOVESPA\TAXA55
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA55L,Taxa de Referência 55L,Taxa,BOVESPA\TAXA55L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA56,Taxa de Referência 56,Taxa,BOVESPA\TAXA56
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA56L,Taxa de Referência 56L,Taxa,BOVESPA\TAXA56L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA57,Taxa de Referência 57,Taxa,BOVESPA\TAXA57
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA57L,Taxa de Referência 57L,Taxa,BOVESPA\TAXA57L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA58,Taxa de Referência 58,Taxa,BOVESPA\TAXA58
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA58L,Taxa de Referência 58L,Taxa,BOVESPA\TAXA58L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA59,Taxa de Referência 59,Taxa,BOVESPA\TAXA59
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA59L,Taxa de Referência 59L,Taxa,BOVESPA\TAXA59L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA60,Taxa de Referência 60,Taxa,BOVESPA\TAXA60
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA60L,Taxa de Referência 60L,Taxa,BOVESPA\TAXA60L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA61,Taxa de Referência 61,Taxa,BOVESPA\TAXA61
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA61L,Taxa de Referência 61L,Taxa,BOVESPA\TAXA61L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA62,Taxa de Referência 62,Taxa,BOVESPA\TAXA62
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA62L,Taxa de Referência 62L,Taxa,BOVESPA\TAXA62L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA63,Taxa de Referência 63,Taxa,BOVESPA\TAXA63
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA63L,Taxa de Referência 63L,Taxa,BOVESPA\TAXA63L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA64,Taxa de Referência 64,Taxa,BOVESPA\TAXA64
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA64L,Taxa de Referência 64L,Taxa,BOVESPA\TAXA64L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA65,Taxa de Referência 65,Taxa,BOVESPA\TAXA65
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA65L,Taxa de Referência 65L,Taxa,BOVESPA\TAXA65L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA66,Taxa de Referência 66,Taxa,BOVESPA\TAXA66
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA66L,Taxa de Referência 66L,Taxa,BOVESPA\TAXA66L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA67,Taxa de Referência 67,Taxa,BOVESPA\TAXA67
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA67L,Taxa de Referência 67L,Taxa,BOVESPA\TAXA67L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA68,Taxa de Referência 68,Taxa,BOVESPA\TAXA68
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA68L,Taxa de Referência 68L,Taxa,BOVESPA\TAXA68L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA69,Taxa de Referência 69,Taxa,BOVESPA\TAXA69
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA69L,Taxa de Referência 69L,Taxa,BOVESPA\TAXA69L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA70,Taxa de Referência 70,Taxa,BOVESPA\TAXA70
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA70L,Taxa de Referência 70L,Taxa,BOVESPA\TAXA70L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA71,Taxa de Referência 71,Taxa,BOVESPA\TAXA71
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA71L,Taxa de Referência 71L,Taxa,BOVESPA\TAXA71L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA72,Taxa de Referência 72,Taxa,BOVESPA\TAXA72
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA72L,Taxa de Referência 72L,Taxa,BOVESPA\TAXA72L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA73,Taxa de Referência 73,Taxa,BOVESPA\TAXA73
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA73L,Taxa de Referência 73L,Taxa,BOVESPA\TAXA73L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA74,Taxa de Referência 74,Taxa,BOVESPA\TAXA74
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA74L,Taxa de Referência 74L,Taxa,BOVESPA\TAXA74L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA75,Taxa de Referência 75,Taxa,BOVESPA\TAXA75
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA75L,Taxa de Referência 75L,Taxa,BOVESPA\TAXA75L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA76,Taxa de Referência 76,Taxa,BOVESPA\TAXA76
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA76L,Taxa de Referência 76L,Taxa,BOVESPA\TAXA76L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA77,Taxa de Referência 77,Taxa,BOVESPA\TAXA77
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA77L,Taxa de Referência 77L,Taxa,BOVESPA\TAXA77L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA78,Taxa de Referência 78,Taxa,BOVESPA\TAXA78
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA78L,Taxa de Referência 78L,Taxa,BOVESPA\TAXA78L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA79,Taxa de Referência 79,Taxa,BOVESPA\TAXA79
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA79L,Taxa de Referência 79L,Taxa,BOVESPA\TAXA79L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA80,Taxa de Referência 80,Taxa,BOVESPA\TAXA80
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA80L,Taxa de Referência 80L,Taxa,BOVESPA\TAXA80L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA81,Taxa de Referência 81,Taxa,BOVESPA\TAXA81
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA81L,Taxa de Referência 81L,Taxa,BOVESPA\TAXA81L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA82,Taxa de Referência 82,Taxa,BOVESPA\TAXA82
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA82L,Taxa de Referência 82L,Taxa,BOVESPA\TAXA82L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA83,Taxa de Referência 83,Taxa,BOVESPA\TAXA83
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA83L,Taxa de Referência 83L,Taxa,BOVESPA\TAXA83L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA84,Taxa de Referência 84,Taxa,BOVESPA\TAXA84
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA84L,Taxa de Referência 84L,Taxa,BOVESPA\TAXA84L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA85,Taxa de Referência 85,Taxa,BOVESPA\TAXA85
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA85L,Taxa de Referência 85L,Taxa,BOVESPA\TAXA85L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA86,Taxa de Referência 86,Taxa,BOVESPA\TAXA86
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA86L,Taxa de Referência 86L,Taxa,BOVESPA\TAXA86L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA87,Taxa de Referência 87,Taxa,BOVESPA\TAXA87
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA87L,Taxa de Referência 87L,Taxa,BOVESPA\TAXA87L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA88,Taxa de Referência 88,Taxa,BOVESPA\TAXA88
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA88L,Taxa de Referência 88L,Taxa,BOVESPA\TAXA88L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA89,Taxa de Referência 89,Taxa,BOVESPA\TAXA89
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA89L,Taxa de Referência 89L,Taxa,BOVESPA\TAXA89L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA90,Taxa de Referência 90,Taxa,BOVESPA\TAXA90
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA90L,Taxa de Referência 90L,Taxa,BOVESPA\TAXA90L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA91,Taxa de Referência 91,Taxa,BOVESPA\TAXA91
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA91L,Taxa de Referência 91L,Taxa,BOVESPA\TAXA91L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA92,Taxa de Referência 92,Taxa,BOVESPA\TAXA92
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA92L,Taxa de Referência 92L,Taxa,BOVESPA\TAXA92L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA93,Taxa de Referência 93,Taxa,BOVESPA\TAXA93
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA93L,Taxa de Referência 93L,Taxa,BOVESPA\TAXA93L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA94,Taxa de Referência 94,Taxa,BOVESPA\TAXA94
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA94L,Taxa de Referência 94L,Taxa,BOVESPA\TAXA94L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA95,Taxa de Referência 95,Taxa,BOVESPA\TAXA95
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA95L,Taxa de Referência 95L,Taxa,BOVESPA\TAXA95L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA96,Taxa de Referência 96,Taxa,BOVESPA\TAXA96
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA96L,Taxa de Referência 96L,Taxa,BOVESPA\TAXA96L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA97,Taxa de Referência 97,Taxa,BOVESPA\TAXA97
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA97L,Taxa de Referência 97L,Taxa,BOVESPA\TAXA97L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA98,Taxa de Referência 98,Taxa,BOVESPA\TAXA98
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA98L,Taxa de Referência 98L,Taxa,BOVESPA\TAXA98L
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA99,Taxa de Referência 99,Taxa,BOVESPA\TAXA99
+sector_049,Taxas de Referência - BOVESPA,BOVESPA,TAXA99L,Taxa de Referência 99L,Taxa,BOVESPA\TAXA99L
+sector_050,Índices - ETFs,BOVESPA,ACWI11,ETF MSCI World,ETF,BOVESPA\ACWI11
+sector_050,Índices - ETFs,BOVESPA,BDIV11,ETF Dividendos BR,ETF,BOVESPA\BDIV11
+sector_050,Índices - ETFs,BOVESPA,BLUE11,ETF Blue Chips,ETF,BOVESPA\BLUE11
+sector_050,Índices - ETFs,BOVESPA,BOVA11,ETF Ibovespa,ETF,BOVESPA\BOVA11
+sector_050,Índices - ETFs,BOVESPA,BOVB11,ETF Ibovespa Banco Brasil,ETF,BOVESPA\BOVB11
+sector_050,Índices - ETFs,BOVESPA,BOVV11,ETF Ibovespa B,ETF,BOVESPA\BOVV11
+sector_050,Índices - ETFs,BOVESPA,BOVX11,ETF Ibovespa XP,ETF,BOVESPA\BOVX11
+sector_050,Índices - ETFs,BOVESPA,CHIP11,ETF Semicondutores,ETF,BOVESPA\CHIP11
+sector_050,Índices - ETFs,BOVESPA,CORN11,ETF Grãos,ETF,BOVESPA\CORN11
+sector_050,Índices - ETFs,BOVESPA,DEFI11,ETF DeFi,ETF,BOVESPA\DEFI11
+sector_050,Índices - ETFs,BOVESPA,DIVD11,ETF Dividendos Smart,ETF,BOVESPA\DIVD11
+sector_050,Índices - ETFs,BOVESPA,DIVO11,ETF Dividendos Outros,ETF,BOVESPA\DIVO11
+sector_050,Índices - ETFs,BOVESPA,DOLA11,ETF Dólar,ETF,BOVESPA\DOLA11
+sector_050,Índices - ETFs,BOVESPA,EURO11,ETF Euro,ETF,BOVESPA\EURO11
+sector_050,Índices - ETFs,BOVESPA,GOLD11,ETF Ouro,ETF,BOVESPA\GOLD11
+sector_050,Índices - ETFs,BOVESPA,HIGH11,ETF Alta Volatilidade,ETF,BOVESPA\HIGH11
+sector_050,Índices - ETFs,BOVESPA,IDIV11,ETF Dividendos,ETF,BOVESPA\IDIV11
+sector_050,Índices - ETFs,BOVESPA,IFIX11,ETF FIIs,ETF,BOVESPA\IFIX11
+sector_050,Índices - ETFs,BOVESPA,IFNC11,ETF Financeiro,ETF,BOVESPA\IFNC11
+sector_050,Índices - ETFs,BOVESPA,IMAT11,ETF Materiais B,ETF,BOVESPA\IMAT11
+sector_050,Índices - ETFs,BOVESPA,INBR32,ETF IMA-Geral,ETF,BOVESPA\INBR32
+sector_050,Índices - ETFs,BOVESPA,INLG11,ETF ESG/Infraestrutura,ETF,BOVESPA\INLG11
+sector_050,Índices - ETFs,BOVESPA,INRD11,ETF Infraestrutura,ETF,BOVESPA\INRD11
+sector_050,Índices - ETFs,BOVESPA,ISEE11,ETF ESG,ETF,BOVESPA\ISEE11
+sector_050,Índices - ETFs,BOVESPA,ISUS11,ETF Sustentabilidade,ETF,BOVESPA\ISUS11
+sector_050,Índices - ETFs,BOVESPA,IVBX11,ETF IVBX,ETF,BOVESPA\IVBX11
+sector_050,Índices - ETFs,BOVESPA,IVCI11,ETF Imobiliário,ETF,BOVESPA\IVCI11
+sector_050,Índices - ETFs,BOVESPA,IVVB11,ETF S&P 500,ETF,BOVESPA\IVVB11
+sector_050,Índices - ETFs,BOVESPA,LVOL11,ETF Baixa Volatilidade,ETF,BOVESPA\LVOL11
+sector_050,Índices - ETFs,BOVESPA,MATB11,ETF Materiais,ETF,BOVESPA\MATB11
+sector_050,Índices - ETFs,BOVESPA,MLCX11,ETF Mid-Large Cap,ETF,BOVESPA\MLCX11
+sector_050,Índices - ETFs,BOVESPA,NASD11,ETF Nasdaq,ETF,BOVESPA\NASD11
+sector_050,Índices - ETFs,BOVESPA,NDIV11,ETF Dividendos Nord,ETF,BOVESPA\NDIV11
+sector_050,Índices - ETFs,BOVESPA,NSDV11,ETF Nasdaq Dividendos,ETF,BOVESPA\NSDV11
+sector_050,Índices - ETFs,BOVESPA,NTNS11,ETF Notas do Tesouro,ETF,BOVESPA\NTNS11
+sector_050,Índices - ETFs,BOVESPA,PIBB11,ETF Ibovespa Pib,ETF,BOVESPA\PIBB11
+sector_050,Índices - ETFs,BOVESPA,QQQI11,ETF Nasdaq BR,ETF,BOVESPA\QQQI11
+sector_050,Índices - ETFs,BOVESPA,QSOL11,ETF Solar,ETF,BOVESPA\QSOL11
+sector_050,Índices - ETFs,BOVESPA,RENV11,ETF Renováveis,ETF,BOVESPA\RENV11
+sector_050,Índices - ETFs,BOVESPA,SMAB11,ETF Small Cap B,ETF,BOVESPA\SMAB11
+sector_050,Índices - ETFs,BOVESPA,SMAL11,ETF Small Cap,ETF,BOVESPA\SMAL11
+sector_050,Índices - ETFs,BOVESPA,SMLL11,ETF Small Cap B3,ETF,BOVESPA\SMLL11
+sector_050,Índices - ETFs,BOVESPA,SNID11,ETF Índices,ETF,BOVESPA\SNID11
+sector_050,Índices - ETFs,BOVESPA,SPXB11,ETF S&P 500 B,ETF,BOVESPA\SPXB11
+sector_050,Índices - ETFs,BOVESPA,SPXS11,ETF S&P 500 S,ETF,BOVESPA\SPXS11
+sector_050,Índices - ETFs,BOVESPA,SPYI11,ETF S&P 500 I,ETF,BOVESPA\SPYI11
+sector_050,Índices - ETFs,BOVESPA,SVAL11,ETF Smart Value,ETF,BOVESPA\SVAL11
+sector_050,Índices - ETFs,BOVESPA,TECK11,ETF Tecnologia,ETF,BOVESPA\TECK11
+sector_050,Índices - ETFs,BOVESPA,USAL11,ETF USA Longo,ETF,BOVESPA\USAL11
+sector_050,Índices - ETFs,BOVESPA,USTK11,ETF US Stocks,ETF,BOVESPA\USTK11
+sector_050,Índices - ETFs,BOVESPA,UTIL11,ETF Utilidades,ETF,BOVESPA\UTIL11
+sector_050,Índices - ETFs,BOVESPA,WRLD11,ETF World,ETF,BOVESPA\WRLD11
+sector_050,Índices - ETFs,BOVESPA,XINA11,ETF China,ETF,BOVESPA\XINA11
+sector_050,Índices - ETFs,BOVESPA,XPBR31,ETF BR Diversificado,ETF,BOVESPA\XPBR31
+sector_051,Índices - Futuros (BMF),BMF,ICFH26,Futuro Cupom Cambial Mar/26,Futuro,BMF\ICFH26
+sector_051,Índices - Futuros (BMF),BMF,ICFU26,Futuro Cupom Cambial Out/26,Futuro,BMF\ICFU26
+sector_051,Índices - Futuros (BMF),BMF,ICFZ26,Futuro Cupom Cambial Dez/26,Futuro,BMF\ICFZ26
+sector_051,Índices - Futuros (BMF),BMF,INDG27,Futuro Índice Fev/27,Futuro,BMF\INDG27
+sector_051,Índices - Futuros (BMF),BMF,INDJ26,Futuro Índice Jun/26,Futuro,BMF\INDJ26
+sector_051,Índices - Futuros (BMF),BMF,INDM26,Futuro Índice Mai/26,Futuro,BMF\INDM26
+sector_051,Índices - Futuros (BMF),BMF,INDQ26,Futuro Índice Ago/26,Futuro,BMF\INDQ26
+sector_051,Índices - Futuros (BMF),BMF,INDV26,Futuro Índice Out/26,Futuro,BMF\INDV26
+sector_051,Índices - Futuros (BMF),BMF,INDZ26,Futuro Índice Dez/26,Futuro,BMF\INDZ26
+sector_051,Índices - Futuros (BMF),BMF,ISPH26,Futuro S&P 500 Mar/26,Futuro,BMF\ISPH26
+sector_051,Índices - Futuros (BMF),BMF,SMLJ26,Futuro Small Cap Jun/26,Futuro,BMF\SMLJ26
+sector_051,Índices - Futuros (BMF),BMF,SMLM26,Futuro Small Cap Mai/26,Futuro,BMF\SMLM26
+sector_051,Índices - Futuros (BMF),BMF,SMLQ26,Futuro Small Cap Ago/26,Futuro,BMF\SMLQ26
+sector_051,Índices - Futuros (BMF),BMF,SMLV26,Futuro Small Cap Out/26,Futuro,BMF\SMLV26
+sector_051,Índices - Futuros (BMF),BMF,SMLZ26,Futuro Small Cap Dez/26,Futuro,BMF\SMLZ26
+sector_051,Índices - Futuros (BMF),BMF,VIXH26,Futuro VIX Mar/26,Futuro,BMF\VIXH26
+sector_051,Índices - Futuros (BMF),BMF,WINJ26,Mini Índice Jun/26,Futuro,BMF\WINJ26
+sector_051,Índices - Futuros (BMF),BMF,WINM26,Mini Índice Mai/26,Futuro,BMF\WINM26
+sector_051,Índices - Futuros (BMF),BMF,WINQ26,Mini Índice Ago/26,Futuro,BMF\WINQ26
+sector_051,Índices - Futuros (BMF),BMF,WINV26,Mini Índice Out/26,Futuro,BMF\WINV26
+sector_051,Índices - Futuros (BMF),BMF,WINZ26,Mini Índice Dez/26,Futuro,BMF\WINZ26
+sector_052,Índices - Globais e Brasileiros,INDEX,BDRX,BDRX - BDRs Brasil,Índice,INDEX\BDRX
+sector_052,Índices - Globais e Brasileiros,INDEX,CAC40,CAC 40 França,Índice,INDEX\CAC40
+sector_052,Índices - Globais e Brasileiros,INDEX,CSI300,CSI 300 China,Índice,INDEX\CSI300
+sector_052,Índices - Globais e Brasileiros,INDEX,DAX,DAX 40 Alemanha,Índice,INDEX\DAX
+sector_052,Índices - Globais e Brasileiros,INDEX,DJI,Dow Jones,Índice,INDEX\DJI
+sector_052,Índices - Globais e Brasileiros,INDEX,FTSE,FTSE 100 UK,Índice,INDEX\FTSE
+sector_052,Índices - Globais e Brasileiros,INDEX,HSI,Hang Seng Hong Kong,Índice,INDEX\HSI
+sector_052,Índices - Globais e Brasileiros,INDEX,IBOV,Ibovespa Brasil,Índice,INDEX\IBOV
+sector_052,Índices - Globais e Brasileiros,INDEX,ICON,ICON Consumo,Índice,INDEX\ICON
+sector_052,Índices - Globais e Brasileiros,INDEX,IDIV,Índice Dividendos Brasil,Índice,INDEX\IDIV
+sector_052,Índices - Globais e Brasileiros,INDEX,IEEX,IEEX Energia,Índice,INDEX\IEEX
+sector_052,Índices - Globais e Brasileiros,INDEX,IFIX,IFIX FIIs Brasil,Índice,INDEX\IFIX
+sector_052,Índices - Globais e Brasileiros,INDEX,IFNC,IFNC Financeiro,Índice,INDEX\IFNC
+sector_052,Índices - Globais e Brasileiros,INDEX,IGCX,IGCX Governança,Índice,INDEX\IGCX
+sector_052,Índices - Globais e Brasileiros,INDEX,IGNM,IGNM Novo Mercado,Índice,INDEX\IGNM
+sector_052,Índices - Globais e Brasileiros,INDEX,IMAT,IMAT Materiais,Índice,INDEX\IMAT
+sector_052,Índices - Globais e Brasileiros,INDEX,IMOB,IMOB Imobiliário,Índice,INDEX\IMOB
+sector_052,Índices - Globais e Brasileiros,INDEX,INDX,INDX Industrial,Índice,INDEX\INDX
+sector_052,Índices - Globais e Brasileiros,INDEX,ISE,ISE Sustentabilidade,Índice,INDEX\ISE
+sector_052,Índices - Globais e Brasileiros,INDEX,ITAG,ITAG Tag Along,Índice,INDEX\ITAG
+sector_052,Índices - Globais e Brasileiros,INDEX,MLCX,Mid-Large Cap Brasil,Índice,INDEX\MLCX
+sector_052,Índices - Globais e Brasileiros,INDEX,NDX,Nasdaq 100,Índice,INDEX\NDX
+sector_052,Índices - Globais e Brasileiros,INDEX,NIKKEI,Nikkei 225 Japão,Índice,INDEX\NIKKEI
+sector_052,Índices - Globais e Brasileiros,INDEX,RUT,Russell 2000,Índice,INDEX\RUT
+sector_052,Índices - Globais e Brasileiros,INDEX,SMLL,Small Cap Brasil,Índice,INDEX\SMLL
+sector_052,Índices - Globais e Brasileiros,INDEX,SPX,S&P 500,Índice,INDEX\SPX
+sector_052,Índices - Globais e Brasileiros,INDEX,UTIL,UTIL Utilidades,Índice,INDEX\UTIL
+sector_052,Índices - Globais e Brasileiros,INDEX,VIX,CBOE Volatility Index,Índice,INDEX\VIX
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,AAPL.US,Apple Inc,BDR,NYSE\AAPL.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,ABBV.US,AbbVie,BDR,NYSE\ABBV.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,ABT.US,Abbott Labs,BDR,NYSE\ABT.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,ADBE.US,Adobe,BDR,NYSE\ADBE.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,AMAT.US,Applied Materials,BDR,NYSE\AMAT.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,AMD.US,Advanced Micro Devices,BDR,NYSE\AMD.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,AMZN.US,Amazon Inc,BDR,NYSE\AMZN.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,ASML.US,ASML Holding,BDR,NYSE\ASML.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,AVGO.US,Broadcom,BDR,NYSE\AVGO.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,BABA.US,Alibaba Group,BDR,NYSE\BABA.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,BAC.US,Bank of America,BDR,NYSE\BAC.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,BRK.B.US,Berkshire Hathaway,BDR,NYSE\BRK.B.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,COST.US,Costco,BDR,NYSE\COST.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,CRM.US,Salesforce,BDR,NYSE\CRM.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,CSCO.US,Cisco,BDR,NYSE\CSCO.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,CVX.US,Chevron,BDR,NYSE\CVX.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,DHR.US,Danaher,BDR,NYSE\DHR.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,DIS.US,Walt Disney,BDR,NYSE\DIS.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,GOOGL.US,Alphabet Inc,BDR,NYSE\GOOGL.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,HD.US,Home Depot,BDR,NYSE\HD.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,IBM.US,IBM,BDR,NYSE\IBM.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,INTC.US,Intel,BDR,NYSE\INTC.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,JNJ.US,Johnson & Johnson,BDR,NYSE\JNJ.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,JPM.US,JPMorgan Chase,BDR,NYSE\JPM.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,KO.US,Coca-Cola,BDR,NYSE\KO.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,LLY.US,Eli Lilly,BDR,NYSE\LLY.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,LRCX.US,Lam Research,BDR,NYSE\LRCX.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,MA.US,Mastercard,BDR,NYSE\MA.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,MCD.US,McDonald's,BDR,NYSE\MCD.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,MELI.US,MercadoLibre,BDR,NYSE\MELI.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,META.US,Meta Platforms,BDR,NYSE\META.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,MRK.US,Merck,BDR,NYSE\MRK.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,MSFT.US,Microsoft Corp,BDR,NYSE\MSFT.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,NEE.US,NextEra Energy,BDR,NYSE\NEE.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,NFLX.US,Netflix,BDR,NYSE\NFLX.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,NKE.US,Nike,BDR,NYSE\NKE.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,NVDA.US,Nvidia Corp,BDR,NYSE\NVDA.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,PEP.US,PepsiCo,BDR,NYSE\PEP.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,PG.US,Procter & Gamble,BDR,NYSE\PG.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,QCOM.US,Qualcomm,BDR,NYSE\QCOM.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,TMO.US,Thermo Fisher,BDR,NYSE\TMO.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,TSLA.US,Tesla Inc,BDR,NYSE\TSLA.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,TSM.US,Taiwan Semiconductor,BDR,NYSE\TSM.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,TXN.US,Texas Instruments,BDR,NYSE\TXN.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,UNH.US,UnitedHealth Group,BDR,NYSE\UNH.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,V.US,Visa Inc,BDR,NYSE\V.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,WMT.US,Walmart,BDR,NYSE\WMT.US
+sector_008,Ações - Mercado Global (NYSE/NASDAQ),NYSE,XOM.US,ExxonMobil,BDR,NYSE\XOM.US

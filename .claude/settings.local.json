@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find C:/Users/Genial -name *.ts -o -name *.js)",
+      "Bash(vercel --version)",
+      "Bash(vercel whoami:*)",
+      "Bash(npx vercel:*)",
+      "Bash(curl:*)",
+      "Bash(find C:/Users/Genial/Desktop C:/Users/Genial/Documents -name *.ts -o -name *.js -o -name vercel.json)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(list\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(node:*)",
+      "Bash(find C:/Users/Genial -name .env*)",
+      "Bash(xargs grep:*)",
+      "Bash(cd:*)",
+      "Bash(npx supabase:*)",
+      "Bash(find C:/Users/Genial/AppData -path *supabase* -name *.json)",
+      "Bash(printf '{\"\"\"\"ticks\"\"\"\":[{\"\"\"\"symbol\"\"\"\":\"\"\"\"EURUSD\"\"\"\",\"\"\"\"bid\"\"\"\":1.08,\"\"\"\"ask\"\"\"\":1.081,\"\"\"\"last\"\"\"\":1.0805,\"\"\"\"volume\"\"\"\":100,\"\"\"\"time\"\"\"\":1743440000,\"\"\"\"source\"\"\"\":\"\"\"\"mt5\"\"\"\"}]}\\\\x00')",
+      "Bash(find C:/Users/Genial/Desktop C:/Users/Genial/Documents C:/Users/Genial/Downloads -maxdepth 5 -name *.json -o -name *.ts -o -name *.tsx -o -name *.vue)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(find C:UsersGenialVexorNodepackageswebsrcpages -type f -name *.ts -o -name *.tsx)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\(''''version'''',''''?''''\\)\\)\")",
+      "Bash(\"C:/Users/Genial/VexorNode/.gitignore\":*)"
+    ]
+  }
+}

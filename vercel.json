@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/tick",        "destination": "/api/tick" },
+    { "source": "/ticks/batch", "destination": "/api/ticks/batch" }
+  ]
+}

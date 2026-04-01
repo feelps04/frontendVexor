@@ -1,0 +1,998 @@
+import type { FastifyInstance } from 'fastify';
+import fs from 'node:fs';
+import path from 'node:path';
+import type Redis from 'ioredis';
+import { requireAuth } from '../infrastructure/auth.js';
+
+type Sector = {
+  sector_id: string;
+  sector_name: string;
+  total_symbols?: number;
+  description?: string;
+  source?: string;
+  protocol?: string;
+  frequency?: string;
+  recommendation?: string;
+};
+
+type SectorSymbol = {
+  sector_id: string;
+  sector_name: string;
+  exchange: string;
+  symbol: string;
+  description?: string;
+  type?: string;
+  full_symbol?: string;
+};
+
+type SectorIndex = {
+  loadedAtMs: number;
+  sectorsFilePath: string;
+  sectorsFileMtimeMs: number;
+  symbolsFilePath: string;
+  symbolsFileMtimeMs: number;
+  sectors: Sector[];
+  sectorsById: Record<string, Sector>;
+  symbolsBySectorId: Record<string, SectorSymbol[]>;
+};
+
+type SectorMeta = {
+  source: string;
+  protocol: string;
+  frequency: string;
+  recommendation: string;
+};
+
+function normalizeId(input: string): string {
+  return String(input || '')
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9_-]/g, '');
+}
+
+function safeReadUtf8(p: string): string {
+  const buf = fs.readFileSync(p);
+  let s = buf.toString('utf8');
+  if (s.charCodeAt(0) === 0xfeff) s = s.slice(1);
+  return s;
+}
+
+function getSectorMetaFromRow(sector: Sector | null): SectorMeta {
+  const fallback: SectorMeta = {
+    source: 'MT5 Genial',
+    protocol: 'Script MMF',
+    frequency: 'Ticks (Real-time)',
+    recommendation: 'Mudar para Poll (1-5 min). Ticks alimentam a ansiedade e o vício em "olhar o preço" a cada segundo.',
+  };
+
+  if (!sector) return fallback;
+  const source = String(sector.source ?? '').trim();
+  const protocol = String(sector.protocol ?? '').trim();
+  const frequency = String(sector.frequency ?? '').trim();
+  const recommendation = String(sector.recommendation ?? '').trim();
+
+  return {
+    source: source || fallback.source,
+    protocol: protocol || fallback.protocol,
+    frequency: frequency || fallback.frequency,
+    recommendation: recommendation || fallback.recommendation,
+  };
+}
+
+function parseCsvLine(line: string): string[] {
+  const out: string[] = [];
+  let cur = '';
+  let inQuotes = false;
+
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (ch === '"') {
+      const next = i + 1 < line.length ? line[i + 1] : '';
+      if (inQuotes && next === '"') {
+        cur += '"';
+        i++;
+        continue;
+      }
+      inQuotes = !inQuotes;
+      continue;
+    }
+    if (ch === ',' && !inQuotes) {
+      out.push(cur);
+      cur = '';
+      continue;
+    }
+    cur += ch;
+  }
+  out.push(cur);
+  return out.map((v) => String(v ?? '').trim());
+}
+
+function parseCsvFile(p: string): Array<Record<string, string>> {
+  const raw = safeReadUtf8(p);
+  const lines = raw
+    .split(/\r?\n/g)
+    .map((l) => String(l || '').trim())
+    .filter(Boolean);
+
+  if (lines.length === 0) return [];
+
+  const header = parseCsvLine(lines[0]);
+  const rows: Array<Record<string, string>> = [];
+
+  for (let i = 1; i < lines.length; i++) {
+    const parts = parseCsvLine(lines[i]);
+    if (parts.length === 0) continue;
+
+    const row: Record<string, string> = {};
+    for (let j = 0; j < header.length; j++) {
+      const k = String(header[j] ?? '').trim();
+      if (!k) continue;
+      row[k] = String(parts[j] ?? '').trim();
+    }
+    rows.push(row);
+  }
+
+  return rows;
+}
+
+function defaultRootCandidates(): string[] {
+  const cwd = process.cwd();
+  return [cwd, path.join(cwd, '..'), path.join(cwd, '..', '..'), path.join(cwd, '..', '..', '..')];
+}
+
+function resolveDataFile(fileName: string): string {
+  const dataDirRaw = String(process.env.DATA_DIR ?? '').trim();
+  const cwd = process.cwd();
+
+  const roots = defaultRootCandidates();
+  const candidates: string[] = [];
+
+  if (dataDirRaw) {
+    if (path.isAbsolute(dataDirRaw)) {
+      candidates.push(dataDirRaw);
+    } else {
+      for (const root of roots) {
+        candidates.push(path.join(root, dataDirRaw));
+      }
+    }
+  }
+
+  for (const root of roots) {
+    candidates.push(path.join(root, 'packages', 'api', 'data'));
+    candidates.push(path.join(root, 'data'));
+    candidates.push(root);
+  }
+
+  for (const dir of candidates) {
+    try {
+      const p = path.join(dir, fileName);
+      if (fs.existsSync(p)) return p;
+    } catch {
+    }
+  }
+
+  return path.join(cwd, fileName);
+}
+
+function findFirstExisting(relOrAbsPath: string): string {
+  const p = String(relOrAbsPath || '').trim();
+  if (!p) return p;
+  if (path.isAbsolute(p)) return p;
+
+  for (const root of defaultRootCandidates()) {
+    const cand = path.join(root, p);
+    try {
+      if (fs.existsSync(cand)) return cand;
+    } catch {
+    }
+  }
+
+  return path.join(process.cwd(), p);
+}
+
+function loadIndex(sectorsFilePath: string, symbolsFilePath: string): SectorIndex {
+  const sectorsSt = fs.statSync(sectorsFilePath);
+  const symbolsSt = fs.statSync(symbolsFilePath);
+
+  const sectorsRows = parseCsvFile(sectorsFilePath);
+  const symbolsRows = parseCsvFile(symbolsFilePath);
+
+  const sectors: Sector[] = sectorsRows
+    .map((r) => ({
+      sector_id: normalizeId(r.sector_id),
+      sector_name: String(r.sector_name || '').trim(),
+      total_symbols: r.total_symbols ? Number(r.total_symbols) : undefined,
+      description: r.description ? String(r.description).trim() : undefined,
+      source: r.source ? String(r.source).trim() : undefined,
+      protocol: r.protocol ? String(r.protocol).trim() : undefined,
+      frequency: r.frequency ? String(r.frequency).trim() : undefined,
+      recommendation: r.recommendation ? String(r.recommendation).trim() : undefined,
+    }))
+    .filter((s) => s.sector_id && s.sector_name);
+
+  const symbolWarnings: string[] = [];
+  const isValidSymbol = (sym: string): boolean => /^[A-Z0-9_\-\.\^]+$/.test(sym);
+
+  const symbols: SectorSymbol[] = symbolsRows
+    .map((r) => ({
+      sector_id: normalizeId(r.sector_id),
+      sector_name: String(r.sector_name || '').trim(),
+      exchange: String(r.exchange || '').trim().toUpperCase(),
+      symbol: String(r.symbol || '').trim().toUpperCase(),
+      description: r.description ? String(r.description).trim() : undefined,
+      type: r.type ? String(r.type).trim() : undefined,
+      full_symbol: r.full_symbol ? String(r.full_symbol).trim() : undefined,
+    }))
+    .filter((s) => {
+      if (!(s.sector_id && s.exchange && s.symbol)) return false;
+      if (!isValidSymbol(s.symbol)) {
+        symbolWarnings.push(`invalid symbol '${s.symbol}' in sector '${s.sector_id}'`);
+        return false;
+      }
+      return true;
+    });
+
+  const symbolsBySectorId: Record<string, SectorSymbol[]> = {};
+  for (const sym of symbols) {
+    const key = sym.sector_id;
+    if (!symbolsBySectorId[key]) symbolsBySectorId[key] = [];
+    symbolsBySectorId[key].push(sym);
+  }
+  for (const [k, list] of Object.entries(symbolsBySectorId)) {
+    const unique = new Map<string, SectorSymbol>();
+    for (const item of list) {
+      const key = `${item.exchange}:${item.symbol}`;
+      if (unique.has(key)) {
+        symbolWarnings.push(`duplicate symbol '${key}' in sector '${k}'`);
+      }
+      unique.set(key, item);
+    }
+    symbolsBySectorId[k] = Array.from(unique.values()).sort((a, b) => `${a.exchange}:${a.symbol}`.localeCompare(`${b.exchange}:${b.symbol}`));
+  }
+
+  const byId = new Map(sectors.map((s) => [s.sector_id, s] as const));
+  const sectorIdsFromSymbols = Object.keys(symbolsBySectorId);
+  for (const id of sectorIdsFromSymbols) {
+    if (!byId.has(id)) {
+      byId.set(id, { sector_id: id, sector_name: id });
+    }
+  }
+
+  const sectorsAll = Array.from(byId.values()).sort((a, b) => a.sector_id.localeCompare(b.sector_id));
+
+  const sectorsById: Record<string, Sector> = {};
+  for (const s of sectorsAll) {
+    sectorsById[s.sector_id] = s;
+  }
+
+  if (symbolWarnings.length > 0) {
+    const msg = symbolWarnings.slice(0, 30).join('; ');
+    console.warn(`[sectors] CSV warnings: ${msg}${symbolWarnings.length > 30 ? ` (+${symbolWarnings.length - 30} more)` : ''}`);
+  }
+
+  return {
+    loadedAtMs: Date.now(),
+    sectorsFilePath,
+    sectorsFileMtimeMs: sectorsSt.mtimeMs,
+    symbolsFilePath,
+    symbolsFileMtimeMs: symbolsSt.mtimeMs,
+    sectors: sectorsAll,
+    sectorsById,
+    symbolsBySectorId,
+  };
+}
+
+type CircuitState = 'CLOSED' | 'OPEN' | 'HALF_OPEN';
+class CircuitBreaker {
+  private state: CircuitState = 'CLOSED';
+  private failures = 0;
+  private openedAtMs = 0;
+  private halfOpenInFlight = false;
+  private lastError: string | null = null;
+
+  constructor(
+    private readonly name: string,
+    private readonly failureThreshold: number,
+    private readonly openDurationMs: number
+  ) {}
+
+  snapshot(): { name: string; state: CircuitState; failures: number; openedAtMs: number; lastError: string | null } {
+    return { name: this.name, state: this.state, failures: this.failures, openedAtMs: this.openedAtMs, lastError: this.lastError };
+  }
+
+  canRequest(): boolean {
+    if (this.state === 'CLOSED') return true;
+    const now = Date.now();
+    if (this.state === 'OPEN') {
+      if (now - this.openedAtMs >= this.openDurationMs) {
+        this.state = 'HALF_OPEN';
+        this.halfOpenInFlight = false;
+        return true;
+      }
+      return false;
+    }
+    // HALF_OPEN
+    if (this.halfOpenInFlight) return false;
+    this.halfOpenInFlight = true;
+    return true;
+  }
+
+  onSuccess(): void {
+    this.failures = 0;
+    this.lastError = null;
+    this.state = 'CLOSED';
+    this.openedAtMs = 0;
+    this.halfOpenInFlight = false;
+  }
+
+  onFailure(err: unknown): void {
+    const msg = err instanceof Error ? err.message : String(err);
+    this.lastError = msg;
+    this.failures++;
+    this.halfOpenInFlight = false;
+    if (this.failures >= this.failureThreshold) {
+      this.state = 'OPEN';
+      this.openedAtMs = Date.now();
+    }
+  }
+}
+
+export async function sectorRoutes(app: FastifyInstance, opts?: { redis?: Redis }): Promise<void> {
+  const redis = opts?.redis;
+  const marketDataUrl = process.env.MARKET_DATA_URL;
+  const CACHE_TTL_MS = Number(process.env.SECTORS_CACHE_TTL_MS ?? 10_000);
+
+  const LAST_PRICE_PREFIX = 'market:lastPrice:v1:';
+  const LAST_PRICE_TTL_SECONDS = Number(process.env.STOCKS_LAST_PRICE_TTL_SECONDS ?? 86_400);
+
+  const INGEST_TOKEN = String(process.env.MARKET_INGEST_TOKEN ?? '').trim();
+  const INGEST_STALE_MS = Number(process.env.MARKET_INGEST_STALE_MS ?? 10_000);
+
+  const BINANCE_TTL_MS = Number(process.env.SECTORS_BINANCE_TTL_MS ?? 3_000);
+
+  const RATE_LIMIT_WINDOW_MS = Number(process.env.MARKET_RATE_LIMIT_WINDOW_MS ?? 10_000);
+  const RATE_LIMIT_MAX = Number(process.env.MARKET_RATE_LIMIT_MAX ?? 60);
+
+  const cbFailureThreshold = Number(process.env.MARKET_CB_FAILURE_THRESHOLD ?? 3);
+  const cbOpenMs = Number(process.env.MARKET_CB_OPEN_MS ?? 30_000);
+
+  const binancePreHandler = async (req: any, reply: any): Promise<void> => {
+    const ok = rateLimitCheck(String(req.ip ?? req.headers['x-forwarded-for'] ?? ''));
+    if (!ok) {
+      reply.code(429).send({ message: 'rate_limited' });
+      return;
+    }
+  };
+
+  const breakerBinance = new CircuitBreaker('binance', cbFailureThreshold, cbOpenMs);
+  const breakerBcb = new CircuitBreaker('bcb', cbFailureThreshold, cbOpenMs);
+
+  const rateBuckets = new Map<string, { resetAtMs: number; count: number }>();
+  const rateLimitCheck = (key: string): boolean => {
+    const now = Date.now();
+    const k = String(key || '').trim() || 'unknown';
+    const cur = rateBuckets.get(k);
+    if (!cur || now >= cur.resetAtMs) {
+      rateBuckets.set(k, { resetAtMs: now + RATE_LIMIT_WINDOW_MS, count: 1 });
+      return true;
+    }
+    if (cur.count >= RATE_LIMIT_MAX) return false;
+    cur.count++;
+    return true;
+  };
+
+  const marketPreHandler = async (req: any, reply: any): Promise<void> => {
+    const ok = rateLimitCheck(String(req.ip ?? req.headers['x-forwarded-for'] ?? ''));
+    if (!ok) {
+      reply.code(429).send({ message: 'rate_limited' });
+      return;
+    }
+
+    const jwtVerify = (app as any)?.jwt?.verify;
+    if (typeof jwtVerify !== 'function') {
+      return;
+    }
+
+    const user = await requireAuth(app, req, reply);
+    if (!user) return;
+  };
+
+  const inMemoryQuoteCache = new Map<string, { expiresAtMs: number; price: number; updatedAtMs: number; source: string }>();
+  const getCached = (key: string): { price: number; updatedAtMs: number; source: string } | null => {
+    const v = inMemoryQuoteCache.get(key);
+    if (!v) return null;
+    if (Date.now() > v.expiresAtMs) {
+      inMemoryQuoteCache.delete(key);
+      return null;
+    }
+    return { price: v.price, updatedAtMs: v.updatedAtMs, source: v.source };
+  };
+  const setCached = (key: string, price: number, ttlMs: number, source: string): void => {
+    if (!Number.isFinite(price) || price <= 0) return;
+    inMemoryQuoteCache.set(key, { expiresAtMs: Date.now() + ttlMs, price, updatedAtMs: Date.now(), source });
+  };
+
+  const inMemoryLastPrice = new Map<string, { price: number; bid?: number; ask?: number; updatedAtMs: number; source: string }>();
+  const normalizeSymbolKey = (sym: string): string => String(sym || '').trim().toUpperCase().replace(/[^A-Z0-9$]/g, '');
+  const getIngested = (sym: string): { price: number; updatedAtMs: number; source: string } | null => {
+    const k = normalizeSymbolKey(sym);
+    if (!k) return null;
+    const v = inMemoryLastPrice.get(k);
+    if (!v) return null;
+    if (Number.isFinite(INGEST_STALE_MS) && INGEST_STALE_MS > 0 && Date.now() - v.updatedAtMs > INGEST_STALE_MS) {
+      return null;
+    }
+    return { price: v.price, updatedAtMs: v.updatedAtMs, source: v.source };
+  };
+
+  const ingestPreHandler = async (req: any, reply: any): Promise<void> => {
+    const ok = rateLimitCheck(String(req.ip ?? req.headers['x-forwarded-for'] ?? ''));
+    if (!ok) {
+      reply.code(429).send({ message: 'rate_limited' });
+      return;
+    }
+    if (!INGEST_TOKEN) return;
+    const token = String(req.headers['x-market-ingest-token'] ?? '').trim();
+    if (!token || token !== INGEST_TOKEN) {
+      reply.code(401).send({ message: 'unauthorized' });
+      return;
+    }
+  };
+
+  app.post(
+    '/api/v1/market/ingest/tick',
+    {
+      preHandler: ingestPreHandler,
+      schema: {
+        body: {
+          type: 'object',
+          properties: {
+            symbol: { type: 'string' },
+            priceBRL: { type: 'number' },
+            bid: { type: 'number' },
+            ask: { type: 'number' },
+            ts: { type: 'number' },
+            source: { type: 'string' },
+          },
+          required: ['symbol', 'priceBRL'],
+        },
+      },
+    },
+    async (req: any, reply: any) => {
+      const body = req.body ?? {};
+      const symbol = normalizeSymbolKey(body.symbol);
+      const priceBRL = Number(body.priceBRL);
+      if (!symbol || !Number.isFinite(priceBRL) || priceBRL <= 0) {
+        return reply.code(400).send({ message: 'invalid_tick' });
+      }
+      const now = Date.now();
+      const ts = Number.isFinite(Number(body.ts)) && Number(body.ts) > 0 ? Number(body.ts) : now;
+      const source = String(body.source ?? 'ingest').trim() || 'ingest';
+      const bid = Number(body.bid);
+      const ask = Number(body.ask);
+      inMemoryLastPrice.set(symbol, {
+        price: priceBRL,
+        bid: Number.isFinite(bid) && bid > 0 ? bid : undefined,
+        ask: Number.isFinite(ask) && ask > 0 ? ask : undefined,
+        updatedAtMs: ts,
+        source,
+      });
+
+      if (redis) {
+        try {
+          if (Number.isFinite(LAST_PRICE_TTL_SECONDS) && LAST_PRICE_TTL_SECONDS > 0) {
+            await redis.set(`${LAST_PRICE_PREFIX}${symbol}`, String(priceBRL), 'EX', LAST_PRICE_TTL_SECONDS);
+          } else {
+            await redis.set(`${LAST_PRICE_PREFIX}${symbol}`, String(priceBRL));
+          }
+        } catch {
+          // ignore
+        }
+      }
+
+      try {
+        (app as any).server.emit('market:ingest_tick', { symbol, priceBRL, bid, ask, ts, source });
+      } catch {
+        // ignore
+      }
+      return reply.code(200).send({ ok: true, symbol, updatedAt: ts });
+    }
+  );
+
+  app.post(
+    '/api/v1/market/ingest/ticks',
+    {
+      preHandler: ingestPreHandler,
+      schema: {
+        body: {
+          type: 'object',
+          properties: {
+            items: {
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: {
+                  symbol: { type: 'string' },
+                  priceBRL: { type: 'number' },
+                  bid: { type: 'number' },
+                  ask: { type: 'number' },
+                  ts: { type: 'number' },
+                  source: { type: 'string' },
+                },
+                required: ['symbol', 'priceBRL'],
+              },
+            },
+          },
+          required: ['items'],
+        },
+      },
+    },
+    async (req: any, reply: any) => {
+      const body = req.body ?? {};
+      const items = Array.isArray(body.items) ? body.items : [];
+      const now = Date.now();
+      let ok = 0;
+      for (const it of items) {
+        const symbol = normalizeSymbolKey(it?.symbol);
+        const priceBRL = Number(it?.priceBRL);
+        if (!symbol || !Number.isFinite(priceBRL) || priceBRL <= 0) continue;
+        const ts = Number.isFinite(Number(it?.ts)) && Number(it.ts) > 0 ? Number(it.ts) : now;
+        const source = String(it?.source ?? 'ingest').trim() || 'ingest';
+        const bid = Number(it?.bid);
+        const ask = Number(it?.ask);
+        inMemoryLastPrice.set(symbol, {
+          price: priceBRL,
+          bid: Number.isFinite(bid) && bid > 0 ? bid : undefined,
+          ask: Number.isFinite(ask) && ask > 0 ? ask : undefined,
+          updatedAtMs: ts,
+          source,
+        });
+
+        if (redis) {
+          try {
+            if (Number.isFinite(LAST_PRICE_TTL_SECONDS) && LAST_PRICE_TTL_SECONDS > 0) {
+              await redis.set(`${LAST_PRICE_PREFIX}${symbol}`, String(priceBRL), 'EX', LAST_PRICE_TTL_SECONDS);
+            } else {
+              await redis.set(`${LAST_PRICE_PREFIX}${symbol}`, String(priceBRL));
+            }
+          } catch {
+            // ignore
+          }
+        }
+
+        try {
+          (app as any).server.emit('market:ingest_tick', { symbol, priceBRL, bid, ask, ts, source });
+        } catch {
+          // ignore
+        }
+        ok++;
+      }
+      return reply.code(200).send({ ok: true, count: ok });
+    }
+  );
+
+  const fetchBcbRates = async (symbols: string[]): Promise<Map<string, number>> => {
+    if (!breakerBcb.canRequest()) {
+      throw new Error('bcb circuit open');
+    }
+
+    const out = new Map<string, number>();
+    const entries = symbols
+      .map((s) => ({ symbol: s, code: bcbSgsCodeForRate(s) }))
+      .filter((x): x is { symbol: string; code: number } => x.code != null);
+
+    for (const e of entries) {
+      const cached = getCached(`bcb:${e.code}`);
+      if (cached != null) out.set(e.symbol, cached.price);
+    }
+
+    const missing = entries.filter((e) => !out.has(e.symbol));
+    if (missing.length === 0) return out;
+
+    const concurrency = 4;
+    let i = 0;
+    const workers = Array.from({ length: concurrency }).map(async () => {
+      while (i < missing.length) {
+        const cur = missing[i++];
+        const url = `https://api.bcb.gov.br/dados/serie/bcdata.sgs.${cur.code}/dados/ultimos/1?formato=json`;
+        try {
+          const res = await fetch(url, {
+            method: 'GET',
+            headers: {
+              accept: 'application/json',
+              'user-agent': 'transaction-auth-engine/1.0',
+            },
+            signal: AbortSignal.timeout(15_000),
+          });
+          const arr: any = await res.json().catch(() => null);
+          const val = Number(arr?.[0]?.valor);
+          if (!Number.isFinite(val) || val <= 0) continue;
+          out.set(cur.symbol, val);
+          setCached(`bcb:${cur.code}`, val, BCB_TTL_MS, 'bcb');
+        } catch {
+        }
+      }
+    });
+    await Promise.all(workers);
+
+    if (out.size === 0) {
+      const err = new Error('bcb no rates');
+      breakerBcb.onFailure(err);
+      throw err;
+    }
+    breakerBcb.onSuccess();
+    return out;
+  };
+
+  async function getSectorQuotes(
+    idx: SectorIndex,
+    sectorId: string,
+    list: SectorSymbol[]
+  ): Promise<Array<{ symbol: string; exchange: string; priceBRL?: number; status: 'ok' | 'no_data'; message?: string; updatedAt?: number; source?: string }>> {
+    const items: Array<{ symbol: string; exchange: string; priceBRL?: number; status: 'ok' | 'no_data'; message?: string; updatedAt?: number; source?: string }> = [];
+    const normalizedSectorId = normalizeId(sectorId);
+
+    if (normalizedSectorId === 'sector_008') {
+      try {
+        const symbols = list.map((s) => s.symbol.toUpperCase());
+        for (const s of list) {
+          const key = s.symbol.toUpperCase();
+          const ing = getIngested(key);
+          if (ing != null) {
+            items.push({ symbol: key, exchange: s.exchange, priceBRL: ing.price, status: 'ok', updatedAt: ing.updatedAtMs, source: ing.source });
+          } else {
+            items.push({ symbol: key, exchange: s.exchange, status: 'no_data', message: 'quote missing for global equity (MT5/Pepperstone not ingested)' });
+          }
+        }
+        return items;
+      } catch (err) {
+        const msg = err instanceof Error ? err.message : String(err);
+        for (const s of list) {
+          const key = s.symbol.toUpperCase();
+          items.push({ symbol: key, exchange: s.exchange, status: 'no_data', message: `global quotes error: ${msg}` });
+        }
+        return items;
+      }
+    }
+
+    if (normalizedSectorId === 'sector_029' || normalizedSectorId.startsWith('crypto_')) {
+      try {
+        const symbols = list.map((s) => s.symbol.toUpperCase());
+        const prices = await fetchBinanceQuotes(symbols);
+        for (const s of list) {
+          const key = s.symbol.toUpperCase();
+          const px = prices.get(key);
+          if (px != null) items.push({ symbol: key, exchange: s.exchange, priceBRL: px, status: 'ok', updatedAt: Date.now(), source: 'binance' });
+          else items.push({ symbol: key, exchange: s.exchange, status: 'no_data', message: 'binance quote missing for symbol (pair not found?)' });
+        }
+        return items;
+      } catch (err) {
+        const msg = err instanceof Error ? err.message : String(err);
+        for (const s of list) {
+          const key = s.symbol.toUpperCase();
+          items.push({ symbol: key, exchange: s.exchange, status: 'no_data', message: `binance error: ${msg}` });
+        }
+        return items;
+      }
+    }
+
+    if (normalizedSectorId === 'sector_052') {
+      try {
+        for (const s of list) {
+          const key = s.symbol.toUpperCase();
+          const ing = getIngested(key);
+          if (ing != null) {
+            items.push({ symbol: key, exchange: s.exchange, priceBRL: ing.price, status: 'ok', updatedAt: ing.updatedAtMs, source: ing.source });
+          } else {
+            items.push({ symbol: key, exchange: s.exchange, status: 'no_data', message: 'quote missing for index (MT5/Pepperstone not ingested)' });
+          }
+        }
+        return items;
+      } catch (err) {
+        const msg = err instanceof Error ? err.message : String(err);
+        for (const s of list) {
+          const key = s.symbol.toUpperCase();
+          items.push({ symbol: key, exchange: s.exchange, status: 'no_data', message: `index quotes error: ${msg}` });
+        }
+        return items;
+      }
+    }
+
+    if (normalizedSectorId === 'sector_048') {
+      try {
+        const symbols = list.map((s) => s.symbol.toUpperCase());
+        const prices = await fetchBcbRates(symbols);
+        for (const s of list) {
+          const key = s.symbol.toUpperCase();
+          const px = prices.get(key);
+          if (px != null) items.push({ symbol: key, exchange: s.exchange, priceBRL: px, status: 'ok', updatedAt: Date.now(), source: 'bcb' });
+          else items.push({ symbol: key, exchange: s.exchange, status: 'no_data', message: 'bcb/sgs rate missing or unmapped for symbol' });
+        }
+        return items;
+      } catch (err) {
+        const msg = err instanceof Error ? err.message : String(err);
+        for (const s of list) {
+          const key = s.symbol.toUpperCase();
+          items.push({ symbol: key, exchange: s.exchange, status: 'no_data', message: `bcb/sgs error: ${msg}` });
+        }
+        return items;
+      }
+    }
+
+    const LAST_PRICE_PREFIX = 'market:lastPrice:v1:';
+    for (const s of list) {
+      const key = s.symbol.toUpperCase();
+
+      const ing = getIngested(key);
+      if (ing != null) {
+        items.push({ symbol: key, exchange: s.exchange, priceBRL: ing.price, status: 'ok', updatedAt: ing.updatedAtMs, source: ing.source });
+        continue;
+      }
+
+      if (redis) {
+        try {
+          const v = await redis.get(`${LAST_PRICE_PREFIX}${key}`);
+          const priceBRL = Number(v);
+          if (Number.isFinite(priceBRL) && priceBRL > 0) {
+            items.push({ symbol: key, exchange: s.exchange, priceBRL, status: 'ok', updatedAt: Date.now(), source: 'redis' });
+            continue;
+          }
+        } catch {
+        }
+      }
+
+      if (!marketDataUrl) {
+        items.push({
+          symbol: key,
+          exchange: s.exchange,
+          status: 'no_data',
+          message: redis ? 'no real-time price yet for symbol (Redis), and MARKET_DATA_URL not configured' : 'Redis not configured and MARKET_DATA_URL not configured',
+        });
+        continue;
+      }
+
+      try {
+        const urls = [
+          `${marketDataUrl}/api/v1/stocks/${encodeURIComponent(key)}/quote`,
+          `${marketDataUrl}/stocks/${encodeURIComponent(key)}/quote`,
+        ];
+
+        let ok = false;
+        let lastStatus = 0;
+        let lastText = '';
+
+        for (const url of urls) {
+          const res = await fetch(url, { method: 'GET', signal: AbortSignal.timeout(25_000) });
+          const text = await res.text();
+          lastStatus = res.status;
+          lastText = text;
+
+          let json: any = null;
+          try {
+            json = text ? JSON.parse(text) : null;
+          } catch {
+            json = null;
+          }
+          const priceBRL = Number(json?.priceBRL);
+          if (res.status >= 200 && res.status < 300 && Number.isFinite(priceBRL) && priceBRL > 0) {
+            items.push({ symbol: key, exchange: s.exchange, priceBRL, status: 'ok', updatedAt: Date.now(), source: 'market-data' });
+            ok = true;
+            break;
+          }
+        }
+
+        if (!ok) {
+          items.push({ symbol: key, exchange: s.exchange, status: 'no_data', message: `market-data quote failed: ${lastStatus} ${lastText}` });
+        }
+      } catch (err) {
+        const baseMsg = err instanceof Error ? err.message : String(err);
+        items.push({ symbol: key, exchange: s.exchange, status: 'no_data', message: `market-data error: ${baseMsg}` });
+      }
+    }
+  });
+  await Promise.all(workers);
+
+  if (out.size === 0) {
+    const err = new Error('bcb no rates');
+    breakerBcb.onFailure(err);
+    throw err;
+  }
+  breakerBcb.onSuccess();
+  return out;
+};
+
+const bcbSgsCodeForRate = (sym: string): number | null => {
+  switch (String(sym || '').trim().toUpperCase()) {
+    case 'SELIC':
+      return 432;
+    case 'CDI':
+      return 12;
+    case 'IPCA':
+      return 433;
+    case 'IGP-M':
+      return 189;
+    case 'IGP-DI':
+      return 190;
+    case 'INPC':
+      return 188;
+    case 'TR':
+      return 226;
+    case 'TJLP':
+      return 256;
+    default:
+      return null;
+  }
+};
+
+app.get<{ Querystring: { activeOnly?: string } }>('/api/v1/market/sectors', { preHandler: marketPreHandler }, async (req, reply) => {
+  const idx = getIndex();
+
+  const activeOnlyRaw = String(req.query.activeOnly ?? '').trim().toLowerCase();
+  const activeOnly = activeOnlyRaw === '1' || activeOnlyRaw === 'true' || activeOnlyRaw === 'yes';
+
+  const items = idx.sectors
+    .map((s) => {
+      const count = idx.symbolsBySectorId[s.sector_id]?.length ?? 0;
+      const active = count > 0;
+      const meta = getSectorMetaFromRow(idx.sectorsById[s.sector_id] ?? null);
+      return {
+        sectorId: s.sector_id,
+        sectorName: s.sector_name,
+        symbols: count,
+        description: s.description ?? s.sector_name,
+        active,
+        source: meta.source,
+        protocol: meta.protocol,
+        frequency: meta.frequency,
+        recommendation: meta.recommendation,
+      };
+    })
+    .filter((s) => (activeOnly ? s.active : true));
+
+  return reply.status(200).send({
+    files: {
+      sectors: idx.sectorsFilePath,
+      sectorsMtimeMs: idx.sectorsFileMtimeMs,
+      symbols: idx.symbolsFilePath,
+      symbolsMtimeMs: idx.symbolsFileMtimeMs,
+    },
+    sectors: items,
+      .map((s) => {
+        const count = idx.symbolsBySectorId[s.sector_id]?.length ?? 0;
+        const active = count > 0;
+        const meta = getSectorMetaFromRow(idx.sectorsById[s.sector_id] ?? null);
+        return {
+          sectorId: s.sector_id,
+          sectorName: s.sector_name,
+          symbols: count,
+          description: s.description ?? s.sector_name,
+          active,
+          source: meta.source,
+          protocol: meta.protocol,
+          frequency: meta.frequency,
+          recommendation: meta.recommendation,
+        };
+      })
+      .filter((s) => (activeOnly ? s.active : true));
+
+    return reply.status(200).send({
+      files: {
+        sectors: idx.sectorsFilePath,
+        sectorsMtimeMs: idx.sectorsFileMtimeMs,
+        symbols: idx.symbolsFilePath,
+        symbolsMtimeMs: idx.symbolsFileMtimeMs,
+      },
+      sectors: items,
+    });
+  });
+
+  app.get<{ Querystring: { limit?: string; exchange?: string } }>('/api/v1/market/sectors/quotes', { preHandler: marketPreHandler }, async (req, reply) => {
+    const idx = getIndex();
+    const exchange = String(req.query.exchange ?? '').trim().toUpperCase();
+    const limitRaw = req.query.limit;
+    const limit = limitRaw == null || String(limitRaw).trim() === '' ? 50 : Number(limitRaw);
+    const hardCap = 5_000;
+    const finalLimit = !Number.isFinite(limit) ? 50 : Math.max(1, Math.min(hardCap, Math.trunc(limit)));
+
+    const activeSectors = idx.sectors.filter((s) => (idx.symbolsBySectorId[s.sector_id]?.length ?? 0) > 0);
+
+    const out: Array<{ sectorId: string; total: number; items: Array<{ symbol: string; exchange: string; priceBRL?: number; status: 'ok' | 'no_data'; message?: string; updatedAt?: number; source?: string }> }> = [];
+    for (const s of activeSectors) {
+      let list = idx.symbolsBySectorId[s.sector_id] ?? [];
+      if (exchange) list = list.filter((x) => x.exchange === exchange);
+      list = list.slice(0, finalLimit);
+      const items = await getSectorQuotes(idx, s.sector_id, list);
+      out.push({ sectorId: s.sector_id, total: items.length, items });
+    }
+
+    return reply.status(200).send({
+      totalSectors: out.length,
+      limit: finalLimit,
+      exchange: exchange || null,
+      sectors: out,
+    });
+  });
+
+  app.get('/api/v1/market/health', { preHandler: marketPreHandler }, async (_req, reply) => {
+    return reply.status(200).send({
+      ts: Date.now(),
+      providers: {
+        binance: breakerBinance.snapshot(),
+        bcb: breakerBcb.snapshot(),
+      },
+      config: {
+        dataDir: String(process.env.DATA_DIR ?? ''),
+        cacheTtlMs: CACHE_TTL_MS,
+        ttl: {
+          binance: BINANCE_TTL_MS,
+          bcb: BCB_TTL_MS,
+        },
+        rateLimit: {
+          windowMs: RATE_LIMIT_WINDOW_MS,
+          max: RATE_LIMIT_MAX,
+        },
+        circuitBreaker: {
+          failureThreshold: cbFailureThreshold,
+          openMs: cbOpenMs,
+        },
+      },
+    });
+  });
+
+  app.get<{ Params: { sectorId: string }; Querystring: { limit?: string; exchange?: string; type?: string } }>(
+    '/api/v1/market/sectors/:sectorId/symbols',
+    { preHandler: marketPreHandler },
+    async (req, reply) => {
+      const idx = getIndex();
+      const sectorId = normalizeId(req.params.sectorId);
+      const exchange = String(req.query.exchange ?? '').trim().toUpperCase();
+      const type = String(req.query.type ?? '').trim();
+      const limitRaw = req.query.limit;
+      const limit = limitRaw == null || String(limitRaw).trim() === '' ? null : Number(limitRaw);
+      const hardCap = 50_000;
+
+      let list = idx.symbolsBySectorId[sectorId] ?? [];
+      if (exchange) list = list.filter((x) => x.exchange === exchange);
+      if (type) list = list.filter((s) => String(s.type ?? '').trim() === type);
+
+      const finalList = limit == null || !Number.isFinite(limit)
+        ? list
+        : list.slice(0, Math.max(1, Math.min(hardCap, Math.trunc(limit))));
+
+      return reply.status(200).send({
+        sectorId,
+        total: finalList.length,
+        symbols: finalList.map((s) => ({
+          exchange: s.exchange,
+          symbol: s.symbol,
+          fullSymbol: s.full_symbol ?? `${s.exchange}\\${s.symbol}`,
+          description: s.description ?? '',
+          type: s.type ?? '',
+        })),
+      });
+    }
+  );
+
+  app.get<{ Params: { sectorId: string }; Querystring: { limit?: string; exchange?: string } }>(
+    '/api/v1/market/sectors/:sectorId/quotes',
+    { preHandler: marketPreHandler },
+    async (req, reply) => {
+      const idx = getIndex();
+      const sectorId = normalizeId(req.params.sectorId);
+      const exchange = String(req.query.exchange ?? '').trim().toUpperCase();
+      const limitRaw = req.query.limit;
+      const limit = limitRaw == null || String(limitRaw).trim() === '' ? null : Number(limitRaw);
+      const hardCap = 50_000;
+
+      let list = idx.symbolsBySectorId[sectorId] ?? [];
+      if (exchange) list = list.filter((s) => s.exchange === exchange);
+      if (limit != null && Number.isFinite(limit)) {
+        list = list.slice(0, Math.max(1, Math.min(hardCap, Math.trunc(limit))));
+      }
+
+      const items = await getSectorQuotes(idx, sectorId, list);
+      return reply.status(200).send({ sectorId, total: items.length, items });
+    }
+  );
+}
+
